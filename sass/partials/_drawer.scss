@@ -1,0 +1,52 @@
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+
+  position: fixed;
+  width: 191px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+
+  left: 0px;
+}
+
+#sidebar ul li {
+
+  font-family: $roboto;
+  font-size: 12px;
+  color: $white;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: left;
+}
+
+#sidebar ul li:hover {
+
+  text-decoration: underline;
+}
+
+#sidebar .toggle-btn {
+
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+}
