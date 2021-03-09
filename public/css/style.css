@@ -303,10 +303,40 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  background-color: #7c7c7c;
+  margin: 0 auto; }
+
+.form {
+  background-color: white;
+  width: 325px;
+  height: 412px;
+  border-radius: 12px;
+  padding: 5px 20px 0 20px; }
+  .form .inputEmail {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    width: 300px;
+    margin-bottom: 30px; }
+  .form .nameDate {
+    border: 1px solid #ccc;
+    width: 145px;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 30px; }
+
 .btn-form {
   background-color: #EA9E44;
   color: white;
-  width: 148px;
-  height: 48px;
+  width: 101px;
+  height: 35px;
   border: none;
-  border-radius: 4px; }
+  border-radius: 4px;
+  float: right;
+  margin-right: 20px; }
+
+.btn-form:hover {
+  color: white;
+  background-color: #ff9100; }

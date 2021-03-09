@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(124, 124, 124);
+    margin: 0 auto;
+}
+.form{
+    background-color: $white; //Cambiar a $white
+    width: 325px;
+    height: 412px;
+    border-radius: 12px;
+    padding: 5px 20px 0 20px;
+    .inputEmail{
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        padding-bottom: 20px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .nameDate{
+        border: 1px solid #ccc;
+        width: 145px;
+        border-radius: 4px; 
+        padding-bottom: 20px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+}
+.btn-form{
+    background-color: $orange;
+    color: $white;
+    width: 101px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-right: 20px;
+}
+.btn-form:hover{
+    color:$white;
+    background-color: $orangeHover;
+}
