@@ -1,54 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/public/css/style.css">
-    <title>Components</title>
-</head>
-<body>
-
-    <!-- Sidebar -->
-    <div id="sidebar">
-      <div class="toggle-btn">
-        <span>&#9776</span>
-     </div>
-        <ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="/public/css/style.css">
+      <title>Components</title>
+   </head>
+   <body>
+    
+      <!-- Sidebar -->
+      <div id="sidebar">
+         <div class="toggle-btn">
+            <span>&#9776</span>
+         </div>
+         <ul>
             <li>Products</li>
             <li>Contact With Us</li>
             <li>Cart</li>
             <li>Account</li>
-        </ul>
-     </div>
-
-     <div class="form">
-        <form  action="">
+         </ul>
+      </div>
+      <!-- Form -->
+      <div class="form">
+         <form action="">
             <h2>Complete the form if you wanna get <strong><a href="#">more info</a></strong> about new boards</h2>
             <input class="inputEmail" type="email" placeholder="Email">
             <input class="nameDate" type="text" placeholder="Name">
             <input class="nameDate" type="number" placeholder="Date">
             <input class="inputEmail" type="email" placeholder="Alternative Email/Optional">
             <input class="btn-form" type="submit" value="Send Form">
-        </form>
-     </div>
-         <div class="btn-modal">
-            <a id="openModal">Abrir Modal</a>
-        </div>
-        <div id="overlay"></div>
+         </form>
+      </div>
+      <!-- Modal -->
+      <button class="btn-modal" id="openModal">Abrir Modal</button>
+      <div id="overlay"></div>
+      <div class="window"  id="vent">
+         <h1>Hola este es el modal</h1>
+         <a href="#" id="closeModal"><img class="cancelar" src="img/icon-close.png" alt="close"></a>
+      </div>
 
-        <div class="window"  id="vent">
-            <h1>Hola este es el modal</h1>
-            <a href="#" id="closeModal"><img class="cancelar" src="img/icon-close.png" alt="botón cancelar"></a>
-        </div>
-
-
-    <script src="js/script.js"></script>
-</body>
+      <script src="js/script.js"></script>
+   </body>
 </html>
