@@ -1,0 +1,25 @@
+// Product detail
+
+.pro-det {
+
+  margin-left: 200px ;
+
+  span {
+
+    color: $med-brown ;
+    font-size: 10px ;
+  }
+
+  h3 {
+
+    color: $det-gray ;
+    font-size: 16px ;
+    font-weight: bold ;
+  }
+
+  p {
+
+    font-size: 14px ;
+    font-weight: lighter ;
+  }
+}
