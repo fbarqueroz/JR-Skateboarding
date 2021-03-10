@@ -14,26 +14,21 @@
     <title>Components</title>
 </head>
 <body>
-    <!-- Botones -->
-    <form class="" action="">
-        <input class="btn-form" type="submit" value="Submit">
-    </form>
 
     <!-- Sidebar -->
     <div id="sidebar">
       <div class="toggle-btn">
         <span>&#9776</span>
-      </div>
-      <ul>
-        <li>products</li>
-        <li>contact with us</li>
-        <li>cart</li>
-        <li>account</li>
-      </ul>
-    </div>
+     </div>
+        <ul>
+            <li>Products</li>
+            <li>Contact With Us</li>
+            <li>Cart</li>
+            <li>Account</li>
+        </ul>
+     </div>
 
-    <script src="js/script.js"></script>
-    <div class="form">
+     <div class="form">
         <form  action="">
             <h2>Complete the form if you wanna get <strong><a href="#">more info</a></strong> about new boards</h2>
             <input class="inputEmail" type="email" placeholder="Email">
@@ -42,8 +37,18 @@
             <input class="inputEmail" type="email" placeholder="Alternative Email/Optional">
             <input class="btn-form" type="submit" value="Send Form">
         </form>
-    </div>
+     </div>
+         <div class="btn-modal">
+            <a id="openModal">Abrir Modal</a>
+        </div>
+        <div id="overlay"></div>
 
-    <script src="script.js"></script>
+        <div class="window"  id="vent">
+            <h1>Hola este es el modal</h1>
+            <a href="#" id="closeModal"><img class="cancelar" src="img/icon-close.png" alt="botón cancelar"></a>
+        </div>
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>

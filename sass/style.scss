@@ -5,8 +5,10 @@
 @import 'library/normalize';
 // Partials
 @import 'partials/form';
-// drawer
 @import 'partials/drawer';
+@import 'partials/buttons';
+@import 'partials/globals';
+@import 'partials/modal';
 // Breakpoint
 @import 'breakpoint/mobile';
 
