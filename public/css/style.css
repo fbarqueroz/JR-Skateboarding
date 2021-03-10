@@ -378,8 +378,7 @@ template {
   font-size: 30px; }
 
 body {
-  background-image: url("../../img/bg.png");
-  background-size: cover;
+  background-color: rgba(224, 222, 222, 0.933);
   font-family: "Roboto", sans-serif; }
 
 .window {
