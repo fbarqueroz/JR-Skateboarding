@@ -17,3 +17,4 @@ closeModal.addEventListener('click', (e) => {
   document.getElementById('vent').style.display = 'none';
   document.getElementById('overlay').style.display = 'none';
 });
+// Slider
