@@ -316,19 +316,17 @@ template {
     padding-bottom: 10px;
     padding-top: 10px;
     text-indent: 10px; }
-
-.inputEmail {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  width: 300px; }
-
-.nameNumber {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  display: inline-block;
-  margin-bottom: 30px;
-  width: 145px; }
+  .form .inputEmail {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    width: 300px; }
+  .form .nameNumber {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 145px; }
 
 .btn-form {
   background-color: #EA9E44;
@@ -344,10 +342,6 @@ template {
 .btn-form:hover {
   color: white;
   background-color: #ff9100; }
-
-* {
-  margin: 0px;
-  padding: 0px; }
 
 #sidebar {
   position: fixed;
@@ -381,6 +375,9 @@ template {
   left: 200px;
   top: 20px;
   cursor: pointer; }
+
+.toggle-btn:active {
+  border: none; }
 
 .toggle-btn span {
   display: block;

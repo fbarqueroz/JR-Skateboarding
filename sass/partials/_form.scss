@@ -1,7 +1,6 @@
 // Form
 
 .form {
-
   background-color: $white ;
   border-radius: 12px ;
   height: 400px ;
@@ -19,23 +18,24 @@
     padding-top: 10px;
     text-indent: 10px;
   }
-}
-.inputEmail {
+  .inputEmail {
 
-  border: 1px solid #ccc ;
-  border-radius: 4px ;
-  margin-bottom: 30px ;
-  width: 300px ;
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    margin-bottom: 30px ;
+    width: 300px ;
+  }
+  
+  .nameNumber {
+  
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    display: inline-block ;
+    margin-bottom: 30px ;
+    width: 145px ;
+  }
 }
 
-.nameNumber {
-
-  border: 1px solid #ccc ;
-  border-radius: 4px ;
-  display: inline-block ;
-  margin-bottom: 30px ;
-  width: 145px ;
-}
 .btn-form {
 
   background-color: $orange ;
