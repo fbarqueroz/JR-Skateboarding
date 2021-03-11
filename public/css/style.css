@@ -383,12 +383,17 @@ template {
   width: 40px; }
 
 .det-btn button {
+  cursor: pointer;
   border: solid 1px #743305;
   border-radius: 2px;
   background: none;
   color: #743305;
   margin-left: 200px;
   padding: 8px 9px 8px 9px; }
+
+.det-btn button:hover {
+  color: white;
+  background-color: #743305; }
 
 body {
   background-color: rgba(224, 222, 222, 0.933);
