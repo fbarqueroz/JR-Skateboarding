@@ -312,19 +312,23 @@ template {
   width: 325px; }
   .form h2 {
     margin-bottom: 20px; }
-  .form .inputEmail {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    width: 300px; }
-  .form .nameDate {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    display: inline-block;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    width: 145px; }
+  .form input {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-indent: 10px; }
+
+.inputEmail {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 300px; }
+
+.nameNumber {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 145px; }
 
 .btn-form {
   background-color: #EA9E44;
@@ -385,12 +389,17 @@ template {
   font-size: 30px; }
 
 .det-btn button {
+  cursor: pointer;
   border: solid 1px #743305;
   border-radius: 2px;
   background: none;
   color: #743305;
   margin-left: 200px;
   padding: 8px 9px 8px 9px; }
+
+.det-btn button:hover {
+  color: white;
+  background-color: #743305; }
 
 body {
   background-color: rgba(224, 222, 222, 0.933);

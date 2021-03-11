@@ -1,12 +1,16 @@
 .det-btn {
 
   button {
-
+    cursor: pointer;
     border: solid 1px $med-brown ;
     border-radius: 2px ;
     background: none ;
     color: $med-brown ;
     margin-left: 200px ;
     padding: 8px 9px 8px 9px ;
+  }
+  button:hover{
+    color: white;
+    background-color: $med-brown;
   }
 }
