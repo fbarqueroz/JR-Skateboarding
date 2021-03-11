@@ -377,6 +377,14 @@ template {
   text-align: center;
   width: 40px; }
 
+.det-btn button {
+  border: solid 1px #743305;
+  border-radius: 2px;
+  background: none;
+  color: #743305;
+  margin-left: 200px;
+  padding: 8px 9px 8px 9px; }
+
 body {
   background-color: rgba(224, 222, 222, 0.933);
   font-family: "Roboto", sans-serif; }
