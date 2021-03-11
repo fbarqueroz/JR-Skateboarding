@@ -1,5 +1,5 @@
 #sidebar {
-
+  text-indent: 15px;
   background: #151719;
   height: 100%;
   left: -200px;
@@ -9,8 +9,7 @@
 }
 
 #sidebar.active {
-
-  left: -35px;
+  left: -45px;
 }
 
 #sidebar ul li {

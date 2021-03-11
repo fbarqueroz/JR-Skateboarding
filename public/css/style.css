@@ -312,19 +312,23 @@ template {
   width: 325px; }
   .form h2 {
     margin-bottom: 20px; }
-  .form .inputEmail {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    width: 300px; }
-  .form .nameDate {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    display: inline-block;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    width: 145px; }
+  .form input {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-indent: 10px; }
+
+.inputEmail {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 300px; }
+
+.nameNumber {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 145px; }
 
 .btn-form {
   background-color: #EA9E44;
@@ -342,6 +346,7 @@ template {
   background-color: #ff9100; }
 
 #sidebar {
+  text-indent: 15px;
   background: #151719;
   height: 100%;
   left: -200px;
@@ -350,7 +355,7 @@ template {
   width: 191px; }
 
 #sidebar.active {
-  left: -35px; }
+  left: -45px; }
 
 #sidebar ul li {
   border-bottom: 1px solid rgba(100, 100, 100, 0.3);
