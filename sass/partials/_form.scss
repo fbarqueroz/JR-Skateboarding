@@ -1,45 +1,52 @@
-.form{
-    background-color: $white; //Cambiar a $white
-    width: 325px;
-    height: 400px;
-    border-radius: 12px;
-    padding: 5px 20px 0 20px;
-    margin: 0 auto;
-    h2{
-        margin-bottom: 20px;
-    }
+// Form
 
-    .inputEmail {
-        
-        border: 1px solid #ccc;
-        border-radius: 4px; 
-        padding-bottom: 20px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
+.form {
 
-    .nameDate {
+  background-color: $white ;
+  border-radius: 12px ;
+  height: 400px ;
+  margin: 0 auto ;
+  padding: 5px 20px 0 20px ;
+  width: 325px ;
 
-        border: 1px solid #ccc;
-        width: 145px;
-        border-radius: 4px; 
-        padding-bottom: 20px;
-        display: inline-block;
-        margin-bottom: 30px;
-    }
+  h2 {
+
+    margin-bottom: 20px ;
+  }
+
+  .inputEmail {
+
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    padding-bottom: 20px ;
+    margin-bottom: 30px ;
+    width: 300px ;
+  }
+
+  .nameDate {
+
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    display: inline-block ;
+    margin-bottom: 30px ;
+    padding-bottom: 20px ;
+    width: 145px ;
+  }
 }
-.btn-form{
-    background-color: $orange;
-    color: $white;
-    width: 101px;
-    height: 35px;
-    border: none;
-    border-radius: 4px;
-    float: right;
-    margin-right: 20px;
-    cursor: pointer;
+.btn-form {
+
+  background-color: $orange ;
+  border: none ;
+  border-radius: 4px ;
+  cursor: pointer ;
+  color: $white ;
+  float: right ;
+  height: 35px ;
+  margin-right: 20px ;
+  width: 101px ;
 }
-.btn-form:hover{
-    color:$white;
-    background-color: $orangeHover;
+.btn-form:hover {
+
+  color:$white ;
+  background-color: $orangeHover ;
 }
