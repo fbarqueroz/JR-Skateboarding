@@ -1,3 +1,25 @@
+// Learn More button
+
+.learn--more {
+
+  button {
+
+  background: white ;
+  border: none ;
+  border-radius: 4px ;
+  margin-bottom: 20px ;
+  margin-left: 200px ;
+  padding: 16px 46px 16px 46px ;
+
+    &:hover {
+
+      border: solid 1px black ;
+    }
+  }
+}
+
+// Detail Button
+
 .det-btn {
   button {
 
