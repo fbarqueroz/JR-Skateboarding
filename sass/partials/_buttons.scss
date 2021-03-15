@@ -1,6 +1,29 @@
-.det-btn {
+// Learn More button
+
+.learn--more {
 
   button {
+    
+    cursor: pointer;
+    background: white ;
+    border: none ;
+    border-radius: 4px ;
+    margin-bottom: 20px ;
+    margin-left: 200px ;
+    padding: 16px 46px 16px 46px ;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+// Detail Button
+
+.det-btn {
+  button {
+
     cursor: pointer;
     border: solid 1px $med-brown ;
     border-radius: 2px ;
