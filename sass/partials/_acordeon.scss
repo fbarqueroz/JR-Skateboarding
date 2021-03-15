@@ -1,49 +1,51 @@
 .acordeon_parent{
 
-  width: 365px;
-  height: auto;
-  margin: 0 auto;
+  height: auto ;
+  margin: 0 auto ;
+  width: 365px ;
 
   h2{
 
-      font-size: 18px;
+    font-family: $roboto ;
+    font-size: 18px ;
   }
 
   p{
 
-      font-size: 12px;
+    font-family: $roboto ;
+    font-size: 12px ;
   }
 }
 
 .imagen{
 
-  float: left;
-  margin-left: 105px;
-  width: 120px;
-  height: 180px;
-  padding-top: 15px;
+  float: left ;
+  height: 180px ;
+  margin-left: 105px ;
+  padding-top: 15px ;
+  width: 120px ;
 }
 
 .info-accordeon{
 
-  padding: 18px;
-  background-color: #ffffff;
-  display: none;
-  width: 400px;
-  text-align: center;
+  padding: 18px ;
+  display: none ;
+  width: 400px ;
+  text-align: center ;
 }
 
 .acordeon-button{
 
-  background-color: #ffffff;
-  border: 0.2px solid rgb(160, 160, 160);
-  color: rgb(77, 77, 77);
-  font-weight: normal;
-  font-size: 14px;
-  padding: 10px;
-  transition: 0.4s;
-  width: 365px;
-  text-align: center;
-  float: left;
-  display: block;
+  border: 0.2px solid $grey ;
+  color: $grey;
+  display: block ;
+  font-family: $roboto ;
+  font-weight: normal ;
+  font-size: 14px ;
+  float: left ;
+  padding: 10px ;
+  outline: none ;
+  transition: 1s ;
+  text-align: center ;
+  width: 365px ;
 }
