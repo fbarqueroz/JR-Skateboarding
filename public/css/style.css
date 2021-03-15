@@ -414,6 +414,13 @@ body {
   background-color: rgba(224, 222, 222, 0.933);
   font-family: "Roboto", sans-serif; }
 
+.lista-componentes li {
+  margin-top: 50px;
+  list-style: none; }
+
+.lista-componentes a {
+  text-decoration: none; }
+
 .window {
   background-color: #8F6A55;
   border-radius: 5px;
@@ -473,6 +480,10 @@ body {
     font-size: 14px;
     font-weight: lighter; }
 
+.product_detail-flex {
+  margin-top: 50px;
+  float: left; }
+
 .acordeon_parent {
   height: auto;
   margin: 0 auto;
@@ -500,11 +511,11 @@ body {
 .acordeon-button {
   border: 0.2px solid #484848;
   color: #484848;
+  cursor: pointer;
   display: block;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
-  float: left;
   padding: 10px;
   outline: none;
   transition: 1s;
