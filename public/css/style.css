@@ -511,3 +511,41 @@ body {
 
 .js-content-hidden {
   display: none; }
+
+.acordeon_parent {
+  height: auto;
+  margin: 0 auto;
+  width: 365px; }
+  .acordeon_parent h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; }
+  .acordeon_parent p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px; }
+
+.imagen {
+  float: left;
+  height: 180px;
+  margin-left: 105px;
+  padding-top: 15px;
+  width: 120px; }
+
+.info-accordeon {
+  padding: 18px;
+  display: none;
+  width: 400px;
+  text-align: center; }
+
+.acordeon-button {
+  border: 0.2px solid #484848;
+  color: #484848;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  float: left;
+  padding: 10px;
+  outline: none;
+  transition: 1s;
+  text-align: center;
+  width: 365px; }
