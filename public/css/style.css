@@ -490,6 +490,7 @@ body {
   margin: 40px; }
 
 .tabs-tablist {
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -507,9 +508,11 @@ body {
 
 .tabs-content {
   padding: 20px;
-  border: 1px solid #eee; }
+  text-align: center; }
 
 .js-active {
+  transition: 0.5s;
+  transform: scale(1.2);
   background-color: #B8B8B8;
   border-bottom: 1px solid #B8B8B8;
   color: #000; }
