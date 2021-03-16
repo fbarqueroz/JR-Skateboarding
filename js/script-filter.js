@@ -1,7 +1,6 @@
 const myForm = document.getElementById('myForm');
 
 function getDeckinfo(Decks) {
-
   const decksList = document.getElementById('decks-list');
   decksList.innerHTML = '';
   for (let i = 0; i < Decks.length; i += 1) {
