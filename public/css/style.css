@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -486,10 +485,6 @@ body {
   float: left; }
 
 /* Open sans font */
-body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif; }
-
 .tabs {
   max-width: 800px;
   margin: 40px; }
@@ -514,7 +509,6 @@ body {
   padding: 20px;
   border: 1px solid #eee; }
 
-/* Estado (clases asignadas por Javascript) */
 .js-active {
   background-color: #B8B8B8;
   border-bottom: 1px solid #B8B8B8;
