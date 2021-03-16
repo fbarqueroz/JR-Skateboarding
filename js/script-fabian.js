@@ -1,31 +1,31 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-shadow */
 // Tabs
-const enlaces = document.querySelectorAll('.tabs-tablist-item');
-const contentido = document.querySelectorAll('.tabs-content-item');
-for (let i = 0; i < contentido.length; i += 1) {
-  contentido[i].classList.add('js-content-hidden');
+function updateVisibleContent(id) {
+  // Actualiza los divs de contenido.
+  const enlaces = document.querySelectorAll('.tabs-tablist-item');
+  const content = document.querySelectorAll('.tabs-content-item');
+  for (let i = 0; i < content.length; i += 1) {
+    content[i].classList.add('js-content-hidden');
+    if
+    (content[i].getAttribute('id') === id) {
+      content[i].classList.remove('js-content-hidden');
+    }
+  }
+  // Actualiza los enlaces, para mostrar como resaltado el que está seleccionado.
+  for (let i = 0; i < enlaces.length; i += 1) {
+    enlaces[i].classList.remove('js-active');
+    if
+    (enlaces[i].getAttribute('href').substring(1) === id) {
+      enlaces[i].classList.add('js-active');
+    }
+  }
 }
-
-contentido[0].classList.remove('js-content-hidden');
-
-enlaces[0].classList.remove('js-active');
-
+function clickHandler(event) {
+  event.preventDefault();
+  const id = event.currentTarget.getAttribute('href').substring(1);
+  updateVisibleContent(id);
+}
+const enlaces = document.querySelectorAll('.tabs-tablist-item');
 for (let i = 0; i < enlaces.length; i += 1) {
-  enlaces[i].addEventListener('click', (event) => {
-    const id = event.currentTarget.getAttribute('href').substring(1);
-    console.log(id);
-
-    for (let i = 0; i < contentido.length; i += 1) {
-      contentido[i].classList.add('js-content-hidden');
-      if (contentido[i].getAttribute('id') === id) {
-        contentido[i].classList.remove('js-content-hidden');
-      }
-    }
-    for (let i = 0; i < enlaces.length; i += 1) {
-      enlaces[i].classList.remove('js-active');
-    }
-    event.currentTarget.classList.add('js-active');
-  });
+  enlaces[i].addEventListener('click', clickHandler);
 }
 updateVisibleContent(enlaces[0].getAttribute('href').substring(1));
