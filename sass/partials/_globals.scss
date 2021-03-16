@@ -2,4 +2,12 @@ body {
   background-color: $grisFondo;
   font-family: $roboto;
 }
-
+.lista-componentes{
+  li{
+    margin-top: 50px;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+}
