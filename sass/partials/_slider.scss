@@ -1,38 +1,44 @@
 
-.direcciones{
-    width: 400px;
-    margin-top: 90px;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-}
-.direcciones button{
-    text-decoration: none;
-    border: none;
-    padding: 20px;
-    cursor: pointer;
-    outline: none;
-}
+.direcciones {
 
-.direcciones button:hover{
-    background-color:$orange;
-    transition: 0.8s;
-}
-.miSlider{
-    img{
-        margin-left: 100px;
-        width: 200px;
+  align-items: center ;
+  display: flex ;
+  font-size: 20px ;
+  justify-content: space-between ;
+  margin-top: 90px ;
+  position: absolute ;
+  top: 0 ;
+  width: 400px ;
+
+  button {
+    border: none ;
+    cursor: pointer ;
+    outline: none ;
+    padding: 20px ;
+    text-decoration: none ;
+
+    &:hover {
+      background-color:$orange ;
+      transition: 0.8s ;
     }
 }
-.fade{
-    animation-name: fade;
-    animation-duration: 1s;    
+}
+
+.miSlider {
+
+  img {
+    margin-left: 100px ;
+    width: 200px ;
+  }
+}
+.fade {
+
+  animation-name: fade ;
+  animation-duration: 1s ;
 }
 
 @keyframes fade {
-    from {opacity: .2;}
-    to{opacity:1;}
+
+  from {opacity: .2 ;}
+  to{opacity:1 ;}
 }

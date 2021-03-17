@@ -12,6 +12,7 @@
   top:200px ;
   width:600px ;
 }
+
 .cancelar {
 
     position: absolute ;
@@ -20,6 +21,7 @@
     left:600px ;
     bottom:300px ;
 }
+
 #overlay {
 
   background-color: rgba(0,0,0,0.5) ;
@@ -32,6 +34,7 @@
   top:0 ;
   width: 100% ;
 }
+
 .btn-modal {
 
   background-color: $orange ;
@@ -43,6 +46,7 @@
   margin: 100px 0 0 900px ;
   width: 101px ;
 }
+
 .btn-modal:hover {
 
   color:$white ;

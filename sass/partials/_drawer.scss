@@ -1,54 +1,56 @@
 
 #sidebar {
 
-  position: fixed;
-  width: 191px;
-  height: 100%;
-  background: #151719;
-  left: -200px;
-  transition: all 500ms linear;
+  background: #151719 ;
+  height: 100% ;
+  left: -200px ;
+  position: fixed ;
+  transition: all 500ms linear ;
+  width: 191px ;
 }
 
 #sidebar.active {
 
-  left: 0px;
+  left: 0px ;
 }
 
 .sidebar-links a{
 
-  font-family: $roboto;
-  font-size: 12px;
-  display: flex;
-  color: $white;
-  list-style: none;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgba(100, 100, 100, .3);
-  text-align: left;
-  text-decoration: none;
+  border-bottom: 1px solid rgba(100, 100, 100, .3) ;
+  color: $white ;
+  display: flex ;
+  font-family: $roboto ;
+  font-size: 12px ;
+  list-style: none ;
+  padding: 15px 10px ;
+  text-align: left ;
+  text-decoration: none ;
 }
 
 .sidebar-links a:hover {
 
-  text-decoration: underline;
+  text-decoration: underline ;
 }
 
 .toggle-btn {
-  border: none;
-  background-color: rgb(224, 224, 224);
-  position: absolute;
-  left: 200px;
-  top: 20px;
-  cursor: pointer;
+
+  border: none ;
+  cursor: pointer ;
+  background-color: rgb(224, 224, 224) ;
+  left: 200px ;
+  position: absolute ;
+  top: 20px ;
 }
 
 .toggle-btn:active {
-  border: none;
+
+  border: none ;
 }
 
 .toggle-btn span {
 
-  display: block;
-  width: 40px;
-  text-align: center;
-  font-size: 30px;
+  display: block ;
+  font-size: 30px ;
+  text-align: center ;
+  width: 40px ;
 }
