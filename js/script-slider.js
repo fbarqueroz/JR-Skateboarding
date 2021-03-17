@@ -19,7 +19,6 @@ function avanzaSlide() {
 }
 const avanzar = document.getElementById('avanzar');
 avanzar.addEventListener('click', () => {
-  console.log('avanzar');
   avanzaSlide();
 });
 function retrocederSlide() {
@@ -27,7 +26,6 @@ function retrocederSlide() {
 }
 const retroceder = document.getElementById('retroceder');
 retroceder.addEventListener('click', () => {
-  console.log('retroceder');
   retrocederSlide();
 });
 muestraSlides(indice);
