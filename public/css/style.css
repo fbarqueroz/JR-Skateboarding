@@ -591,7 +591,8 @@ body {
     cursor: pointer;
     outline: none;
     padding: 20px;
-    text-decoration: none; }
+    text-decoration: none;
+    border-radius: 10px; }
     .direcciones button:hover {
       background-color: #EA9E44;
       transition: 0.8s; }
