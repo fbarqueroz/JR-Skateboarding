@@ -7,7 +7,7 @@ function getDeckinfo(Decks) {
     decksList.appendChild(deckNameItem);
     const info = `
       <div id="${Decks[i].name}title">
-        <h3 style='cursor:pointer;'>${Decks[i].name}</h3>
+        <h3 class='hoverDeck' style='cursor:pointer;'>${Decks[i].name}</h3>
       </div>
       <div id="${Decks[i].name}displayInfo">
         <p> Desciption: ${Decks[i].description}</p>

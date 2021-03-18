@@ -577,6 +577,9 @@ body {
   margin-right: 990px;
   margin-top: 300px; }
 
+.hoverDeck:hover {
+  color: #EA9E44; }
+
 .direcciones {
   align-items: center;
   display: flex;
