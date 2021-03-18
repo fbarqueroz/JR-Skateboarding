@@ -410,6 +410,14 @@ template {
   color: white;
   background-color: #743305; }
 
+.buy-button button {
+  background: none;
+  border: 1px solid #743305;
+  border-radius: 12px;
+  color: #743305;
+  margin-left: 200px;
+  padding: 10px 12px 10px 12px; }
+
 body {
   background-color: rgba(224, 222, 222, 0.933);
   font-family: "Roboto", sans-serif; }

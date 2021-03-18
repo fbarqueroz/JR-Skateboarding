@@ -3,7 +3,7 @@
 .learn--more {
 
   button {
-    
+
     cursor: pointer;
     background: white ;
     border: none ;
@@ -35,5 +35,18 @@
   button:hover{
     color: white;
     background-color: $med-brown;
+  }
+}
+
+.buy-button {
+
+  button {
+
+    background: none ;
+    border: 1px solid #743305 ;
+    border-radius: 12px ;
+    color: #743305 ;
+    margin-left: 200px ;
+    padding: 10px 12px 10px 12px ;
   }
 }
