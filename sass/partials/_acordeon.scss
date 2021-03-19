@@ -9,11 +9,6 @@
     position: absolute;
     opacity: 0;
   }
-  img{
-    margin-left: 350px;
-    width: 100px;
-    text-align: center;
-  }
   p{
     text-align: center;
   }
@@ -71,7 +66,22 @@ input:checked {
   }
   ~ .tab-content {
     max-height: 10px;
-    padding-bottom:200px;
+    padding-bottom:220px;
     padding-top: 10px;
   }
+}
+.info-redes{
+  ul{
+      display: flex;
+      list-style: none;
+      margin-left: 280px;
+  }
+  li{
+      margin: 10px;
+  }
+}
+.users-img{
+  margin-left: 350px;
+  width: 100px;
+  text-align: center;
 }
