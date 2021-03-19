@@ -22,7 +22,7 @@ avanzar.addEventListener('click', () => {
   avanzaSlide();
 });
 function retrocederSlide() {
-  muestraSlides(indice += -1);
+  muestraSlides(indice -= 1);
 }
 const retroceder = document.getElementById('retroceder');
 retroceder.addEventListener('click', () => {
