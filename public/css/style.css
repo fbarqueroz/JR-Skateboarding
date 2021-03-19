@@ -516,7 +516,7 @@ body {
   text-decoration: none; }
 
 .tabs-content {
-  background-color: #B8B8B8;
+  background-color: #fffefe;
   padding: 20px;
   text-align: center; }
 
@@ -577,6 +577,9 @@ body {
   float: right;
   margin-right: 990px;
   margin-top: 300px; }
+
+.hoverDeck:hover {
+  color: #EA9E44; }
 
 .direcciones {
   align-items: center;
