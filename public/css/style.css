@@ -419,9 +419,17 @@ template {
   margin-top: 50px;
   padding: 10px 12px 10px 12px; }
 
+* {
+  margin: 0; }
+
 body {
   background-color: rgba(224, 222, 222, 0.933);
   font-family: "Roboto", sans-serif; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
 .lista-componentes li {
   margin-top: 50px;
@@ -530,37 +538,66 @@ body {
 .js-content-hidden {
   display: none; }
 
-.acordeon_parent {
-  margin: 0 auto;
-  width: 365px; }
-  .acordeon_parent h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 18px; }
-  .acordeon_parent p {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px; }
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  margin: 0 auto; }
+  .tabs input {
+    position: absolute;
+    opacity: 0; }
+  .tabs img {
+    margin-left: 350px;
+    width: 100px;
+    text-align: center; }
+  .tabs p {
+    text-align: center; }
 
-.imagen {
-  float: left;
-  height: 180px;
-  margin-left: 105px;
-  padding-top: 15px;
-  width: 120px; }
+.tab {
+  color: white;
+  overflow: hidden;
+  border-bottom: 1px solid #ff9100; }
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #EA9E44;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */ }
+    .tab-label:hover {
+      background: #ff9100; }
+    .tab-label::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s; }
+  .tab-content {
+    max-height: 0;
+    color: black;
+    background: white;
+    transition: all .3s; }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #ff9100;
+    cursor: pointer; }
+    .tab-close:hover {
+      background: #EA9E44; }
 
-.info-accordeon {
-  padding: 20px;
-  display: none;
-  text-align: center; }
+input:checked + .tab-label {
+  background: #EA9E44; }
+  input:checked + .tab-label::after {
+    transform: rotate(90deg); }
 
-.acordeon-button {
-  border: 0.2px solid #484848;
-  color: #484848;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  padding: 10px;
-  text-align: center;
-  width: 365px; }
+input:checked ~ .tab-content {
+  max-height: 10px;
+  padding-bottom: 200px;
+  padding-top: 10px; }
 
 .form-filter input {
   margin-top: 30px;

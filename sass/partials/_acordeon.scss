@@ -1,45 +1,77 @@
-.acordeon_parent{
-
-  margin: 0 auto ;
-  width: 365px ;
-
-  h2{
-    
-    font-family: $roboto ;
-    font-size: 18px ;
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  
+  input {
+    position: absolute;
+    opacity: 0;
   }
-
+  img{
+    margin-left: 350px;
+    width: 100px;
+    text-align: center;
+  }
   p{
-
-    font-family: $roboto ;
-    font-size: 12px ;
+    text-align: center;
+  }
+}
+.tab {
+  color: white;
+  overflow: hidden;
+  border-bottom:1px solid $orangeHover ;
+  
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: $orange;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: $orangeHover;
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    color: black;
+    background: white;
+    transition: all .3s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: $orangeHover;
+    cursor: pointer;
+    &:hover {
+      background: $orange;
+    }
   }
 }
 
-.imagen{
-
-  float: left ;
-  height: 180px ;
-  margin-left: 105px ;
-  padding-top: 15px ;
-  width: 120px ;
-}
-
-.info-accordeon{
-
-  padding: 20px ;
-  display: none ;
-  text-align: center ;
-}
-
-.acordeon-button{
-
-  border: 0.2px solid $grey ;
-  color: $grey;
-  cursor: pointer;
-  font-family: $roboto ;
-  font-size: 14px ;
-  padding: 10px ;
-  text-align: center ;
-  width: 365px ;
+// :checked
+input:checked {
+  + .tab-label {
+    background: $orange;
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 10px;
+    padding-bottom:200px;
+    padding-top: 10px;
+  }
 }
