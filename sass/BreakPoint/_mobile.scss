@@ -19,7 +19,7 @@
 
     width: 150px ;
     border-bottom: 1px solid rgba(100, 100, 100, .3) ;
-    color: white ;
+    color: $white ;
     display: flex ;
     font-family: $roboto ;
     font-size: 12px ;
@@ -36,7 +36,7 @@
 
   .toggle-btn {
 
-    color: white;
+    color: $white;
     outline: none;
     border: none ;
     cursor: pointer ;
@@ -72,19 +72,17 @@
 
   .form {
 
+    -moz-box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    box-shadow: 0px 6px 20px rgb(0, 0, 0);
     font-family: $roboto;
     background-color: $white;
     border-radius: 12px ;
-    height: 390px ;
+    height: 370px ;
     padding: 10px ;
     width: 325px ;
-    margin-top: 80px ;
+    margin-top: 100px ;
     margin-left: 15px;
-  }
-
-  .form form{
-
-    margin-left: 5px;
   }
 
   .form h2 {
@@ -106,7 +104,7 @@
     border: 1px solid #ccc ;
     border-radius: 4px ;
     margin-bottom: 30px ;
-    width: 300px ;
+    width: 319px ;
   }
 
   .nameNumber {
@@ -115,8 +113,9 @@
     border-radius: 4px ;
     display: inline-block ;
     margin-bottom: 30px ;
-    width: 145px ;
+    width: 154px ;
   }
+
 
   .btn-form {
 
@@ -127,7 +126,7 @@
     color: white ;
     float: right ;
     height: 35px ;
-    margin-right: 20px ;
+    margin-right: 2px ;
     width: 100px ;
   }
 
