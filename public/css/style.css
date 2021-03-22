@@ -308,7 +308,7 @@ template {
 
 /* sidebar info */
 #sidebar {
-  background: #151719;
+  background: black;
   height: 100%;
   left: -200px;
   position: fixed;
