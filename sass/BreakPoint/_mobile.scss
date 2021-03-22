@@ -19,7 +19,7 @@
 
     width: 150px ;
     border-bottom: 1px solid rgba(100, 100, 100, .3) ;
-    color: white ;
+    color: $white ;
     display: flex ;
     font-family: $roboto ;
     font-size: 12px ;
@@ -29,9 +29,14 @@
     text-decoration: none ;
   }
 
+  .sidebar-links a:hover {
+
+    text-decoration: underline ;
+  }
+
   .toggle-btn {
 
-    color: white;
+    color: $white;
     outline: none;
     border: none ;
     cursor: pointer ;
@@ -80,6 +85,11 @@
     margin-left: 15px;
   }
 
+  .form form{
+
+    margin-left: 5px;
+  }
+
   .form h2 {
 
     font-size: 18px;
@@ -123,6 +133,8 @@
     height: 35px ;
     margin-right: 2px ;
     width: 101px ;
+    margin-right: 20px ;
+    width: 100px ;
   }
 
   .btn-form:hover {
@@ -131,4 +143,9 @@
     background-color: $orange ;
   }
 
+  .footer{
+      background-image: url('../../img/footer-img.png');
+      background-size: cover;
+      height: 20px
+  }
 };
