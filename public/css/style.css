@@ -315,20 +315,6 @@ body {
   clear: both;
   display: table; }
 
-<<<<<<< HEAD
-.lista-componentes li {
-  margin-top: 50px;
-  list-style: none; }
-
-.lista-componentes a {
-  text-decoration: none; }
-
-/* sidebar info */
-/* wrapper of the first block*/
-.title-soon {
-  padding-top: 500px;
-  color: black; }
-=======
 @media (max-width: 736px) {
   /* sidebar info */
   #sidebar {
@@ -420,8 +406,37 @@ body {
   .btn-form:hover {
     color: white;
     background-color: #EA9E44; }
+  .direcciones {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-top: 90px;
+    position: absolute;
+    top: 0;
+    width: 400px; }
+    .direcciones button {
+      border: none;
+      cursor: pointer;
+      outline: none;
+      padding: 20px;
+      text-decoration: none;
+      border-radius: 10px; }
+      .direcciones button:hover {
+        background-color: #EA9E44;
+        transition: 0.8s; }
+  .miSlider img {
+    margin-left: 100px;
+    width: 200px; }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s; }
+  @keyframes fade {
+    from {
+      opacity: .2; }
+    to {
+      opacity: 1; } }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
     height: 20px; } }
->>>>>>> 02a20fa57ba3f82de642e6e23d7157101f9152ce
