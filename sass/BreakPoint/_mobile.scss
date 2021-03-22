@@ -118,7 +118,6 @@
     width: 145px ;
   }
   
-  
   .btn-form {
   
     background-color: $orange ;
@@ -129,7 +128,7 @@
     float: right ;
     height: 35px ;
     margin-right: 20px ;
-    width: 101px ;
+    width: 100px ;
   }
   
   .btn-form:hover {
@@ -137,5 +136,10 @@
     color: white ;
     background-color: $orange ;
   }
-  
+
+  .footer{
+      background-image: url('../../img/footer-img.png');
+      background-size: cover;
+      height: 20px
+  }
 };
