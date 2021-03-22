@@ -1,0 +1,19 @@
+// Mixins
+
+@mixin learn-more-btn {
+  button {
+
+    cursor: pointer;
+    background: white ;
+    border: none ;
+    border-radius: 4px ;
+    margin-bottom: 20px ;
+    margin-left: 200px ;
+    padding: 16px 46px 16px 46px ;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}

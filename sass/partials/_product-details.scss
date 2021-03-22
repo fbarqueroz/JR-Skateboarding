@@ -1,8 +1,8 @@
 // Product detail
 
 .pro-det {
-
   margin-left: 200px ;
+  margin-bottom: 10px;
 
   span {
 
@@ -23,9 +23,11 @@
     font-size: 14px ;
     font-weight: lighter ;
   }
+  img{
+    margin-top: 10px;
+    
+  }
 }
 .product_detail-flex {
-
   margin-top: 50px;
-  float: left;
 }

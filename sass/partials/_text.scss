@@ -1,0 +1,34 @@
+// Text styles
+
+.text {
+
+  font-family: $roboto ;
+  margin-left: 50px ;
+
+  h1 {
+
+    font-size: 58px ;
+  }
+
+  h2 {
+
+    font-size: 24px ;
+  }
+
+  h3 {
+
+    font-size: 16px ;
+  }
+
+  p {
+
+    font-size: 16px ;
+  }
+
+  a {
+
+    color: #EA9E44 ;
+    font-size: 16px ;
+    text-decoration: none ;
+  }
+}

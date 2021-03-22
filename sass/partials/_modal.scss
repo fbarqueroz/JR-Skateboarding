@@ -1,55 +1,70 @@
-.window {
 
-  background-color: $brown ;
-  border-radius:5px ;
-  color:white ;
-  display:none ;
-  height:300px ;
-  left:600px ;
-  padding:30px ;
-  position:absolute ;
-  text-align: center ;
-  top:200px ;
-  width:600px ;
+.cta{
+  padding: 7px 0;
+  height: 25px;
+  width: 130px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color:#fff;
+  background: #283773;
 }
-
-.cancelar {
-
-    position: absolute ;
-    height:40px ;
-    width: 40px ;
-    left:600px ;
-    bottom:300px ;
+.modal-container{
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left: 0;
+  background:rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#overlay {
-
-  background-color: rgba(0,0,0,0.5) ;
-  bottom:0 ;
-  display: none ;
-  height:100% ;
-  left:0 ;
-  right:0 ;
-  position:fixed ;
-  top:0 ;
-  width: 100% ;
+ /*
+.modal-info{
+ width: 29%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+  text-decoration: none;
+  pointer-events: none;
+}*/
+.modal{
+  width: 40%;
+  height: 50%;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  transition: transform 1s;
+  transform: translateY(0%);
+  border-radius:10px;
 }
-
-.btn-modal {
-
-  background-color: $orange ;
-  border: none ;
-  border-radius: 4px ;
-  color: $white ;
-  cursor: pointer ;
-  height: 35px ;
-  margin: 100px 0 0 900px ;
-  width: 101px ;
+.modal-close{
+  transform:translateY(0%);
 }
-
-.btn-modal:hover {
-
-  color:$white ;
-  background-color: $orangeHover ;
+.close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  cursor: pointer;
+  background: #c44a4a;
+  color:#fff;
+  border-radius: 50%;
 }
-
+.listSkate{
+  text-align: left;
+}

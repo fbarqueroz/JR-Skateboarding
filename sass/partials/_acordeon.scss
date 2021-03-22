@@ -1,45 +1,87 @@
-.acordeon_parent{
-
-  margin: 0 auto ;
-  width: 365px ;
-
-  h2{
-    
-    font-family: $roboto ;
-    font-size: 18px ;
+/* Accordion styles */
+.tabs {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.3);
+  margin: 0 auto;
+  width: 500px;
+  
+  input {
+    position: absolute;
+    opacity: 0;
   }
-
   p{
-
-    font-family: $roboto ;
-    font-size: 12px ;
+    text-align: center;
+  }
+}
+.tab {
+  color: white;
+  overflow: hidden;
+  border-bottom:1px solid $orangeHover ;
+  
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: $orange;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: $orangeHover;
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    color: black;
+    background: white;
+    transition: all .3s;
+  }
+  &-close {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 0.75em;
+    background: $orangeHover;
+    cursor: pointer;
+    &:hover {
+      background: $orange;
+    }
   }
 }
 
-.imagen{
-
-  float: left ;
-  height: 180px ;
-  margin-left: 105px ;
-  padding-top: 15px ;
-  width: 120px ;
+// :checked
+input:checked {
+  + .tab-label {
+    background: $orange;
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 250px;
+    padding-top: 10px;
+  }
 }
-
-.info-accordeon{
-
-  padding: 20px ;
-  display: none ;
-  text-align: center ;
+.info-redes{
+  ul{
+      display: flex;
+      list-style: none;
+      margin-left: 135px;
+  }
+  li{
+      margin: 10px;
+  }
 }
-
-.acordeon-button{
-
-  border: 0.2px solid $grey ;
-  color: $grey;
-  cursor: pointer;
-  font-family: $roboto ;
-  font-size: 14px ;
-  padding: 10px ;
-  text-align: center ;
-  width: 365px ;
+.users-img{
+  margin-left: 205px;
+  width: 100px;
+  text-align: center;
 }
