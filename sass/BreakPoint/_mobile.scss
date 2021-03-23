@@ -147,7 +147,7 @@
   .miSlider {
     img {
       margin-left: 100px ;
-      margin-top: 800px;
+      margin-top: 400px;
     }
   }
   .fade {
@@ -162,7 +162,8 @@
   // Product detail
 
 .pro-det {
-  justify-content: center;
+  text-align: center;
+  justify-content: right;
     span {
       color: $med-brown ;
       font-size: 10px ;
