@@ -1,5 +1,6 @@
 @media(max-width: 736px) {
 
+ 
   /* sidebar info */
   #sidebar {
     background: rgba(0, 0, 0, 0.904);
@@ -142,12 +143,12 @@
 
   //   Slider
   .slider {
-      margin-top: 100px ;
-      margin-bottom: 100px ;
+      margin-top: 20px ;
+      margin-bottom: 50px ;
 
   }
   .slider__info{
-      margin-bottom: 20px ;
+      margin-top: 20px ;
       p{
           margin-top: 10px ;
           font-size: 0.8rem ;
@@ -211,13 +212,98 @@
   }
   // Slider Soon
 
-  //  .slider-soon{
-  //   margin-top: 250px;
-  // }
-
   .title-soon{
     color: black;
     font-size: 14px;
+  }
+  // Acordeon
+  .tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.3);
+    width: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    input {
+      position: absolute;
+      opacity: 0;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  .tab {
+    color: white;
+    overflow: hidden;
+    border-bottom:1px solid $orangeHover ;
+    
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      background: $orange;
+      font-weight: bold;
+      cursor: pointer;
+      /* Icon */
+      &:hover {
+        background: $orangeHover;
+      }
+      &::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s;
+      }
+    }
+    &-content {
+      max-height: 0;
+      color: black;
+      background: white;
+      transition: all .3s;
+    }
+    &-close {
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $orangeHover;
+      cursor: pointer;
+      &:hover {
+        background: $orange;
+      }
+    }
+  }
+  
+  // :checked
+  input:checked {
+    + .tab-label {
+      background: $orange;
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+    ~ .tab-content {
+      max-height: 250px;
+      padding-top: 10px;
+    }
+  }
+  .info-redes{
+    ul{
+        display: flex;
+        list-style: none;
+        margin-left: 60px;
+    }
+    li{
+        margin: 10px;
+    }
+  }
+  .users-img{
+    display: flex;
+    width: 100px;
   }
 
   // Footer

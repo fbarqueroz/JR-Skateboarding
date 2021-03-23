@@ -421,10 +421,10 @@ body {
       color: white;
       background-color: #EA9E44; }
   .slider {
-    margin-top: 100px;
-    margin-bottom: 100px; }
+    margin-top: 20px;
+    margin-bottom: 50px; }
   .slider__info {
-    margin-bottom: 20px; }
+    margin-top: 20px; }
     .slider__info p {
       margin-top: 10px;
       font-size: 0.8rem; }
@@ -468,6 +468,70 @@ body {
   .title-soon {
     color: black;
     font-size: 14px; }
+  .tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.3);
+    width: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .tabs input {
+      position: absolute;
+      opacity: 0; }
+    .tabs p {
+      text-align: center; }
+  .tab {
+    color: white;
+    overflow: hidden;
+    border-bottom: 1px solid #ff9100; }
+    .tab-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      background: #EA9E44;
+      font-weight: bold;
+      cursor: pointer;
+      /* Icon */ }
+      .tab-label:hover {
+        background: #ff9100; }
+      .tab-label::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s; }
+    .tab-content {
+      max-height: 0;
+      color: black;
+      background: white;
+      transition: all .3s; }
+    .tab-close {
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      font-size: 0.75em;
+      background: #ff9100;
+      cursor: pointer; }
+      .tab-close:hover {
+        background: #EA9E44; }
+  input:checked + .tab-label {
+    background: #EA9E44; }
+    input:checked + .tab-label::after {
+      transform: rotate(90deg); }
+  input:checked ~ .tab-content {
+    max-height: 250px;
+    padding-top: 10px; }
+  .info-redes ul {
+    display: flex;
+    list-style: none;
+    margin-left: 60px; }
+  .info-redes li {
+    margin: 10px; }
+  .users-img {
+    display: flex;
+    width: 100px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
