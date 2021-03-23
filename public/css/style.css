@@ -532,6 +532,8 @@ body {
   .users-img {
     display: flex;
     width: 100px; }
+  .slider-soon img {
+    display: flex; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;

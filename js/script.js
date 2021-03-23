@@ -9,16 +9,17 @@ let indice = 1;
 let i = '';
 function muestraSlides(n) {
   const slides = document.getElementsByClassName('miSlider');
-  if (n > slides.length) {
+  const slideSoon = document.getElementsByClassName('slider-soon');
+  if (n > (slideSoon, slides).length) {
     indice = 1;
   }
   if (n < 1) {
-    indice = slides.length;
+    indice = (slideSoon, slides).length;
   }
-  for (i = 0; i < slides.length; i += 1) {
-    slides[i].style.display = 'none';
+  for (i = 0; i < (slideSoon, slides).length; i += 1) {
+    (slideSoon[i], slides[i]).style.display = 'none';
   }
-  slides[indice - 1].style.display = 'block';
+  (slideSoon[indice - 1], slides[indice - 1]).style.display = 'block';
 }
 function avanzaSlide() {
   muestraSlides(indice += 1);

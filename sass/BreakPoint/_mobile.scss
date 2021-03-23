@@ -1,6 +1,4 @@
 @media(max-width: 736px) {
-
- 
   /* sidebar info */
   #sidebar {
     background: rgba(0, 0, 0, 0.904);
@@ -145,7 +143,6 @@
   .slider {
       margin-top: 20px ;
       margin-bottom: 50px ;
-
   }
   .slider__info{
       margin-top: 20px ;
@@ -160,7 +157,7 @@
     width: 300px ;
     position: relative;
     top: -250px;
-    
+
     button {
       background-color:white;
       border: none ;
@@ -169,7 +166,7 @@
       padding: 15px 20px ;
       text-decoration: none ;
       border-radius: 5px;
-      
+
     }
   }
   .miSlider {
@@ -186,7 +183,7 @@
     from {opacity: .2 ;}
     to{opacity:1 ;}
   }
- 
+
 
   // Product detail
 
@@ -305,7 +302,12 @@
     display: flex;
     width: 100px;
   }
-
+  // Slider Soon
+  .slider-soon{
+    img {
+      display: flex;
+    }
+  }
   // Footer
 
   .footer{
@@ -320,3 +322,4 @@
     }
   }
 };
+
