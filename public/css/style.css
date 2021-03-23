@@ -307,7 +307,7 @@ template {
   margin: 0 auto; }
 
 body {
-  background-color: rgba(224, 222, 222, 0.933);
+  background-color: white;
   font-family: "Roboto", sans-serif; }
 
 .clearfix::after {
@@ -318,8 +318,9 @@ body {
 @media (max-width: 736px) {
   /* sidebar info */
   #sidebar {
+    box-shadow: 0px 0px 20px 0px black;
     background: black;
-    height: 100%;
+    height: 812px;
     left: -200px;
     position: fixed;
     transition: all 500ms linear;
@@ -347,7 +348,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
     left: 200px;
     position: absolute;
-    top: 20px; }
+    top: 40px; }
   .toggle-btn:active {
     border: none; }
   .toggle-btn span {
@@ -358,15 +359,14 @@ body {
   /* wrapper of the first block*/
   .first-block {
     background-image: url("../../img/Pasted Graphic.png");
-    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
     min-width: 375px;
     position: absolute;
     height: 595px; }
   /* Form */
   .form {
-    -moz-box-shadow: 0px 0px 20px black;
-    -webkit-box-shadow: 0px 0px 20px black;
-    box-shadow: 0px 6px 20px black;
+    box-shadow: 0px 2px 10px 0px black;
     font-family: "Roboto", sans-serif;
     background-color: white;
     border-radius: 12px;
@@ -408,14 +408,9 @@ body {
     color: white;
     background-color: #EA9E44; }
   .direcciones {
-    align-items: center;
     display: flex;
-    font-size: 20px;
     justify-content: space-between;
-    margin-top: 90px;
-    position: absolute;
-    top: 0;
-    width: 400px; }
+    width: 320px; }
     .direcciones button {
       border: none;
       cursor: pointer;
@@ -428,7 +423,7 @@ body {
         transition: 0.8s; }
   .miSlider img {
     margin-left: 100px;
-    width: 200px; }
+    margin-top: 800px; }
   .fade {
     animation-name: fade;
     animation-duration: 1s; }
@@ -437,7 +432,26 @@ body {
       opacity: .2; }
     to {
       opacity: 1; } }
+  .pro-det {
+    justify-content: center; }
+    .pro-det span {
+      color: #743305;
+      font-size: 10px;
+      text-transform: uppercase; }
+    .pro-det h3 {
+      color: #484848;
+      font-size: 16px;
+      font-weight: bold; }
+    .pro-det p {
+      font-size: 14px;
+      font-weight: lighter; }
+    .pro-det img {
+      margin-top: 10px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
-    height: 20px; } }
+    background-position: center;
+    height: 125px; }
+    .footer img {
+      margin-left: 140px;
+      margin-top: 5px; } }
