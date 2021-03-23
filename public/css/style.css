@@ -420,6 +420,41 @@ body {
     .btn-form:hover {
       color: white;
       background-color: #EA9E44; }
+  .acc__areas {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px; }
+  .street__area {
+    box-shadow: 0px 1px 4px 0px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 85px;
+    cursor: pointer; }
+    .street__area h3 {
+      float: right;
+      margin-top: 33px;
+      margin-right: 170px;
+      text-align: left; }
+  .park__area {
+    box-shadow: 0px 1px 4px 0px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 85px;
+    cursor: pointer; }
+    .park__area h3 {
+      float: right;
+      margin-top: 33px;
+      margin-right: 180px; }
+  .downhill__area {
+    box-shadow: 0px 1px 4px 0px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 85px;
+    cursor: pointer; }
+    .downhill__area h3 {
+      float: right;
+      margin-top: 33px;
+      margin-right: 150px; }
   .slider {
     margin-top: 20px;
     margin-bottom: 50px; }
