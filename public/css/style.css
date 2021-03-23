@@ -427,31 +427,35 @@ body {
       .direcciones button:hover {
         background-color: #EA9E44;
         transition: 0.8s; }
-  .miSlider img {
-    margin-left: 100px;
-    margin-top: 400px; }
-  .fade {
-    animation-name: fade;
-    animation-duration: 1s; }
+    .direcciones .miSlider img {
+      margin-left: 100px;
+      margin-top: 400px; }
+    .direcciones .fade {
+      animation-name: fade;
+      animation-duration: 1s; }
   @keyframes fade {
     from {
       opacity: .2; }
     to {
       opacity: 1; } }
-  .pro-det {
-    text-align: center;
-    justify-content: right; }
-    .pro-det span {
-      color: #743305;
-      font-size: 10px;
-      text-transform: uppercase; }
-    .pro-det h3 {
-      color: #484848;
-      font-size: 16px;
-      font-weight: bold; }
-    .pro-det p {
+    .direcciones .pro-det {
+      text-align: center;
+      justify-content: right;
       font-size: 14px;
       font-weight: lighter; }
+      .direcciones .pro-det span {
+        color: #743305;
+        font-size: 10px;
+        text-transform: uppercase; }
+      .direcciones .pro-det h3 {
+        color: #484848;
+        font-size: 16px;
+        font-weight: bold; }
+      .direcciones .pro-det p {
+        font-size: 14px;
+        font-weight: lighter; }
+      .direcciones .pro-det img {
+        margin-top: 10px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
