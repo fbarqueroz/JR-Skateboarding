@@ -7,7 +7,8 @@
     left: -200px ;
     position: fixed ;
     transition: all 500ms linear ;
-    width: 191px ;
+    width: 190px ;
+    z-index: 1;
   }
 
   #sidebar.active {
@@ -67,7 +68,6 @@
     background-size: cover;
     background-position: center;
     min-width: 375px;
-    position: absolute;
     height: 595px;
   }
 
@@ -78,11 +78,12 @@
     font-family: $roboto;
     background-color: $white;
     border-radius: 12px ;
-    height: 370px ;
+    height: 330px ;
     padding: 10px ;
     width: 325px ;
-    margin-top: 100px ;
-    margin-left: 15px;
+    position: absolute;
+    top: 100px;
+    left: 15px;
   }
 
   .form h2 {
@@ -130,10 +131,24 @@
     background-color: $orange ;
   }
   //   Slider
+  .slider{
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+  .slider__info{
+      margin-bottom: 20px;
+      p{
+          margin-top: 10px;
+          font-size: 0.9rem;
+      }
+  }
   .direcciones {
     display: flex ;
     justify-content: space-between ;
-    width: 320px ;
+    width: 310px ;
+    position: absolute;
+    top: 1000px;
+    left: 25px;
 
     button {
       border: none ;
@@ -142,19 +157,15 @@
       padding: 20px ;
       text-decoration: none ;
       border-radius: 10px;
-
       &:hover {
         background-color:$orange ;
         transition: 0.8s ;
       }
     }
   }
-
-
   .miSlider {
     img {
-      margin-left: 100px ;
-      margin-top: 400px;
+      display: flex;
     }
   }
   .fade {
@@ -202,7 +213,6 @@
     background-size: cover;
     background-position: center;
     height: 125px;
-
     img{
       margin-left: 140px;
       margin-top: 5px
