@@ -427,24 +427,21 @@ body {
     margin-bottom: 20px; }
     .slider__info p {
       margin-top: 10px;
-      font-size: 0.9rem; }
+      font-size: 0.8rem; }
   .direcciones {
     display: flex;
     justify-content: space-between;
-    width: 310px;
-    position: absolute;
-    top: 1000px;
-    left: 25px; }
+    width: 300px;
+    position: relative;
+    top: -250px; }
     .direcciones button {
+      background-color: white;
       border: none;
       cursor: pointer;
       outline: none;
-      padding: 20px;
+      padding: 15px 20px;
       text-decoration: none;
-      border-radius: 10px; }
-      .direcciones button:hover {
-        background-color: #EA9E44;
-        transition: 0.8s; }
+      border-radius: 5px; }
   .miSlider img {
     display: flex; }
   .fade {
