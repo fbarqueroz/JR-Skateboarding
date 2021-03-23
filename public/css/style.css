@@ -413,9 +413,6 @@ body {
   .btn-form:hover {
     color: white;
     background-color: #EA9E44; }
-  .title-soon {
-    color: black;
-    font-size: 14px; }
   .direcciones {
     display: flex;
     justify-content: space-between;
@@ -455,6 +452,9 @@ body {
     .pro-det p {
       font-size: 14px;
       font-weight: lighter; }
+  .title-soon {
+    color: black;
+    font-size: 14px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
