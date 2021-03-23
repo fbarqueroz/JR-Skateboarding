@@ -155,7 +155,7 @@
   .miSlider {
     img {
       margin-left: 100px ;
-      margin-top: 800px;
+      margin-top: 400px;
     }
   }
   .fade {
@@ -170,22 +170,30 @@
   // Product detail
 
 .pro-det {
-  justify-content: center;
+  text-align: center;
+  justify-content: right;
     span {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9933a339aa5d6dda07a3545a2114012c5f39ec98
       color: $med-brown ;
       font-size: 10px ;
       text-transform: uppercase ;
     }
 
     h3 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9933a339aa5d6dda07a3545a2114012c5f39ec98
       color: $det-gray ;
       font-size: 16px ;
       font-weight: bold ;
     }
 
     p {
+<<<<<<< HEAD
 
       font-size: 14px ;
       font-weight: lighter ;
@@ -194,6 +202,11 @@
       margin-top: 10px;
 
     }
+=======
+      font-size: 14px ;
+      font-weight: lighter ;
+    }
+>>>>>>> 9933a339aa5d6dda07a3545a2114012c5f39ec98
   }
 
 // footer
