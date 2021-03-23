@@ -315,20 +315,6 @@ body {
   clear: both;
   display: table; }
 
-<<<<<<< HEAD
-.lista-componentes li {
-  margin-top: 50px;
-  list-style: none; }
-
-.lista-componentes a {
-  text-decoration: none; }
-
-/* sidebar info */
-/* wrapper of the first block*/
-.title-soon {
-  padding-top: 500px;
-  color: black; }
-=======
 @media (max-width: 736px) {
   /* sidebar info */
   #sidebar {
@@ -420,8 +406,10 @@ body {
   .btn-form:hover {
     color: white;
     background-color: #EA9E44; }
+  .title-soon {
+    color: black;
+    font-size: 14px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
     height: 20px; } }
->>>>>>> 02a20fa57ba3f82de642e6e23d7157101f9152ce
