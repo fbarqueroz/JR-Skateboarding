@@ -3,7 +3,8 @@ const btnToggle = document.querySelector('.toggle-btn');
 btnToggle.addEventListener('click', () => {
   document.getElementById('sidebar').classList.toggle('active');
 });
-// slider
+
+// Slider
 let indice = 1;
 let i = '';
 function muestraSlides(n) {
