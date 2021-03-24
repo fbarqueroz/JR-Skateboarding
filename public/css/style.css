@@ -576,7 +576,7 @@ body {
       padding: 15px 10px;
       text-decoration: none;
       border-radius: 5px; }
-  .tabs {
+  .dropdown {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -585,16 +585,16 @@ body {
     width: 0 auto;
     margin-left: 10px;
     margin-right: 10px; }
-    .tabs input {
+    .dropdown input {
       position: absolute;
       opacity: 0; }
-    .tabs p {
+    .dropdown p {
       text-align: center; }
-  .tab {
+  .dropdown__main {
     color: white;
     overflow: hidden;
     border-bottom: 1px solid #ff9100; }
-    .tab-label {
+    .dropdown__main-label {
       display: flex;
       justify-content: space-between;
       padding: 1em;
@@ -602,33 +602,33 @@ body {
       font-weight: bold;
       cursor: pointer;
       /* Icon */ }
-      .tab-label:hover {
+      .dropdown__main-label:hover {
         background: #ff9100; }
-      .tab-label::after {
+      .dropdown__main-label::after {
         content: "\276F";
         width: 1em;
         height: 1em;
         text-align: center;
         transition: all .35s; }
-    .tab-content {
+    .dropdown__main-content {
       max-height: 0;
       color: black;
       background: white;
       transition: all .3s; }
-    .tab-close {
+    .dropdown__main-close {
       display: flex;
       justify-content: center;
       padding: 1em;
       font-size: 0.75em;
       background: #ff9100;
       cursor: pointer; }
-      .tab-close:hover {
+      .dropdown__main-close:hover {
         background: #EA9E44; }
-  input:checked + .tab-label {
+  input:checked + .dropdown__main-label {
     background: #EA9E44; }
-    input:checked + .tab-label::after {
+    input:checked + .dropdown__main-label::after {
       transform: rotate(90deg); }
-  input:checked ~ .tab-content {
+  input:checked ~ .dropdown__main-content {
     max-height: 250px;
     padding-top: 10px; }
   .info-redes ul {

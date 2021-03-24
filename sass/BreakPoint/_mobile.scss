@@ -317,7 +317,7 @@
   }
 
   // Acordeon
-  .tabs {
+  .dropdown {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -335,7 +335,7 @@
       text-align: center;
     }
   }
-  .tab {
+  .dropdown__main {
     color: white;
     overflow: hidden;
     border-bottom:1px solid $orangeHover ;
@@ -380,13 +380,13 @@
 
   // :checked
   input:checked {
-    + .tab-label {
+    + .dropdown__main-label {
       background: $orange;
       &::after {
         transform: rotate(90deg);
       }
     }
-    ~ .tab-content {
+    ~ .dropdown__main-content {
       max-height: 250px;
       padding-top: 10px;
     }
