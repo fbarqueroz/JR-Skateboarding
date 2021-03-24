@@ -499,14 +499,12 @@ body {
     color: #484848;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 17px;
-    margin-left: 15px; }
+    margin-bottom: 17px; }
   .learn__more p {
     color: #484848;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: lighter;
-    margin-bottom: 28px;
-    margin-left: 15px; }
+    margin-bottom: 28px; }
   .learn__more--btn {
     background: url("../../img/learn-more-bg.png");
     height: 281px; }
@@ -524,7 +522,8 @@ body {
     margin-top: 20px; }
     .slider__info p {
       margin-top: 10px;
-      font-size: 0.8rem; }
+      font-size: 0.9rem;
+      font-weight: lighter; }
   .direcciones {
     display: flex;
     justify-content: space-between;
@@ -589,7 +588,8 @@ body {
       position: absolute;
       opacity: 0; }
     .dropdown p {
-      text-align: center; }
+      text-align: center;
+      font-weight: lighter; }
   .dropdown__main {
     color: white;
     overflow: hidden;
