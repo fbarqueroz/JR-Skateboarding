@@ -229,7 +229,7 @@
     }
   }
 
-  //   Slider
+  // Slider
   .slider {
       margin-top: 20px ;
       margin-bottom: 50px ;
@@ -299,10 +299,24 @@
   }
   // Slider Soon
 
-  .title-soon{
-    color: black;
-    font-size: 14px;
+  .direccion{
+    display: flex ;
+    justify-content: space-between ;
+    width: 370px ;
+    position: relative;
+    top: -120px;
+
+    button {
+      background-color:white;
+      border: none ;
+      cursor: pointer ;
+      outline: none ;
+      padding: 15px 15px ;
+      text-decoration: none ;
+      border-radius: 5px;
+    }
   }
+
   // Acordeon
   .tabs {
     margin-top: 20px;
