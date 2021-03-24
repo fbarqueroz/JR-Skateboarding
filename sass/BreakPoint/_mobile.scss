@@ -276,21 +276,26 @@
   }
 
 
-  // Product detail
+  // Slider detail
 
-  .pro-det {
+  .slider__product--info {
     text-align: center;
     justify-content: right;
+    color: $det-gray ;
 
     span {
       color: $med-brown ;
       font-size: 15px ;
       text-transform: uppercase ;
     }
-
-    h3 {
+    h3{
       color: $det-gray ;
-      font-size: 15px ;
+      font-size: 1rem ;
+    }
+
+    b {
+      color: $det-gray ;
+      font-size: 1.4rem ;
     }
 
     p {

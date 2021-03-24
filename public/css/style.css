@@ -551,17 +551,21 @@ body {
       opacity: .2; }
     to {
       opacity: 1; } }
-  .pro-det {
+  .slider__product--info {
     text-align: center;
-    justify-content: right; }
-    .pro-det span {
+    justify-content: right;
+    color: #484848; }
+    .slider__product--info span {
       color: #743305;
       font-size: 15px;
       text-transform: uppercase; }
-    .pro-det h3 {
+    .slider__product--info h3 {
       color: #484848;
-      font-size: 15px; }
-    .pro-det p {
+      font-size: 1rem; }
+    .slider__product--info b {
+      color: #484848;
+      font-size: 1.4rem; }
+    .slider__product--info p {
       font-size: 14px;
       font-weight: lighter; }
   .direccion {
