@@ -186,6 +186,40 @@
     }
   }
 
+  // Learn More
+
+  .learn__more {
+    h3 {
+      color: $grey ;
+      font-size: 18px ;
+      font-weight: bold ;
+      margin-bottom: 17px ;
+      margin-left: 15px ;
+    }
+
+    p {
+      color: $grey ;
+      font-size: 11px ;
+      font-weight: lighter ;
+      margin-bottom: 28px ;
+      margin-left: 15px ;
+    }
+  }
+
+  .learn__more--btn {
+    background: url("../../img/learn-more-bg.png");
+    height: 281px ;
+
+    button {
+      background-color: white ;
+      border: none ;
+      border-radius: 4px ;
+      margin-left: 45px ;
+      margin-top: 197px ;
+      padding: 15px 62px 15px 62px ;
+    }
+  }
+
   //   Slider
   .slider {
       margin-top: 20px ;
@@ -270,7 +304,7 @@
     width: 0 auto;
     margin-left: 10px;
     margin-right: 10px;
-    
+
     input {
       position: absolute;
       opacity: 0;
@@ -283,7 +317,7 @@
     color: white;
     overflow: hidden;
     border-bottom:1px solid $orangeHover ;
-    
+
     &-label {
       display: flex;
       justify-content: space-between;
@@ -321,7 +355,7 @@
       }
     }
   }
-  
+
   // :checked
   input:checked {
     + .tab-label {
