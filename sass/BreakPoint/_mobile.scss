@@ -437,9 +437,25 @@
       padding: 10px 12px 10px 12px ;
       position: relative;
     }
+    img{
+      width: 350px;
+    }
+  }
+  .know-more {
+      button {
+        background-color: $med-brown ;
+        border: none ;
+        border-radius: 5px ;
+        cursor: pointer;
+        color:white ;
+        margin-left: 240px ;
+        top: -45px ;
+        padding: 10px 12px 10px 12px ;
+        position: relative;
+      }
       button:hover{
-        color: white;
-        background-color: $med-brown;
+        color: black;
+        background-color: $white;
     }
   }
   // Footer
