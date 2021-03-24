@@ -518,6 +518,9 @@ body {
       margin-left: 45px;
       margin-top: 197px;
       padding: 15px 62px 15px 62px; }
+    .learn__more--btn button:hover {
+      color: white;
+      background-color: black; }
   .slider {
     margin-top: 20px;
     margin-bottom: 40px; }
