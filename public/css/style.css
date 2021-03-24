@@ -652,7 +652,8 @@ body {
     .bamboo__boards img {
       width: 350px; }
     .bamboo__boards p {
-      margin-top: 5px; }
+      margin-top: 5px;
+      font-weight: lighter; }
   .know-more button {
     background-color: #743305;
     border: none;
