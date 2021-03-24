@@ -667,7 +667,8 @@ body {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
     background-position: center;
-    height: 125px; }
+    height: 125px;
+    margin-top: 20px; }
     .footer img {
       margin-left: 140px;
-      margin-top: 5px; } }
+      margin-top: 9px; } }
