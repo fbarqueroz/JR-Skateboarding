@@ -1,5 +1,7 @@
 @media(max-width: 736px) {
+
   /* sidebar info */
+
   #sidebar {
     background: rgba(0, 0, 0, 0.904);
     box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
@@ -71,6 +73,7 @@
   }
 
   /* wrapper of the first block*/
+
   .first-block {
     background-image: url("../../img/Pasted\ Graphic.png");
     background-size: cover;
@@ -144,7 +147,13 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
   // Areas
+
+  .area__tabs {
+    display: none ;
+  }
+
   .acc__areas{
     margin-top: 20px;
   }
