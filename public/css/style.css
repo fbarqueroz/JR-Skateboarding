@@ -648,6 +648,8 @@ body {
       margin-bottom: 10px; }
     .bamboo__boards img {
       width: 350px; }
+    .bamboo__boards p {
+      margin-top: 5px; }
   .know-more button {
     background-color: #743305;
     border: none;
@@ -655,7 +657,7 @@ body {
     cursor: pointer;
     color: white;
     margin-left: 240px;
-    top: -45px;
+    top: -40px;
     padding: 10px 12px 10px 12px;
     position: relative; }
   .know-more button:hover {
