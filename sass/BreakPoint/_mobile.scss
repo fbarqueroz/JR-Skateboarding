@@ -415,25 +415,23 @@
 
   // Bamboo Boards
   .img-bamboo{
-    margin: 20px;
-    width: 300px;
+    width: 350px;
   }
-    .know-more {
-
-    button {
-      cursor: pointer;
-      background: none ;
-      border: 1px solid #743305 ;
-      border-radius: 12px ;
-      color: #743305 ;
-      margin-left: 240px ;
-      margin-top: -50px ;
-      padding: 10px 12px 10px 12px ;
-      position: relative;
-    }
+  .know-more {
+      button {
+        background-color: $med-brown ;
+        border: none ;
+        border-radius: 5px ;
+        cursor: pointer;
+        color:white ;
+        margin-left: 240px ;
+        top: -45px ;
+        padding: 10px 12px 10px 12px ;
+        position: relative;
+      }
       button:hover{
-        color: white;
-        background-color: $med-brown;
+        color: black;
+        background-color: $white;
     }
   }
   // Footer

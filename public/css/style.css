@@ -643,21 +643,20 @@ body {
   .slider-soon img {
     display: flex; }
   .img-bamboo {
-    margin: 20px;
-    width: 300px; }
+    width: 350px; }
   .know-more button {
+    background-color: #743305;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    background: none;
-    border: 1px solid #743305;
-    border-radius: 12px;
-    color: #743305;
+    color: white;
     margin-left: 240px;
-    margin-top: -50px;
+    top: -45px;
     padding: 10px 12px 10px 12px;
     position: relative; }
   .know-more button:hover {
-    color: white;
-    background-color: #743305; }
+    color: black;
+    background-color: white; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
