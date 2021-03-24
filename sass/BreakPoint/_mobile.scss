@@ -414,11 +414,15 @@
 
 
   // Bamboo Boards
-  .img-bamboo{
-    width: 350px;
-  }
+ 
   .bamboo__boards{
     margin-top: 30px;
+    h3{
+      margin-bottom: 10px;
+    }
+    img{
+      width: 350px;
+    }
   }
   .know-more {
       button {

@@ -642,10 +642,12 @@ body {
     width: 100px; }
   .slider-soon img {
     display: flex; }
-  .img-bamboo {
-    width: 350px; }
   .bamboo__boards {
     margin-top: 30px; }
+    .bamboo__boards h3 {
+      margin-bottom: 10px; }
+    .bamboo__boards img {
+      width: 350px; }
   .know-more button {
     background-color: #743305;
     border: none;
