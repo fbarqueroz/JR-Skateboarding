@@ -414,12 +414,18 @@
 
 
   // Bamboo Boards
+  .text-bamboo{
+    padding-top:10px ;
+  }
+  .tile-bamboo{
+    padding-top: 20px;
+  }
   .img-bamboo{
+    padding-top: 20px;
     margin: 20px;
     width: 300px;
   }
     .know-more {
-
     button {
       cursor: pointer;
       background: none ;
@@ -427,7 +433,7 @@
       border-radius: 12px ;
       color: #743305 ;
       margin-left: 240px ;
-      margin-top: -50px ;
+      top: -40px ;
       padding: 10px 12px 10px 12px ;
       position: relative;
     }
@@ -443,10 +449,11 @@
     background-size: cover;
     background-position: center;
     height: 125px;
+    margin-top: 20px;
 
     img{
       margin-left: 140px;
-      margin-top: 5px
+      margin-top: 9px
     }
   }
 };

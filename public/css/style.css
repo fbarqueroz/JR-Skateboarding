@@ -642,7 +642,12 @@ body {
     width: 100px; }
   .slider-soon img {
     display: flex; }
+  .text-bamboo {
+    padding-top: 10px; }
+  .tile-bamboo {
+    padding-top: 20px; }
   .img-bamboo {
+    padding-top: 20px;
     margin: 20px;
     width: 300px; }
   .know-more button {
@@ -652,7 +657,7 @@ body {
     border-radius: 12px;
     color: #743305;
     margin-left: 240px;
-    margin-top: -50px;
+    top: -40px;
     padding: 10px 12px 10px 12px;
     position: relative; }
   .know-more button:hover {
@@ -662,7 +667,8 @@ body {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
     background-position: center;
-    height: 125px; }
+    height: 125px;
+    margin-top: 20px; }
     .footer img {
       margin-left: 140px;
-      margin-top: 5px; } }
+      margin-top: 9px; } }
