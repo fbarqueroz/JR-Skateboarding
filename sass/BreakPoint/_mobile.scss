@@ -302,7 +302,7 @@
     justify-content: space-between ;
     width: 355px ;
     position: relative;
-    top: -120px;
+    top: -170px;
 
     button {
       background-color:white;
@@ -313,6 +313,21 @@
       text-decoration: none ;
       border-radius: 5px;
     }
+  }
+
+  // 300 Dolares
+  .title-dolar{
+    margin-left: 31px;
+    padding-top: 12px;
+    font-weight: normal;
+    font-size: smaller;
+  }
+  .text-dolar{
+    margin-left: 170px;
+    top: -15px ;
+    font-weight: lighter;
+    position: relative;
+    font-size: smaller;
   }
 
   // Acordeon

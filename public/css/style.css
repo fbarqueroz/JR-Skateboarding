@@ -566,7 +566,7 @@ body {
     justify-content: space-between;
     width: 355px;
     position: relative;
-    top: -120px; }
+    top: -170px; }
     .direccion button {
       background-color: white;
       border: none;
@@ -575,6 +575,17 @@ body {
       padding: 15px 10px;
       text-decoration: none;
       border-radius: 5px; }
+  .title-dolar {
+    margin-left: 31px;
+    padding-top: 12px;
+    font-weight: normal;
+    font-size: smaller; }
+  .text-dolar {
+    margin-left: 170px;
+    top: -15px;
+    font-weight: lighter;
+    position: relative;
+    font-size: smaller; }
   .dropdown {
     margin-top: 20px;
     margin-bottom: 20px;
