@@ -4,14 +4,12 @@
     display: none ;
   }
   
-  .tabs {
-  
+.tabs {
     margin: 40px ;
     max-width: 800px ;
   }
   
-  .tabs-tablist {
-  
+.tabs-tablist {
     display: flex ;
     justify-content: center ;
     margin: 0 ;
@@ -20,8 +18,7 @@
     padding: 0 ;
   }
   
-  .tabs-tablist-item {
-  
+.tabs-tablist-item {
     background-color: #eee ;
     border-radius: 5px 5px 0 0 ;
     color: #999 ;
@@ -31,16 +28,13 @@
     text-decoration: none ;
   }
   
-  .tabs-content {
-  
+.tabs-content {
     background-color: rgb(255, 254, 254) ;
     padding: 20px ;
     text-align: center ;
   }
-  
-  
-  .js-active {
-  
+
+.js-active {
     background-color: #B8B8B8 ;
     border-bottom: 1px solid #B8B8B8 ;
     color: #000 ;
@@ -49,6 +43,5 @@
   }
   
   .js-content-hidden {
-  
     display: none ;
   }

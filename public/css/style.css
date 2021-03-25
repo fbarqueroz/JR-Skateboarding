@@ -315,6 +315,10 @@ body {
   clear: both;
   display: table; }
 
+.main {
+  margin-left: 10px;
+  margin-right: 10px; }
+
 .first-block {
   background: url(../../img/header-desktop.png); }
 
@@ -364,15 +368,6 @@ body {
   .btn-form:hover {
     color: white;
     background-color: #EA9E44; }
-
-.main {
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.cart {
-  float: right;
-  margin-top: 34px;
-  margin-right: 15px; }
 
 .main__areas {
   display: none; }
