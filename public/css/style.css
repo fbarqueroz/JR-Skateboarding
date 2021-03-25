@@ -418,7 +418,7 @@ body {
   #sidebar {
     background: rgba(0, 0, 0, 0.904);
     box-shadow: 0px 0px 20px 0px black;
-    height: 812px;
+    height: 100%;
     left: -200px;
     position: fixed;
     transition: all 500ms linear;
@@ -467,6 +467,28 @@ body {
       font-size: 30px;
       text-align: center;
       width: 40px; }
+  #drawer__shop {
+    background: rgba(0, 0, 0, 0.904);
+    box-shadow: 0px 0px 20px 0px black;
+    height: 100%;
+    right: -200px;
+    position: fixed;
+    transition: all 500ms linear;
+    width: 190px;
+    z-index: 1; }
+  #drawer__shop.active {
+    right: 0px; }
+  .drawer__shop--btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    color: black;
+    right: 200px;
+    outline: none;
+    position: absolute;
+    top: 35px; }
+    .drawer__shop--btn:active {
+      border: none; }
   /* wrapper of the first block*/
   .first-block {
     background-image: url("../../img/Pasted Graphic.png");
