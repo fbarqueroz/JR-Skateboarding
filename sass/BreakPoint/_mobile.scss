@@ -477,7 +477,7 @@
       color: $med-brown;
     }
     img{
-      width: 350px;
+      max-width: 100%;
     }
     p{
       margin-top: 5px;
@@ -507,10 +507,12 @@
     background-image: url('../../img/footer-img.png');
     background-size: cover;
     background-position: center;
-    height: 125px;
+    height: auto;
     img{
-      margin-left: 140px;
-      margin-top: 9px
+      display: flex;
+      position: relative;
+      bottom: 20px;
+      width: 30%;
     }
   }
 };
