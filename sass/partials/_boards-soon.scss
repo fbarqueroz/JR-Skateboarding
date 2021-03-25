@@ -5,9 +5,10 @@
   background-image: url('../../img/footer-img.png');
   background-size: cover;
   background-position: center;
-  // height: 500px;
+  height: 300px;
   img{
-    margin-left: 660px;
-    margin-top: 9px
+    padding-top: 60px;
+    display: flex;
+    width:200px;
   }
 }
