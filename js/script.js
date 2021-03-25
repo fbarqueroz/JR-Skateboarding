@@ -3,6 +3,11 @@ const btnToggle = document.querySelector('.toggle-btn');
 btnToggle.addEventListener('click', () => {
   document.getElementById('sidebar').classList.toggle('active');
 });
+// Drawer Car
+const btnShop = document.querySelector('.drawer__shop--btn');
+btnShop.addEventListener('click', () => {
+  document.getElementById('drawer__shop').classList.toggle('active');
+});
 
 // Slider-decks
 let indice = 1;
