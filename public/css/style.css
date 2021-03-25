@@ -768,7 +768,7 @@ body {
       margin-top: 5px;
       color: #743305; }
     .bamboo__boards img {
-      width: 350px; }
+      max-width: 100%; }
     .bamboo__boards p {
       margin-top: 5px;
       font-weight: lighter; }
