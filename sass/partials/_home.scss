@@ -2,6 +2,7 @@
 
 .first-block {
   background: url(../../img/header-desktop.png) ;
+  height: 750px;
 }
 
 // Header form
@@ -29,6 +30,10 @@
     padding-top: 10px;
     text-indent: 10px;
   }
+}
+
+.sidebar {
+  display: none;
 }
 
 .inputEmail {
