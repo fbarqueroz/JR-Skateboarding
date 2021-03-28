@@ -25,13 +25,11 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
       const info = `
         <div class="modal-info">
             <div class="listSkate">
-              <a href = ;p./;'${data[i].name}">${data[i].name}</a>
-              <p>Id : ${data[i].id}</p>
-              <p>${data[i].currency}</p>
-              <p>${data[i].price}</p>
-              <p>Name: ${data[i].name}</p>
-              <p>Description: ${data[i].description}</p>
-              <p>${data[i].img}</p>
+              <img src="${data[i].img}" alt="${data[i].name}">
+              <p>${data[i].brand}</p>
+              <h3>${data[i].name}</h3>
+              <p>Price: $${data[i].price}</p>
+              <p><b>Description: </b>${data[i].description}</p>
             </div>
           <div>
         <div>

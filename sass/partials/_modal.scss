@@ -35,6 +35,7 @@
   transition: transform 1s;
   transform: translateY(0%);
   border-radius:10px;
+  list-style: none ;
 }
 .modal-close{
   transform:translateY(0%);
@@ -54,6 +55,10 @@
 }
 .listSkate{
   text-align: left;
+  img {
+    height: 240px ;
+    width: 188px ;
+  }
 }
 .container{
   height: 650px;
