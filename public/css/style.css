@@ -553,7 +553,8 @@ input:checked ~ .dropdown__main-content {
 
 .learn__more--btn {
   background: url("../../img/learnM-home.png");
-  height: 281px;
+  background-size: cover;
+  height: 310px;
   margin-top: 25px;
   margin-bottom: 50px; }
   .learn__more--btn button {
@@ -561,11 +562,22 @@ input:checked ~ .dropdown__main-content {
     border: none;
     border-radius: 4px;
     margin-left: 800px;
-    margin-top: 197px;
+    margin-top: 30px;
     padding: 15px 62px 15px 62px; }
   .learn__more--btn button:hover {
     background-color: black;
     color: white; }
+
+.learn_more-info img {
+  margin-left: 890px;
+  padding-top: 50px; }
+
+.learn_more-info p {
+  margin-top: 10px;
+  margin-left: 890px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100; }
 
 @media (max-width: 736px) {
   /* sidebar info */
