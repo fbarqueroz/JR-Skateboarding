@@ -465,10 +465,10 @@ body {
   font-size: larger; }
 
 .footer {
-  background-image: url("../../img/footer-img.png");
+  background-image: url("../../img/footer-skate-img.jpg");
   background-size: cover;
   background-position: center;
-  height: 300px; }
+  height: 230px; }
   .footer img {
     display: flex;
     width: 12%; }
@@ -927,7 +927,7 @@ input:checked ~ .dropdown__main-content {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
     background-position: center;
-    height: 125px; }
+    height: 115px; }
     .footer img {
       margin-left: 140px;
       margin-top: 9px;
