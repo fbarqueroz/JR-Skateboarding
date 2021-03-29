@@ -551,6 +551,22 @@ input:checked ~ .dropdown__main-content {
   width: 100px;
   margin-bottom: 20px; }
 
+.learn__more--btn {
+  background: url("../../img/learnM-home.png");
+  height: 281px;
+  margin-top: 25px;
+  margin-bottom: 50px; }
+  .learn__more--btn button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 800px;
+    margin-top: 197px;
+    padding: 15px 62px 15px 62px; }
+  .learn__more--btn button:hover {
+    background-color: black;
+    color: white; }
+
 @media (max-width: 736px) {
   /* sidebar info */
   #sidebar {
