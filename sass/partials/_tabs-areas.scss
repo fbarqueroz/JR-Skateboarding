@@ -5,12 +5,14 @@
   
 .tabs {
     margin-top: 50px ;
+    margin-bottom: 50px;
+    max-width: 1350px;
   }
 
   .title-areas{
-    font-size: 1.8rem;
-    margin-top: 50px;
-    margin-left: 100px;
+    font-size: 1.8rem ;
+    margin-top: 50px ;
+    margin-left: 100px ;
   }
   
 .tabs-tablist {
@@ -19,7 +21,7 @@
     margin-bottom: 10px ;
   }
 .tabs-tablist-item{
-  display: block;
+  display: block ;
 }
   
 .category_areas{
@@ -34,7 +36,7 @@
     float: right;
     margin-top: 33px ;
     margin-left: 30px ;
-    margin-right: 50px ;
+    margin-right: 80px ;
     
   }
   img{
@@ -42,17 +44,17 @@
   }
 }
 
-.tabs-content-item{
-  margin-top: 10px;
+.tabs-content-item {
+  margin-top: 10px ;
 }
 
 .tabs-content {
   text-align: center ;
-  width: 600px;
+  width: 600px ;
   
   p{
-    margin-bottom: 20px;
-    font-size: 1.1rem;
+    margin-bottom: 20px ;
+    font-size: 1.1rem ;
   }
 }
 
@@ -60,7 +62,7 @@
     transition: 0.2s ;
     transform: scale(1.2) ;
     img{
-      filter: none;
+      filter: none ;
     }
 }
   

@@ -410,7 +410,9 @@ body {
   display: none; }
 
 .tabs {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1350px; }
 
 .title-areas {
   font-size: 1.8rem;
@@ -436,7 +438,7 @@ body {
     float: right;
     margin-top: 33px;
     margin-left: 30px;
-    margin-right: 50px; }
+    margin-right: 80px; }
   .category_areas img {
     filter: grayscale(100%); }
 
@@ -468,9 +470,8 @@ body {
   background-position: center;
   height: 300px; }
   .footer img {
-    padding-top: 60px;
     display: flex;
-    width: 200px; }
+    width: 12%; }
 
 @media (max-width: 736px) {
   /* sidebar info */
@@ -851,4 +852,5 @@ body {
     height: 125px; }
     .footer img {
       margin-left: 140px;
-      margin-top: 9px; } }
+      margin-top: 9px;
+      width: 30%; } }
