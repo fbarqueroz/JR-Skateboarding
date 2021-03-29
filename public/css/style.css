@@ -324,28 +324,29 @@ body {
   background-size: cover;
   height: 750px; }
 
-.first-block-header {
-  float: left;
-  width: 1380px;
-  height: 34px;
-  margin-left: 80px;
-  margin-top: 19px; }
-  .first-block-header img {
-    width: 3%; }
-  .first-block-header a {
-    color: white;
-    float: right;
-    font-size: 14px;
-    text-decoration: none;
-    padding-top: 7px;
-    margin-right: 28px; }
-  .first-block-header a:hover {
-    text-decoration: underline; }
-
-#drawer__shop {
+#sidebar button {
   display: none; }
 
-#sidebar {
+.sidebar-links {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.sidebar-links img {
+  width: 34px; }
+
+.sidebar-links a {
+  color: white;
+  float: right;
+  font-size: 14px;
+  margin-left: 30px;
+  padding-top: 5px;
+  text-decoration: none; }
+
+.sidebar-links a:hover {
+  text-decoration: underline; }
+
+#drawer__shop {
   display: none; }
 
 /* Form */
@@ -397,7 +398,7 @@ body {
   width: 146px; }
   .btn-form:hover {
     color: white;
-    background-color: #EA9E44; }
+    background-color: #c07d00; }
 
 .main {
   margin-left: 10px;
@@ -459,7 +460,6 @@ body {
   #sidebar {
     background: rgba(0, 0, 0, 0.904);
     box-shadow: 0px 0px 20px 0px black;
-    display: block;
     height: 100%;
     left: -200px;
     position: fixed;
@@ -469,10 +469,15 @@ body {
     #sidebar img {
       padding-bottom: 15px;
       padding-left: 20px;
+      padding-right: 20px;
       padding-top: 20px;
       width: 42px; }
+  #sidebar button {
+    display: block; }
   #sidebar.active {
     left: 0px; }
+  .sidebar-links {
+    padding: 0px; }
   .sidebar-links a {
     border-top: 0.2px solid rgba(100, 100, 100, 0.3);
     border-bottom: 1px solid rgba(100, 100, 100, 0.3);
@@ -483,16 +488,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     list-style: none;
-    padding: 15px 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: left;
-    text-decoration: none; }
+    text-indent: 20px;
+    text-decoration: none;
+    width: 190px; }
     .sidebar-links a a:hover {
       text-decoration: underline; }
-  .sidebar-links img {
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-top: 20px;
-    width: 42px; }
   .toggle-btn {
     background-color: rgba(255, 255, 255, 0);
     border: none;

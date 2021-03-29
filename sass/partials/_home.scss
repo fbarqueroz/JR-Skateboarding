@@ -6,25 +6,30 @@
   height: 750px;
 }
 
-.first-block-header {
-  float: left;
-  width: 1380px;
-  height: 34px;
-  margin-left: 80px;
-  margin-top: 19px;
+// Header form
 
+#sidebar button{
+  display: none;
+}
+
+.sidebar-links {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.sidebar-links {
   img {
-    width: 3%;
-    // height: 34px;
+    width: 34px;
   }
 
   a {
     color: $white;
     float: right;
     font-size: 14px;
+    margin-left: 30px;
+    padding-top: 5px;
     text-decoration: none;
-    padding-top: 7px;
-    margin-right: 28px;
   }
 
   a:hover {
@@ -33,12 +38,6 @@
 }
 
 #drawer__shop {
-  display: none;
-}
-
-// Header form
-
-#sidebar {
   display: none;
 }
 
@@ -100,8 +99,8 @@
   width: 146px ;
 
   &:hover {
-    color: white ;
-    background-color: $orange ;
+    color:$white ;
+    background-color: rgb(192, 125, 0) ;
   }
 }
 
