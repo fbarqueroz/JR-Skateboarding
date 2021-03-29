@@ -69,8 +69,8 @@ function clickHandler(event) {
   updateVisibleContent(id);
 }
 const enlaces = document.querySelectorAll('.tabs-tablist-item');
-for (let i = 0; i < enlaces.length; i += 1) {
-  enlaces[i].addEventListener('click', clickHandler);
+for (let p = 0; p < enlaces.length; p += 1) {
+  enlaces[p].addEventListener('click', clickHandler);
 }
 updateVisibleContent(enlaces[0].getAttribute('href').substring(1));
 
