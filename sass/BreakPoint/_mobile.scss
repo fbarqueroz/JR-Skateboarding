@@ -73,9 +73,9 @@
     }
   }
 
-  .first-block-header {
-    display: none;
-  }
+  // .first-block-header {
+  //   display: none;
+  // }
 
   // Drawer Car
   #drawer__shop{
@@ -477,7 +477,7 @@
       color: $med-brown;
     }
     img{
-      max-width: 100%;
+      width: 350px;
     }
     p{
       margin-top: 5px;
@@ -507,12 +507,10 @@
     background-image: url('../../img/footer-img.png');
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 125px;
     img{
-      display: flex;
-      position: relative;
-      bottom: 20px;
-      width: 30%;
+      margin-left: 140px;
+      margin-top: 9px
     }
   }
 };
