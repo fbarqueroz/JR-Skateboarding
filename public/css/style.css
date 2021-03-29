@@ -422,41 +422,23 @@ body {
   border-radius: 10px;
   margin-bottom: 10px; }
 
-#street__area {
-  box-shadow: 0px 1px 4px 0px black;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  height: 85px;
-  cursor: pointer; }
-  #street__area h3 {
-    float: right;
-    margin-top: 33px;
-    margin-left: 30px;
-    margin-right: 50px; }
+.tabs-tablist-item {
+  display: block; }
 
-#park__area {
+.category_areas {
   box-shadow: 0px 1px 4px 0px black;
   border-radius: 10px;
   margin-bottom: 20px;
   height: 85px;
   cursor: pointer; }
-  #park__area h3 {
+  .category_areas h3 {
+    color: black;
     float: right;
     margin-top: 33px;
     margin-left: 30px;
     margin-right: 50px; }
-
-#downhill__area {
-  box-shadow: 0px 1px 4px 0px black;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  height: 85px;
-  cursor: pointer; }
-  #downhill__area h3 {
-    float: right;
-    margin-top: 33px;
-    margin-left: 30px;
-    margin-right: 50px; }
+  .category_areas img {
+    filter: grayscale(100%); }
 
 .tabs-content-item {
   margin-top: 10px; }
@@ -469,8 +451,10 @@ body {
     font-size: 1.1rem; }
 
 .js-active {
-  transition: 0.5s;
-  transform: scale(1.1); }
+  transition: 0.2s;
+  transform: scale(1.2); }
+  .js-active img {
+    filter: none; }
 
 .js-content-hidden {
   display: none; }

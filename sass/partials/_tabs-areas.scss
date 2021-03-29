@@ -18,8 +18,11 @@
     border-radius: 10px ;
     margin-bottom: 10px ;
   }
+.tabs-tablist-item{
+  display: block;
+}
   
-#street__area{
+.category_areas{
   box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
   border-radius: 10px ;
   margin-bottom: 20px ;
@@ -27,38 +30,15 @@
   cursor: pointer ;
 
   h3{
+    color: black;
     float: right;
     margin-top: 33px ;
     margin-left: 30px ;
     margin-right: 50px ;
+    
   }
-}
-#park__area{
-  box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
-  border-radius: 10px ;
-  margin-bottom: 20px ;
-  height: 85px ;
-  cursor: pointer ;
-
-  h3{
-    float: right;
-    margin-top: 33px ;
-    margin-left: 30px ;
-    margin-right: 50px ;
-  }
-}
-#downhill__area{
-  box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
-  border-radius: 10px ;
-  margin-bottom: 20px ;
-  height: 85px ;
-  cursor: pointer ;
-
-  h3{
-    float: right;
-    margin-top: 33px ;
-    margin-left: 30px ;
-    margin-right: 50px ;
+  img{
+    filter: grayscale(100%);
   }
 }
 
@@ -77,8 +57,11 @@
 }
 
 .js-active {
-    transition: 0.5s ;
-    transform: scale(1.1) ;
+    transition: 0.2s ;
+    transform: scale(1.2) ;
+    img{
+      filter: none;
+    }
 }
   
 .js-content-hidden {
