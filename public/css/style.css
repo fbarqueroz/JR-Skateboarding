@@ -407,13 +407,12 @@ body {
   display: none; }
 
 .tabs {
-  margin: 40px;
-  max-width: 800px; }
+  margin: 0 auto;
+  width: 800px; }
 
 .tabs-tablist {
   display: flex;
   justify-content: center;
-  margin: 0;
   margin-bottom: -1px;
   list-style-type: none;
   padding: 0; }
@@ -513,6 +512,7 @@ body {
   #drawer__shop {
     background: rgba(0, 0, 0, 0.904);
     box-shadow: 0px 0px 20px 0px black;
+    display: block;
     height: 100%;
     right: -200px;
     position: fixed;
@@ -780,6 +780,23 @@ body {
     width: 100px; }
   .slider-soon img {
     display: flex; }
+  .title-dolar {
+    margin-left: 31px;
+    padding-top: 12px;
+    font-weight: normal;
+    font-size: smaller; }
+  .text-dolar {
+    margin-left: 170px;
+    top: -15px;
+    font-weight: lighter;
+    position: relative;
+    font-size: smaller; }
+  .direccion {
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    position: relative;
+    top: -170px; }
   .bamboo__boards {
     margin-top: 40px;
     margin-bottom: 10px; }

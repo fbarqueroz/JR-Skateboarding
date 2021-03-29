@@ -81,12 +81,14 @@
   #drawer__shop{
     background: rgba(0, 0, 0, 0.904);
     box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    display: block;
     height:100%;
     right: -200px ;
     position: fixed ;
     transition: all 500ms linear ;
     width: 190px ;
     z-index: 1;
+    
   }
   #drawer__shop.active {
     right: 0px ;
@@ -455,14 +457,34 @@
     display: flex;
     width: 100px;
   }
-  // Slider Soon
+  // Slider Soon 2021
+  
   .slider-soon{
     img {
       display: flex;
     }
   }
-
-
+  .title-dolar {
+    margin-left: 31px;
+    padding-top: 12px;
+    font-weight: normal;
+    font-size: smaller; 
+  }
+  .text-dolar {
+    margin-left: 170px;
+    top: -15px;
+    font-weight: lighter;
+    position: relative;
+    font-size: smaller; 
+  }
+  .direccion {
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    position: relative;
+    top: -170px; 
+  }
+   
   // Bamboo Boards
 
   .bamboo__boards{
