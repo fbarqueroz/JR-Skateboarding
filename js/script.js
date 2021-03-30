@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 // Drawer
 const btnToggle = document.querySelector('.toggle-btn');
 btnToggle.addEventListener('click', () => {
