@@ -443,7 +443,7 @@ body {
     filter: grayscale(100%); }
 
 .tabs-content-item {
-  margin-top: 20px; }
+  margin-top: 10px; }
   .tabs-content-item a {
     text-decoration: none;
     font-weight: bolder;
