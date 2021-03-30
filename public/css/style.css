@@ -781,6 +781,10 @@ input:checked ~ .dropdown__main-content {
       margin-left: 45px;
       margin-top: 197px;
       padding: 15px 62px 15px 62px; }
+  .learn_more-info img {
+    display: none; }
+  .learn_more-info p {
+    display: none; }
   .slider {
     margin-top: 20px;
     margin-bottom: 40px; }
