@@ -585,6 +585,8 @@ input:checked ~ .dropdown__main-content {
 
 .header__products {
   background: url(../../img/header-products-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 220px; }
 
 @media (max-width: 736px) {
