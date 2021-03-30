@@ -444,6 +444,10 @@ body {
 
 .tabs-content-item {
   margin-top: 10px; }
+  .tabs-content-item a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #EA9E44; }
 
 .tabs-content {
   text-align: center;
