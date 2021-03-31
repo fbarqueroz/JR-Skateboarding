@@ -290,6 +290,14 @@
     }
   }
 
+  .best2020__container {
+    display: none ;
+  }
+
+  .best__info {
+    display: none ;
+  }
+
   // Slider
   .best2020__info{
     display: none;
@@ -306,10 +314,15 @@
   .slider {
       margin-top: 20px ;
       margin-bottom: 40px ;
+<<<<<<< HEAD
       display: block;
       
+=======
+      display: block ;
+>>>>>>> c6956c7790fe8f8b516962d074519bafa637bac2
   }
   .slider__info{
+    display: block ;
       margin-top: 20px ;
       color: $det-gray;
       p{
@@ -548,7 +561,7 @@
   .bamboo-content{
     margin-bottom: 0px ;
   }
- 
+
   .bamboo__boards{
     margin-top: 40px ;
     margin-left: -1px ;

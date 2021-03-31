@@ -23,6 +23,10 @@
  }
 }
 
+.slider__info {
+  display: none ;
+}
+
 .best2020__container--content {
   display: inline-table ;
   margin-left: 80px ;
@@ -45,6 +49,23 @@
     color: #484848 ;
     font-size: 14px ;
     font-weight: lighter ;
+  }
+}
+
+.best__info {
+  margin-left: 80px ;
+
+  h2 {
+    color: #484848;
+    font-size: 24px ;
+    font-weight: bold ;
+    margin-bottom: 10px ;
+  }
+  p {
+    color: #484848 ;
+    font-size: 16px ;
+    font-weight: lighter ;
+    margin-bottom: 27px ;
   }
 }
 

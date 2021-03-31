@@ -679,6 +679,7 @@ input:checked ~ .dropdown__main-content {
 .slider__info {
   display: none; }
 
+<<<<<<< HEAD
 .best2020__info h2 {
   margin-top: 50px;
   margin-bottom: 5px;
@@ -691,6 +692,8 @@ input:checked ~ .dropdown__main-content {
   color: #484848;
   margin-left: 80px; }
 
+=======
+>>>>>>> c6956c7790fe8f8b516962d074519bafa637bac2
 .best2020__container--content {
   display: inline-table;
   margin-left: 80px;
@@ -708,6 +711,19 @@ input:checked ~ .dropdown__main-content {
     color: #484848;
     font-size: 14px;
     font-weight: lighter; }
+
+.best__info {
+  margin-left: 80px; }
+  .best__info h2 {
+    color: #484848;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .best__info p {
+    color: #484848;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 27px; }
 
 .best2020__container--info {
   margin-right: 16px; }
@@ -918,10 +934,17 @@ input:checked ~ .dropdown__main-content {
     display: none; }
   .learn_more-info p {
     display: none; }
+<<<<<<< HEAD
   .best2020__info {
     display: none; }
   .best2020__container {
     display: none; }
+=======
+  .best2020__container {
+    display: none; }
+  .best__info {
+    display: none; }
+>>>>>>> c6956c7790fe8f8b516962d074519bafa637bac2
   .slider__hide--desktop {
     display: block; }
   .slider__info {
@@ -931,8 +954,13 @@ input:checked ~ .dropdown__main-content {
     margin-bottom: 40px;
     display: block; }
   .slider__info {
+<<<<<<< HEAD
     margin-top: 20px;
     color: #484848; }
+=======
+    display: block;
+    margin-top: 20px; }
+>>>>>>> c6956c7790fe8f8b516962d074519bafa637bac2
     .slider__info p {
       margin-top: 10px;
       font-size: 0.9rem;
