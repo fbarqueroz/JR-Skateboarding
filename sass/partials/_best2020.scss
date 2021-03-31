@@ -4,6 +4,10 @@
   display: none ;
 }
 
+.slider__info {
+  display: none ;
+}
+
 .best2020__container--content {
   display: inline-table ;
   margin-left: 80px ;
@@ -29,7 +33,9 @@
   }
 }
 
-.slider__info {
+.best__info {
+  margin-left: 80px ;
+
   h2 {
     color: #484848;
     font-size: 24px ;

@@ -675,6 +675,9 @@ input:checked ~ .dropdown__main-content {
 .slider {
   display: none; }
 
+.slider__info {
+  display: none; }
+
 .best2020__container--content {
   display: inline-table;
   margin-left: 80px;
@@ -693,17 +696,18 @@ input:checked ~ .dropdown__main-content {
     font-size: 14px;
     font-weight: lighter; }
 
-.slider__info h2 {
-  color: #484848;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px; }
-
-.slider__info p {
-  color: #484848;
-  font-size: 16px;
-  font-weight: lighter;
-  margin-bottom: 27px; }
+.best__info {
+  margin-left: 80px; }
+  .best__info h2 {
+    color: #484848;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .best__info p {
+    color: #484848;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 27px; }
 
 .best2020__container--info {
   margin-right: 16px; }
@@ -919,6 +923,7 @@ input:checked ~ .dropdown__main-content {
     margin-bottom: 40px;
     display: block; }
   .slider__info {
+    display: block;
     margin-top: 20px; }
     .slider__info p {
       margin-top: 10px;
