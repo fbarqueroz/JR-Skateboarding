@@ -612,7 +612,7 @@ input:checked ~ .dropdown__main-content {
     font-weight: lighter; }
 
 .know-more {
-  display: none; }
+  margin: 400px 0 20px -125px; }
 
 @media (max-width: 736px) {
   /* sidebar info */
