@@ -636,6 +636,18 @@ input:checked ~ .dropdown__main-content {
     font-size: 14px;
     font-weight: lighter; }
 
+.slider__info h2 {
+  color: #484848;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.slider__info p {
+  color: #484848;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 27px; }
+
 .best2020__container--info {
   margin-right: 16px; }
 
