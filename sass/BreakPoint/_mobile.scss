@@ -285,6 +285,10 @@
     }
   }
 
+  .best2020__container {
+    display: none ;
+  }
+
   // Slider
   .slider__hide--desktop{
     display: block;
@@ -292,6 +296,7 @@
   .slider {
       margin-top: 20px ;
       margin-bottom: 40px ;
+      display: block ;
   }
   .slider__info{
       margin-top: 20px ;
@@ -515,7 +520,7 @@
   .bamboo-content{
     margin-bottom: 0px ;
   }
- 
+
   .bamboo__boards{
     margin-top: 40px ;
     margin-left: -1px ;
