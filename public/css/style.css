@@ -477,6 +477,17 @@ body {
     display: flex;
     width: 12%; }
 
+.title_dropdown {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #484848; }
+
+.dropdown__info {
+  margin-left: 80px;
+  color: #484848; }
+
 .dropdown {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -584,6 +595,18 @@ input:checked ~ .dropdown__main-content {
   color: white;
   font-weight: 100; }
 
+.learn__more--info h2 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #484848; }
+
+.learn__more--info p {
+  color: #484848;
+  margin-left: 80px; }
+
 .header__products {
   background: url(../../img/header-products-bg.png);
   background-repeat: no-repeat;
@@ -615,6 +638,41 @@ input:checked ~ .dropdown__main-content {
 .know-more {
   display: none; }
 
+<<<<<<< HEAD
+.slider__hide--desktop {
+  display: none; }
+
+.boards__2021--box ul {
+  display: flex; }
+
+.boards__2021--box img {
+  max-width: 300px; }
+
+.boards__2021--box2 ul {
+  display: flex; }
+
+.boards__2021--box2 img {
+  max-width: 300px; }
+
+.title-dolar {
+  font-weight: normal; }
+
+.text-dolar {
+  margin-left: 150px;
+  top: -15px;
+  font-weight: lighter;
+  position: relative;
+  font-size: small;
+  color: #484848; }
+
+.title_boards {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #484848; }
+=======
 .slider {
   display: none; }
 
@@ -650,6 +708,7 @@ input:checked ~ .dropdown__main-content {
 
 .best2020__container--info {
   margin-right: 16px; }
+>>>>>>> 0aff534c32d839e6817cae4018c9e91b593d7a66
 
 @media (max-width: 736px) {
   /* sidebar info */
@@ -853,6 +912,8 @@ input:checked ~ .dropdown__main-content {
     display: none; }
   .learn_more-info p {
     display: none; }
+  .slider__hide--desktop {
+    display: block; }
   .slider {
     margin-top: 20px;
     margin-bottom: 40px; }
@@ -917,6 +978,14 @@ input:checked ~ .dropdown__main-content {
       padding: 15px 10px;
       text-decoration: none;
       border-radius: 5px; }
+  .boars__hide--mobile {
+    display: none; }
+  .dropdown__info {
+    margin-top: 20px; }
+    .dropdown__info p {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      font-weight: lighter; }
   .dropdown {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -1001,9 +1070,11 @@ input:checked ~ .dropdown__main-content {
     width: 355px;
     position: relative;
     top: -170px; }
+  .bamboo-content {
+    margin-bottom: 0px; }
   .bamboo__boards {
     margin-top: 40px;
-    margin-left: 10px; }
+    margin-left: -1px; }
     .bamboo__boards h3 {
       margin-bottom: 10px; }
     .bamboo__boards h2 {
@@ -1023,8 +1094,8 @@ input:checked ~ .dropdown__main-content {
       cursor: pointer;
       color: white;
       margin-left: 240px;
-      top: -40px;
-      padding: 8px 15px 8px 15px;
+      top: -35px;
+      padding: 8px 10px 8px 15px;
       position: relative; }
     .know-more button:hover {
       color: black;

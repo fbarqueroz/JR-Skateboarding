@@ -1,0 +1,43 @@
+
+.slider__hide--desktop {
+    display: none ;
+}
+.boards__2021--box  {
+    ul {
+        display: flex ;
+    }
+    img {
+        max-width: 300px ;
+    }
+}
+
+.boards__2021--box2 {
+   ul {
+       display: flex ;
+   }
+   img {
+    max-width: 300px ;
+    }
+}
+
+.title-dolar {
+    font-weight: normal ;
+    
+}
+
+.text-dolar {
+    margin-left: 150px ;
+    top: -15px ;
+    font-weight: lighter ;
+    position: relative ;
+    font-size: small ;
+    color: $det-gray;
+}
+.title_boards{
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    margin-left: 80px ;
+    font-size: 24px ;
+    font-weight: bold ;
+    color: #484848 ;
+}
