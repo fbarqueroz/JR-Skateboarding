@@ -3,20 +3,28 @@
     display: none ;
 }
 .boards__2021--box  {
+    margin-left: 190px;
     ul {
         display: flex ;
     }
     img {
         max-width: 300px ;
     }
+    li{
+        margin: 10px;
+    }
 }
 
 .boards__2021--box2 {
+    margin-left: 190px;
    ul {
        display: flex ;
    }
    img {
     max-width: 300px ;
+    }
+    li{
+        margin: 10px;
     }
 }
 

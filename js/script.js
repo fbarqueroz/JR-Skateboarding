@@ -112,6 +112,7 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
   .then((response) => response.json())
   .then((data) => {
     const productsContainer = document.getElementsByClassName('product__container');
+    // eslint-disable-next-line no-shadow
     for (let i = 0; i < data.length; i += 1) {
       const ul = document.createElement('ul');
       const list = document.createElement('li');
