@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 // Drawer
 const btnToggle = document.querySelector('.toggle-btn');
 btnToggle.addEventListener('click', () => {
@@ -105,3 +106,30 @@ after.addEventListener('click', () => {
   afterSlides();
 });
 showSlides(index);
+
+// Products
+fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
+  .then((response) => response.json())
+  .then((data) => {
+    const productsContainer = document.getElementsByClassName('product__container');
+    for (let i = 0; i < data.length; i += 1) {
+      const ul = document.createElement('ul');
+      const list = document.createElement('li');
+      productsContainer.appendChild(ul);
+      ul.appendChild(list);
+      const info = `
+        <div class="modal-info">
+            <div class="listSkate">
+              <img src="${data[i].img}" alt="${data[i].name}">
+              <p>${data[i].brand}</p>
+              <h3>${data[i].name}</h3>
+              <p>Price: $${data[i].price}</p>
+              <p><b>Description: </b>${data[i].description}</p>
+            </div>
+          <div>
+        <div>
+      `;
+      list.appendChild(info);
+      list.innerHTML = info;
+    }
+  });
