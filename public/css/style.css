@@ -978,19 +978,21 @@ input:checked ~ .dropdown__main-content {
     .bamboo__boards p {
       margin-top: 5px;
       font-weight: lighter; }
-  .know-more button {
-    background-color: #743305;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    margin-left: 240px;
-    top: -40px;
-    padding: 8px 15px 8px 15px;
-    position: relative; }
-  .know-more button:hover {
-    color: black;
-    background-color: white; }
+  .know-more {
+    display: block; }
+    .know-more button {
+      background-color: #743305;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      margin-left: 240px;
+      top: -40px;
+      padding: 8px 15px 8px 15px;
+      position: relative; }
+    .know-more button:hover {
+      color: black;
+      background-color: white; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
