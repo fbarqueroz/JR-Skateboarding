@@ -640,7 +640,7 @@ input:checked ~ .dropdown__main-content {
   display: none; }
 
 .boards__2021--box {
-  margin-left: 190px; }
+  margin-left: 100px; }
   .boards__2021--box ul {
     display: flex; }
   .boards__2021--box img {
@@ -649,7 +649,7 @@ input:checked ~ .dropdown__main-content {
     margin: 10px; }
 
 .boards__2021--box2 {
-  margin-left: 190px; }
+  margin-left: 100px; }
   .boards__2021--box2 ul {
     display: flex; }
   .boards__2021--box2 img {
