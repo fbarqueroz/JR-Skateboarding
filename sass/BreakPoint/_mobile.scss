@@ -204,7 +204,9 @@
   .acc__areas{
     margin-top: 20px;
   }
-
+  .title_areas--mobile{
+    color: $det-gray;
+  }
   .street__area{
     box-shadow: 0px 1px 4px 0px rgb(0, 0, 0);
     border-radius: 10px;
@@ -248,11 +250,13 @@
   .learn__more {
     margin-top: 20px;
     margin-bottom: 40px;
-    h3 {
+
+    h2 {
       color: $grey ;
       font-size: 18px ;
       font-weight: bold ;
       margin-bottom: 10px ;
+      margin-left: 0px;
     }
 
     p {
@@ -260,6 +264,7 @@
       font-size: 15px ;
       font-weight: lighter ;
       margin-bottom: 10px ;
+      margin-left: 0px;
     }
   }
 
@@ -286,15 +291,27 @@
   }
 
   // Slider
+  .best2020__info{
+    display: none;
+  }
+  .best2020__container{
+    display: none;
+  }
   .slider__hide--desktop{
     display: block;
+  }
+  .slider__info{
+  display: block;
   }
   .slider {
       margin-top: 20px ;
       margin-bottom: 40px ;
+      display: block;
+      
   }
   .slider__info{
       margin-top: 20px ;
+      color: $det-gray;
       p{
           margin-top: 10px ;
           font-size: 0.9rem ;
@@ -389,10 +406,23 @@
   .dropdown__info{
     margin-top: 20px ;
     p{
-        margin-top: 10px ;
+        margin-left: -70px;
         font-size: 0.9rem ;
         font-weight: lighter;
+        color: $det-gray;
     }
+}
+  .title_dropdown{
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    font-size: 24px ;
+    margin-left: -70px;
+    font-weight: bold ;
+    color: $det-gray;
+   p{
+     margin-left: -70px;
+     color: $det-gray;
+   }
 }
   .dropdown {
     margin-top: 20px;
@@ -489,6 +519,9 @@
     img {
       display: flex;
     }
+  }
+  .title-soon{
+    color: $det-gray;
   }
   .title-dolar {
     margin-left: 31px;
