@@ -590,7 +590,7 @@ input:checked ~ .dropdown__main-content {
   height: 220px; }
 
 .bamboo__boards {
-  margin-left: 210px; }
+  margin-left: 320px; }
 
 .title-bamboo {
   font-size: 24px;
@@ -612,7 +612,7 @@ input:checked ~ .dropdown__main-content {
     font-weight: lighter; }
 
 .know-more {
-  margin: 400px 0 20px -125px; }
+  display: none; }
 
 @media (max-width: 736px) {
   /* sidebar info */
