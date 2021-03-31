@@ -1,0 +1,34 @@
+// Best of 2020 (Desktop)
+
+.slider {
+  display: none ;
+}
+
+.best2020__container--content {
+  display: inline-table ;
+  margin-left: 80px ;
+  margin-top: 15px ;
+  margin-bottom: 15px ;
+
+  span {
+    color: $med-brown ;
+    font-size: 12px ;
+    font-weight: bolder ;
+  }
+
+  h3 {
+    color: #484848 ;
+    font-size: 16px ;
+    font-weight: bold ;
+  }
+
+  p {
+    color: #484848 ;
+    font-size: 14px ;
+    font-weight: lighter ;
+  }
+}
+
+.best2020__container--info {
+  margin-right: 16px ;
+}

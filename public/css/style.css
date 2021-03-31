@@ -638,6 +638,7 @@ input:checked ~ .dropdown__main-content {
 .know-more {
   display: none; }
 
+<<<<<<< HEAD
 .slider__hide--desktop {
   display: none; }
 
@@ -671,6 +672,31 @@ input:checked ~ .dropdown__main-content {
   font-size: 24px;
   font-weight: bold;
   color: #484848; }
+=======
+.slider {
+  display: none; }
+
+.best2020__container--content {
+  display: inline-table;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .best2020__container--content span {
+    color: #743305;
+    font-size: 12px;
+    font-weight: bolder; }
+  .best2020__container--content h3 {
+    color: #484848;
+    font-size: 16px;
+    font-weight: bold; }
+  .best2020__container--content p {
+    color: #484848;
+    font-size: 14px;
+    font-weight: lighter; }
+
+.best2020__container--info {
+  margin-right: 16px; }
+>>>>>>> 0aff534c32d839e6817cae4018c9e91b593d7a66
 
 @media (max-width: 736px) {
   /* sidebar info */
