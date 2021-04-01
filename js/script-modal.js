@@ -22,7 +22,7 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
   .then((response) => response.json())
   .then((data) => {
     const modalText = document.querySelector('.modal__text--decks');
-    const idDeck = document.getAttribute('data-id');
+    const idDeck = document.getElementsByClassName('1');
     for (let i = 0; i < data.length; i += 1) {
       if (idDeck === data[i].id) {
         modalText.innerHTML = ` 
