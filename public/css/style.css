@@ -606,11 +606,28 @@ input:checked ~ .dropdown__main-content {
   margin-left: 80px; }
 
 .header__products {
-  background: url(../../img/header-products-bg.png);
+  background: url(../../img/header-product.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px;
+  height: 350px;
   margin-bottom: 50px; }
+
+.navegation {
+  margin-left: 50px;
+  margin-top: -50px; }
+
+.ubicacion-pagina p {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+.ubicacion-pagina a {
+  color: black;
+  float: left; }
+
+.ubicacion-pagina a {
+  color: #000;
+  margin-right: 5px; }
 
 .know_more-product {
   display: block; }
@@ -676,7 +693,7 @@ input:checked ~ .dropdown__main-content {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.452); }
+  background: rgba(0, 0, 0, 0.5); }
 
 .contenido-modal {
   position: relative;
@@ -713,8 +730,8 @@ input:checked ~ .dropdown__main-content {
 
 .modal-header {
   padding: 8px 12px;
-  background: #34495e;
-  color: #f2f2f2; }
+  background: #EA9E44;
+  color: white; }
 
 .modal__text--decks {
   padding: 20px 16px; }
