@@ -609,7 +609,44 @@ input:checked ~ .dropdown__main-content {
   background: url(../../img/header-products-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 220px; }
+  height: 250px;
+  margin-bottom: 50px; }
+
+.know_more-product {
+  display: block; }
+  .know_more-product button {
+    background-color: #743305;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 8px 10px 8px 15px;
+    margin-top: 10px;
+    margin-left: 20px; }
+
+.best2020__container--info {
+  text-align: center;
+  justify-content: right;
+  color: #484848; }
+  .best2020__container--info span {
+    color: #743305;
+    font-size: 15px;
+    text-transform: uppercase; }
+  .best2020__container--info h3 {
+    color: #484848;
+    font-size: 1rem; }
+  .best2020__container--info b {
+    color: #484848;
+    font-size: 1.4rem; }
+  .best2020__container--info p {
+    font-size: 14px;
+    font-weight: lighter; }
+
+.best2020__container--content div {
+  margin-left: -20px; }
+
+.best2020__container--content img {
+  margin-left: -20px; }
 
 .bamboo__boards {
   margin-left: 320px; }
@@ -699,7 +736,7 @@ input:checked ~ .dropdown__main-content {
 
 .best2020__container--content {
   display: inline-table;
-  margin-left: 80px;
+  margin-left: 105px;
   margin-top: 15px;
   margin-bottom: 15px; }
   .best2020__container--content span {

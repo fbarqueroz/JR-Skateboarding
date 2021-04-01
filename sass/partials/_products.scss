@@ -2,5 +2,52 @@
   background: url(../../img/header-products-bg.png) ;
   background-repeat: no-repeat ;
   background-size: cover;
-  height: 220px ;
+  height: 250px ;
+  margin-bottom: 50px;
+}
+.know_more-product {
+  display: block ;
+    button {
+      background-color: $med-brown ;
+      border-radius: 5px ;
+      cursor: pointer;
+      border: none;
+      color:white ;
+      padding: 8px 10px 8px 15px ;
+      margin-top:  10px;
+      margin-left: 20px;
+    }
+}
+.best2020__container--info{
+  text-align: center;
+  justify-content: right;
+  color: $det-gray ;
+
+  span {
+    color: $med-brown ;
+    font-size: 15px ;
+    text-transform: uppercase ;
+  }
+  h3{
+    color: $det-gray ;
+    font-size: 1rem ;
+  }
+
+  b {
+    color: $det-gray ;
+    font-size: 1.4rem ;
+  }
+
+  p {
+    font-size: 14px ;
+    font-weight: lighter ;
+  }
+}
+.best2020__container--content{
+  div{
+    margin-left: -20px;
+  }
+  img{
+    margin-left: -20px;
+  }
 }
