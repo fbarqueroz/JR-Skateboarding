@@ -627,7 +627,8 @@ input:checked ~ .dropdown__main-content {
 .best2020__container--info {
   text-align: center;
   justify-content: right;
-  color: #484848; }
+  color: #484848;
+  margin-bottom: 30px; }
   .best2020__container--info span {
     color: #743305;
     font-size: 15px;
