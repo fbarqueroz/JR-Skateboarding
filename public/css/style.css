@@ -845,6 +845,33 @@ input:checked ~ .dropdown__main-content {
 .best2020__container--info {
   margin-right: 16px; }
 
+.form-filter {
+  text-align: center; }
+  .form-filter input {
+    border: solid 1px #484848;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 24px;
+    width: 400px; }
+  .form-filter::placeholder {
+    color: gray;
+    font-size: 14px;
+    font-weight: lighter; }
+
+.decks-list {
+  float: left; }
+  .decks-list li {
+    list-style: none; }
+
+.back-home {
+  float: right;
+  margin-right: 990px;
+  margin-top: 300px; }
+
+.hoverDeck:hover {
+  color: #EA9E44; }
+
 @media (max-width: 736px) {
   /* sidebar info */
   #sidebar {
