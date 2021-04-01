@@ -1,8 +1,10 @@
 // Config
 @import 'config/mixin';
 @import 'config/settings';
+
 // Normalize
 @import 'library/normalize';
+
 // Partials
 @import 'partials/globals';
 @import 'partials/header';
@@ -15,5 +17,7 @@
 @import 'partials/bamboo.scss';
 @import 'partials/2021-boards';
 @import 'partials/best2020';
+@import 'partials/filter';
+
 // Breakpoint
 @import 'breakPoint/mobile';
