@@ -47,7 +47,20 @@
   </div>
 
   <!--Main-->
-
+   <!--Modal-->
+   <div id="miModal" class="modal">
+		<div class="flex" id="flex">
+			<div class="contenido-modal">
+				<div class="modal-header flex">
+					<h2>Deck Info</h2>
+					<span class="close" id="close">&times;</span>
+				</div>
+				<div class="modal__text--decks">
+						
+				</div>
+			</div>
+		</div>
+	</div>
   <div class="product__container clearfix">
       <!--Aquí se muestran los productos-->
       <div class="best__info">
@@ -70,7 +83,7 @@
                     <br>without parts
                   </p>
                   <div class="know_more-product">
-                    <button data-id="1">Know More</button>
+                    <button data-id="1"  id='abrir'>Know More</button>
                 </div>
               </div>
             </div>
@@ -474,12 +487,13 @@
     </div>
   </div>
 
+ 
   <!-- Footer -->
 
   <div class="footer">
     <img src="img/logo-footer.png" alt="">
   </div>
 
-  <script src="js/script.js"></script>
+  <script src="js/script-modal.js"></script>
 </body>
 </html>

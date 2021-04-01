@@ -10,38 +10,6 @@ btnShop.addEventListener('click', () => {
   document.getElementById('drawer__shop').classList.toggle('active');
 });
 
-// Slider-decks
-let indice = 1;
-let i = '';
-function muestraSlides(n) {
-  const slides = document.getElementsByClassName('miSlider');
-  if (n > slides.length) {
-    indice = 1;
-  }
-  if (n < 1) {
-    indice = slides.length;
-  }
-  for (i = 0; i < slides.length; i += 1) {
-    slides[i].style.display = 'none';
-  }
-  slides[indice - 1].style.display = 'block';
-}
-function avanzaSlide() {
-  muestraSlides(indice += 1);
-}
-const avanzar = document.getElementById('avanzar');
-avanzar.addEventListener('click', () => {
-  avanzaSlide();
-});
-function retrocederSlide() {
-  muestraSlides(indice -= 1);
-}
-const retroceder = document.getElementById('retroceder');
-retroceder.addEventListener('click', () => {
-  retrocederSlide();
-});
-muestraSlides(indice);
-
 // Tabs
 
 function updateVisibleContent(id) {
@@ -75,6 +43,38 @@ for (let p = 0; p < enlaces.length; p += 1) {
 }
 updateVisibleContent(enlaces[0].getAttribute('href').substring(1));
 
+// Slider-decks
+let indice = 1;
+let i = '';
+function muestraSlides(n) {
+  const slides = document.getElementsByClassName('miSlider');
+  if (n > slides.length) {
+    indice = 1;
+  }
+  if (n < 1) {
+    indice = slides.length;
+  }
+  for (i = 0; i < slides.length; i += 1) {
+    slides[i].style.display = 'none';
+  }
+  slides[indice - 1].style.display = 'block';
+}
+function avanzaSlide() {
+  muestraSlides(indice += 1);
+}
+const avanzar = document.getElementById('avanzar');
+avanzar.addEventListener('click', () => {
+  avanzaSlide();
+});
+function retrocederSlide() {
+  muestraSlides(indice -= 1);
+}
+const retroceder = document.getElementById('retroceder');
+retroceder.addEventListener('click', () => {
+  retrocederSlide();
+});
+muestraSlides(indice);
+
 // Slider-soon
 let index = 1;
 let g = '';
@@ -106,31 +106,3 @@ after.addEventListener('click', () => {
   afterSlides();
 });
 showSlides(index);
-
-// Products
-fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
-  .then((response) => response.json())
-  .then((data) => {
-    const productsContainer = document.getElementsByClassName('product__container');
-    // eslint-disable-next-line no-shadow
-    for (let i = 0; i < data.length; i += 1) {
-      const ul = document.createElement('ul');
-      const list = document.createElement('li');
-      productsContainer.appendChild(ul);
-      ul.appendChild(list);
-      const info = `
-        <div class="modal-info">
-            <div class="listSkate">
-              <img src="${data[i].img}" alt="${data[i].name}">
-              <p>${data[i].brand}</p>
-              <h3>${data[i].name}</h3>
-              <p>Price: $${data[i].price}</p>
-              <p><b>Description: </b>${data[i].description}</p>
-            </div>
-          <div>
-        <div>
-      `;
-      list.appendChild(info);
-      list.innerHTML = info;
-    }
-  });
