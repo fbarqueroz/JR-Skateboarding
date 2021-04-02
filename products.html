@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+  <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,489 +13,131 @@
       <link rel="stylesheet" href="public/css/style.css">
       <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
       <title>Products</title>
-   </head>
-   <body>
+  </head>
+  <body>
       <div class="wrapper clearfix">
-         <!--Header-->
-         <div class="header__products">
+        <!-- Header-->
+        <div class="header__products">
             <!-- side bar -->
             <div id="sidebar">
-               <button class="toggle-btn">
-               <span>&#9776</span>
-               </button>
-               <div class="sidebar-links products__sidebar">
+              <button class="toggle-btn">
+              <span>&#9776</span>
+              </button>
+              <div class="sidebar-links products__sidebar">
                   <img src="./img/logo.png" alt="logo">
                   <a href="">Account</a>
                   <a href="#">Contact With Us</a>
-                  <a href="#">Cart</a>
                   <a href="index.html">Home</a>
-               </div>
+              </div>
             </div>
-            <div id="drawer__shop">
-               <button class="drawer__shop--btn">
-               <img src="img/shopping-cart-black.png" alt="">
-               </button>
-               <div class="drawer__shop--content">
-               </div>
+            <!-- <div id="drawer__shop">
+              <button class="drawer__shop--btn">
+              <img src="img/shopping-cart-black.png" alt="">
+              </button>
+              <div class="drawer__shop--content">
+              </div>
+            </div> -->
+
+            <div class = "container">
+              <!-- navbar -->
+              <nav class = "navbar">
+
+                <div class = "cart">
+                  <button type = "button" id = "cart-btn">
+                    <img class="fas fa-shopping-cart" src="./img/shopping-cart-black.png" alt="logo-cart">
+                    <span id = "cart-count-info"></span>
+                  </button>
+
+                  <div class = "cart-container">
+                    <div class = "cart-list">
+                      <!-- single item -->
+                      <!-- <div class = "cart-item">
+                        <img src = "images/armchair.png" alt = "product image">
+                        <div class = "cart-item-info">
+                          <h3 class = "cart-item-name">Arm Chair</h3>
+                          <span class = "cart-item-category">Chair</span>
+                          <span class = "cart-item-price">$120.00</span>
+                        </div>
+
+                        <button type = "button" class = "cart-item-del-btn">
+                          <i class = "fas fa-times"></i>
+                        </button>
+                      </div> -->
+                      <!-- end of single item  -->
+                    </div>
+
+                    <div class = "cart-total">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- end of navbar -->
             </div>
-         </div>
+        </div>
       </div>
       <!--Main-->
       <div class="navegation">
-         <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
-       </div>
-      <!--Filter-->
-      <div class="form-filter">
-         <form id="myForm">
-            <input type="text" name="name" id="input" placeholder="Search product"/>
-         </form>
+        <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
       </div>
+      <!--Filter-->
+      <!-- <div class="form-filter">
+        <form id="myForm">
+            <input type="text" name="name" id="input" placeholder="Search product"/>
+        </form>
+      </div> -->
       <!-- List of Decks -->
-      <ul id="decks-list" class="decks-list">
-         <!-- Decks goes right here -->
-      </ul>
+      <!-- <ul id="decks-list" class="decks-list"> -->
+        <!-- Decks goes right here -->
+      <!-- </ul> -->
       <!--Modal-->
-      <div  class="modal">
-         <div class="flex" id="flex">
-            <div class="contenido-modal">
-               <div class="modal-header flex">
+      <!-- <div  class="modal">
+        <div class="flex" id="flex">
+          <div class="contenido-modal">
+              <div class="modal-header flex">
                   <h2>Deck Info</h2>
                   <span class="close" id="close">&times;</span>
-               </div>
-               <div class="modal__text--decks">
-               </div>
+              </div>
+              <div class="modal__text--decks">
+              </div>
             </div>
-         </div>
+        </div>
+      </div> -->
+      <!--Aquí se muestran los productos-->
+
+
+        <!-- products section  -->
+        <section class = "products">
+          <div class = "container">
+            <div class = "product-list">
+              <!-- single item -->
+              <!-- <div class = "product-item">
+                <div class = "product-img">
+                  <img src = "images/bed.png" alt = "product image">
+                  <button type = "button" class = "add-to-cart-btn">
+                    <i class = "fas fa-shopping-cart"></i>Add To Cart
+                  </button>
+                </div>
+
+                <div class = "product-content">
+                  <h3 class = "product-name">Wooden Bed</h3>
+                  <span class = "product-category">Bed</span>
+                  <p class = "product-price">$120.00</p>
+                </div>
+              </div> -->
+              <!-- end of single item -->
+            </div>
+          </div>
+        </section>
+        <!-- end of products section -->
       </div>
-      <div class="product__container clearfix">
-         <!--Aquí se muestran los productos-->
-         <div class="best__info">
-            <h2>Best 2020 Models</h2>
-            <p>These are the best decks for you, cuz they’re not usual and it doesn’t matter if you have just started in
-               this community you’ll be able to learn faster dude!
-            </p>
-         </div>
-         <div class="best2020__container">
-            <div class="best2020__container--content">
-               <img  src="img/Image.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button  class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-1.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-2.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-3.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-4.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-5.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="best2020__container">
-            <div class="best2020__container--content">
-               <img src="img/Image.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-1.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-2.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-3.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-4.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-5.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="best2020__container">
-            <div class="best2020__container--content">
-               <img src="img/Image.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-1.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-2.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-3.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-4.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-5.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="best2020__container">
-            <div class="best2020__container--content">
-               <img src="img/Image.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-1.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Fucking Awesome</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-2.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-3.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Baker</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-4.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-            <div class="best2020__container--content">
-               <img src="img/Image-5.png" alt="">
-               <div class="best2020__container--info">
-                  <br>
-                  <span>Supreme</span>
-                  <h3>MODEL OF THE BOARD <br>
-                     AND SIZE (8.50)
-                  </h3>
-                  <p>
-                     It starts at <b>$64.00/Deck</b>
-                     <br>without parts
-                  </p>
-                  <div class="know_more-product">
-                     <button class="open">Know More</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+
       <!-- Footer -->
       <div class="footer">
-         <img src="img/logo-footer.png" alt="">
+        <img src="img/logo-footer.png" alt="">
       </div>
-      <script src="js/script-modal.js"></script>
-   </body>
+      <!-- <script src="js/script-modal.js"></script> -->
+      <script src="js/script-cart.js"></script>
+  </body>
 </html>

@@ -14,7 +14,7 @@
 	margin: 0 auto;
 	margin-top: 20px;
 }
-  
+
 .ubicacion-pagina a{
 	color: black;
 	float:left;
@@ -138,11 +138,18 @@
 	padding: 8px 12px;
 	background: $orange;
 	color:$white;
-  
+
 }
 
 .modal__text--decks{
 	padding: 20px 16px;
+}
+
+.youtube_video{
+  padding: 50px;
+}
+.video{
+  margin-left: 14px;
 }
 
 @media screen and (max-width:900px){
