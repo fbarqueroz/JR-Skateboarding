@@ -16,10 +16,10 @@
   </head>
   <body>
       <div class="wrapper clearfix">
-        <!--Header-->
-        <!-- <div class="header__products"> -->
+        <!-- Header-->
+        <div class="header__products">
             <!-- side bar -->
-            <!-- <div id="sidebar">
+            <div id="sidebar">
               <button class="toggle-btn">
               <span>&#9776</span>
               </button>
@@ -37,13 +37,62 @@
               </button>
               <div class="drawer__shop--content">
               </div>
-            </div> -->
-        <!-- </div> -->
+            </div>
+
+            <div class = "container">
+              <!-- navbar -->
+              <nav class = "navbar">
+                <button type = "button" class = "navbar-toggler">
+                  <i class = "fas fa-bars"></i>
+                </button>
+                <!-- <div class = "navbar-collapse">
+                  <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#">Gallery</a></li>
+                    <li><a href = "#">New Arrivals</a></li>
+                    <li><a href = "#">Blog</a></li>
+                    <li><a href = "#">contact</a></li>
+                  </ul>
+                </div> -->
+
+                <div class = "cart">
+                  <button type = "button" id = "cart-btn">
+                    <img class="fas fa-shopping-cart" src="./img/shopping-cart-black.png" alt="logo-cart">
+                    <span id = "cart-count-info"></span>
+                  </button>
+
+                  <div class = "cart-container">
+                    <div class = "cart-list">
+                      <!-- single item -->
+                      <!-- <div class = "cart-item">
+                        <img src = "images/armchair.png" alt = "product image">
+                        <div class = "cart-item-info">
+                          <h3 class = "cart-item-name">Arm Chair</h3>
+                          <span class = "cart-item-category">Chair</span>
+                          <span class = "cart-item-price">$120.00</span>
+                        </div>
+
+                        <button type = "button" class = "cart-item-del-btn">
+                          <i class = "fas fa-times"></i>
+                        </button>
+                      </div> -->
+                      <!-- end of single item  -->
+                    </div>
+
+                    <div class = "cart-total">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- end of navbar -->
+        </div>
       </div>
       <!--Main-->
-      <!-- <div class="navegation">
+      <div class="navegation">
         <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
-      </div> -->
+      </div>
       <!--Filter-->
       <!-- <div class="form-filter">
         <form id="myForm">
@@ -68,54 +117,7 @@
         </div>
       </div> -->
       <!--Aquí se muestran los productos-->
-      <div class = "container">
-        <!-- navbar -->
-        <nav class = "navbar">
-          <button type = "button" class = "navbar-toggler">
-            <i class = "fas fa-bars"></i>
-          </button>
-          <!-- <div class = "navbar-collapse">
-            <ul>
-              <li><a href = "#">Home</a></li>
-              <li><a href = "#">Gallery</a></li>
-              <li><a href = "#">New Arrivals</a></li>
-              <li><a href = "#">Blog</a></li>
-              <li><a href = "#">contact</a></li>
-            </ul>
-          </div> -->
 
-          <div class = "cart">
-            <button type = "button" id = "cart-btn">
-              <img class="fas fa-shopping-cart" src="./img/shopping-cart-black.png" alt="logo-cart">
-              <span id = "cart-count-info"></span>
-            </button>
-
-            <div class = "cart-container">
-              <div class = "cart-list">
-                <!-- single item -->
-                <!-- <div class = "cart-item">
-                  <img src = "images/armchair.png" alt = "product image">
-                  <div class = "cart-item-info">
-                    <h3 class = "cart-item-name">Arm Chair</h3>
-                    <span class = "cart-item-category">Chair</span>
-                    <span class = "cart-item-price">$120.00</span>
-                  </div>
-
-                  <button type = "button" class = "cart-item-del-btn">
-                    <i class = "fas fa-times"></i>
-                  </button>
-                </div> -->
-                <!-- end of single item  -->
-              </div>
-
-              <div class = "cart-total">
-                <h3>Total: $</h3>
-                <span id = "cart-total-value"></span>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- end of navbar -->
 
         <!-- products section  -->
         <section class = "products">

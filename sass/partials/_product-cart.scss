@@ -44,7 +44,7 @@
     flex-direction: column;
 }
 .navbar{
-    position: fixed;
+    // position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -52,14 +52,12 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    width: 100%;
+    width: 100px;
     padding: 1.5rem 1rem!important;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding: 1.5rem 0;
-    background: var(--ghost-white);
-    z-index: 999;
 }
 .navbar-brand{
     font-size: 1.5rem;
@@ -68,6 +66,7 @@
     justify-self: flex-start;
 }
 .navbar-toggler{
+    display: none;
     justify-self: center;
     border: none;
     color: #fff;
@@ -229,55 +228,6 @@
     font-weight: 500;
 }
 
-
-/* banner  */
-.banner{
-    flex: 1;
-    padding-top: 6rem;
-    text-align: center;
-}
-.banner > div{
-    margin: 3rem 0;
-}
-.banner .text{
-    font-weight: 500;
-    font-size: 1.15rem;
-    opacity: 0.45;
-}
-.btns{
-    margin: 1.5rem 0;
-}
-.btn{
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: 1px solid var(--fire-bush);
-    background: var(--fire-bush);
-    color: #fff;
-    padding: 0.95rem 0;
-    letter-spacing: 2px;
-    display: block;
-    width: 180px;
-    margin: 0.6rem auto;
-    transition: var(--trans);
-    -webkit-transition: var(--trans);
-    -moz-transition: var(--trans);
-    -ms-transition: var(--trans);
-    -o-transition: var(--trans);
-}
-.btns .btn:last-child{
-    color: var(--fire-bush);
-    background: transparent;
-}
-.btns .btn:first-child:hover{
-    background: transparent;
-    color: var(--fire-bush);
-}
-.btns .btn:last-child:hover{
-    background: var(--fire-bush);
-    color: #fff;
-}
-
 /* products */
 .products{
     padding: 6rem 0;
@@ -285,7 +235,6 @@
 .products h2{
     text-align: center;
     font-size: 2.2rem;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--granite-gray);
     margin-bottom: 3rem;
@@ -294,13 +243,14 @@
     margin: 1rem 0;
 }
 .product-img{
-    background: var(--ghost-white);
+    background: $white;
     padding: 3rem 0;
-    height: 350px;
+    height: 200px;
     overflow: hidden;
     position: relative;
 }
 .product-img img{
+    border-radius: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -309,7 +259,7 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     transition: var(--trans);
     -webkit-transition: var(--trans);
@@ -440,6 +390,6 @@
         font-size: 3.5rem;
     }
     .product-list{
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 }
