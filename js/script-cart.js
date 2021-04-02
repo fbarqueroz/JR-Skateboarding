@@ -18,10 +18,6 @@ function eventListeners() {
     loadJSON();
     loadCart();
   });
-  // toggle navbar when toggle button is clicked
-  document.querySelector('.navbar-toggler').addEventListener('click', () => {
-    document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
-  });
 
   // show/hide cart container
   document.getElementById('cart-btn').addEventListener('click', () => {
