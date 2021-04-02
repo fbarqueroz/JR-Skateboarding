@@ -736,6 +736,12 @@ input:checked ~ .dropdown__main-content {
 .modal__text--decks {
   padding: 20px 16px; }
 
+.youtube_video {
+  padding: 50px; }
+
+.video {
+  margin-left: 14px; }
+
 @media screen and (max-width: 900px) {
   .contenido-modal {
     width: 70%; }
