@@ -31,13 +31,29 @@
                   <a href="products.html">Products</a>
               </div>
             </div>
-            <div id="drawer__shop">
-              <button class="drawer__shop--btn">
-                <img src="img/shopping-cart-black.png" alt="">
-              </button>
-              <div class="drawer__shop--content">
+            <div class = "container">
+              <!-- navbar -->
+              <nav class = "navbar">
 
-              </div>
+                <div class = "cart">
+                  <button type = "button" id = "cart-btn">
+                    <img class="fas fa-shopping-cart" src="./img/shopping-cart-white.png" alt="logo-cart">
+                    <span id = "cart-count-info"></span>
+                  </button>
+
+                  <div class = "cart-container">
+                    <div class = "cart-list">
+                      <!-- single item -->
+                      <!-- end of single item  -->
+                    </div>
+                    <div class = "cart-total">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- end of navbar -->
             </div>
 
             <!-- Form -->
@@ -624,5 +640,6 @@
         <img src="img/logo-footer.png" alt="">
       </div>
       <script src="js/script.js"></script>
+      <script src="js/script-cart.js"></script>
   </body>
 </html>

@@ -33,5 +33,4 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
               </div>
         `;
     }
-    console.log(data);
   });
