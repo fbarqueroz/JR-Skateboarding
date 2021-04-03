@@ -69,6 +69,9 @@ function loadJSON() {
                   <span class = "product-category">${product.description}</span>
                   <p class = "product-price">$${product.price}</p>
               </div>
+              <div class= "product__details--btn">
+                <button>Details</button>
+              </div>
             </div>
           `;
       });
