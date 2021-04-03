@@ -670,6 +670,15 @@ input:checked ~ .dropdown__main-content {
 .best2020__container--content img {
   margin-left: -20px; }
 
+.product__details--btn {
+  border: 1px solid #EA9E44;
+  border-radius: 8px;
+  background: none;
+  color: #EA9E44;
+  padding: 5px 8px 5px 8px;
+  margin-top: 10px;
+  text-align: center; }
+
 :root {
   --ghost-white: #f8f9fd;
   --fire-bush: #e99c2f;

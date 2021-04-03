@@ -71,3 +71,13 @@
     margin-left: -20px;
   }
 }
+
+.product__details--btn {
+  border: 1px solid $orange ;
+  border-radius: 8px ;
+  background: none ;
+  color: $orange ;
+  padding: 5px 8px 5px 8px ;
+  margin-top: 10px ;
+  text-align: center ;
+}
