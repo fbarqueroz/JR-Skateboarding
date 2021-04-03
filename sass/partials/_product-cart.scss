@@ -70,7 +70,7 @@
 
 .cart{
   width: 40px;
- 
+
 }
 #cart-btn{
     border: none;
@@ -238,6 +238,7 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     border: none;
+    border-radius: 8px ;
     padding: 0.75rem 1.2rem;
     font-size: 1.05rem;
     background-color: var(--baltic-sea);
@@ -249,6 +250,12 @@
     -o-transition: var(--trans);
     opacity: 0;
 }
+
+.add-to-cart-btn:visited {
+  color: black ;
+  background-color: #e99c2f ;
+}
+
 .product-item:hover .add-to-cart-btn{
     opacity: 1;
 }
