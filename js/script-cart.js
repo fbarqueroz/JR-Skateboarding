@@ -68,7 +68,7 @@ function loadJSON() {
       productList.innerHTML = html;
     })
     .catch(error => {
-      alert(`User live server or local server`);
+      alert('User live server or local server');
     });
 }
 
