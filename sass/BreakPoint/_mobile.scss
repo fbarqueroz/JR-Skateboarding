@@ -10,7 +10,7 @@
     position: fixed ;
     transition: all 500ms linear ;
     width: 190px ;
-    z-index: 1;
+    z-index: 2;
 
     img {
       padding-bottom: 15px;
@@ -77,47 +77,21 @@
     }
   }
 
-  // Drawer Car
-  #drawer__shop{
-    background: rgba(0, 0, 0, 0.904);
-    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
-    display: block;
-    height:100%;
-    right: -200px ;
-    position: fixed ;
-    transition: all 500ms linear ;
-    width: 190px ;
-    z-index: 1;
-
-  }
-  #drawer__shop.active {
-    right: 0px ;
-  }
- .drawer__shop--btn {
-    background-color: rgba(255, 255, 255, 0) ;
-    border: none ;
-    cursor: pointer ;
-    color: $black;
-    right: 200px ;
-    outline: none;
-    position: absolute ;
-    top: 35px ;
-
-    &:active {
-      border: none ;
-    }
-  }
-
-
   /* wrapper of the first block*/
 
   .first-block {
     background-image: url("../../img/Pasted\ Graphic.png");
     background-size: cover;
     background-position: center;
-    min-width: 375px;
     height: 595px;
     margin-bottom: 30px;
+  }
+  .header__products {
+    background: url(../../img/header-products-bg.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 350px ;
+    margin-bottom: 50px;
   }
 
   /* Form */

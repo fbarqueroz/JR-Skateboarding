@@ -6,9 +6,9 @@
     border: solid 1px #484848 ;
     border-radius: 8px ;
     margin-top: 30px ;
-    margin-left: 40px ;
     height: 24px ;
-    width: 400px ;
+    width: 400px;
+    max-width: 100% ;
   }
   &::placeholder {
     color: gray ;
@@ -20,9 +20,7 @@
 }
 
 .decks-list {
-
   float: left ;
-
   li {
 
     list-style: none ;
@@ -35,6 +33,7 @@
   margin-right: 990px ;
   margin-top: 300px ;
 }
-.hoverDeck:hover{
-  color: $orange;
+.hoverDeck:hover {
+  color: $orange ;
 }
+

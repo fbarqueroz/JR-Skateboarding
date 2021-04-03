@@ -4,11 +4,6 @@ const btnToggle = document.querySelector('.toggle-btn');
 btnToggle.addEventListener('click', () => {
   document.getElementById('sidebar').classList.toggle('active');
 });
-// Drawer Car
-const btnShop = document.querySelector('.drawer__shop--btn');
-btnShop.addEventListener('click', () => {
-  document.getElementById('drawer__shop').classList.toggle('active');
-});
 
 // Tabs
 
@@ -106,79 +101,3 @@ after.addEventListener('click', () => {
   afterSlides();
 });
 showSlides(index);
-
-// Products
-fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
-  .then((response) => response.json())
-  .then((data) => {
-    const productsContainer = document.getElementsByClassName('product__container');
-    // eslint-disable-next-line no-shadow
-    for (let i = 0; i < data.length; i += 1) {
-      const ul = document.createElement('ul');
-      const list = document.createElement('li');
-      productsContainer.appendChild(ul);
-      ul.appendChild(list);
-      const info = `
-        <div class="modal-info">
-            <div class="listSkate">
-              <img src="${data[i].img}" alt="${data[i].name}">
-              <p>${data[i].brand}</p>
-              <h3>${data[i].name}</h3>
-              <p>Price: $${data[i].price}</p>
-              <p><b>Description: </b>${data[i].description}</p>
-            </div>
-          <div>
-        <div>
-      `;
-      list.appendChild(info);
-      list.innerHTML = info;
-    }
-  });
-
-// Filter
-const myForm = document.getElementById('myForm');
-function getDeckinfo(Decks) {
-  const decksList = document.getElementById('decks-list');
-  decksList.innerHTML = '';
-  for (let i = 0; i < Decks.length; i += 1) {
-    const deckNameItem = document.createElement('li');
-    decksList.appendChild(deckNameItem);
-    const info = `
-      <div id="${Decks[i].name}title">
-        <h3 class='hoverDeck' style='cursor:pointer;'>${Decks[i].name}</h3>
-      </div>
-      <div id="${Decks[i].name}displayInfo">
-        <p> Desciption: ${Decks[i].description}</p>
-        <p> Price: ${Decks[i].price}</p>
-        <p> Currency: ${Decks[i].currency}</p>
-        <button style='cursor:pointer;' id = "${Decks[i].name}close">Close X</button>
-      </div>
-      `;
-    deckNameItem.innerHTML = info;
-    const displayInfo = document.getElementById(`${Decks[i].name}displayInfo`);
-    displayInfo.style.display = 'none';
-    const title = document.getElementById(`${Decks[i].name}title`);
-    title.addEventListener('click', () => {
-      displayInfo.style.display = 'block';
-    });
-    const closeInfo = document.getElementById(`${Decks[i].name}close`);
-    closeInfo.addEventListener('click', () => {
-      displayInfo.style.display = 'none';
-    });
-  }
-}
-fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
-  .then((response) => response.json())
-  .then((data) => {
-    getDeckinfo(data);
-    myForm.addEventListener('input', (event) => {
-      event.preventDefault();
-      const searchEng = myForm.elements[0].value;
-      const searchDecks = data.filter((element) => element.name.toLowerCase().includes(`${searchEng.toLowerCase()}`));
-      if (!searchDecks) {
-        getDeckinfo(data);
-      } else {
-        getDeckinfo(searchDecks);
-      }
-    });
-  });

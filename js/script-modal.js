@@ -23,8 +23,8 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
   .then((data) => {
     const modalText = document.querySelector('.modal__text--decks');
     for (let i = 0; i < data.length; i += 1) {
-      modalText.innerHTML = ` 
-              <div >     
+      modalText.innerHTML = `
+              <div >
                 <img src="${data[i].img}" alt=""><br>
                 <a href = '#'${data[i].name}">${data[i].name}</a>
                 <p>${data[i].currency}${data[i].price}</p>
@@ -33,5 +33,4 @@ fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
               </div>
         `;
     }
-    console.log(data);
   });

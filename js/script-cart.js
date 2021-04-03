@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable arrow-body-style */
 /* eslint-disable radix */
 /* eslint-disable arrow-parens */
@@ -17,10 +18,6 @@ function eventListeners() {
   window.addEventListener('DOMContentLoaded', () => {
     loadJSON();
     loadCart();
-  });
-  // toggle navbar when toggle button is clicked
-  document.querySelector('.navbar-toggler').addEventListener('click', () => {
-    document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
   });
 
   // show/hide cart container
@@ -47,6 +44,14 @@ function loadJSON() {
   fetch('https://604ab2419251e100177cf001.mockapi.io/Decks')
     .then(response => response.json())
     .then(data => {
+      const myForm = document.getElementById('myForm');
+      myForm.addEventListener('keyup', (e) => {
+        if (e.target.matches) {
+          document.querySelectorAll('.product-item').forEach(product => ((product.textContent.toLowerCase().includes(e.target.value))
+            ? product.classList.remove('filter')
+            : product.classList.add('filter')));
+        }
+      });
       let html = '';
       data.forEach(product => {
         html += `
@@ -58,7 +63,7 @@ function loadJSON() {
                   </button>
               </div>
               <div class = "product-content">
-                  <h3 class = "product-name">${product.name}</h3>
+                  <h3 id = " " class = "product-name">${product.name}</h3>
                   <span class = "product-category">${product.description}</span>
                   <p class = "product-price">$${product.price}</p>
               </div>
@@ -66,12 +71,8 @@ function loadJSON() {
           `;
       });
       productList.innerHTML = html;
-    })
-    .catch(error => {
-      alert('User live server or local server');
     });
 }
-
 // purchase product
 function purchaseProduct(e) {
   if (e.target.classList.contains('add-to-cart-btn')) {
@@ -79,7 +80,6 @@ function purchaseProduct(e) {
     getProductInfo(product);
   }
 }
-
 // get product info after add to cart button click
 function getProductInfo(product) {
   const productInfo = {
@@ -93,7 +93,6 @@ function getProductInfo(product) {
   addToCartList(productInfo);
   saveProductInStorage(productInfo);
 }
-
 // add the selected product to the cart list
 function addToCartList(product) {
   const cartItem = document.createElement('div');
@@ -113,7 +112,6 @@ function addToCartList(product) {
   `;
   cartList.appendChild(cartItem);
 }
-
 // save the product in the local storage
 function saveProductInStorage(item) {
   const products = getProductFromStorage();
@@ -129,7 +127,7 @@ function getProductFromStorage() {
 
 // load carts product
 function loadCart() {
-  let products = getProductFromStorage();
+  const products = getProductFromStorage();
   if (products.length < 1) {
     cartItemID = 1;
   } else {
@@ -153,7 +151,7 @@ function findCartInfo() {
   return {
     total: total.toFixed(2),
     productCount: products.length,
-  }
+  };
 }
 
 // delete product from cart list and local storage

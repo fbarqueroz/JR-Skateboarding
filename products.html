@@ -23,37 +23,16 @@
               <button class="toggle-btn">
               <span>&#9776</span>
               </button>
-              <div class="sidebar-links products__sidebar">
+              <div class="sidebar-links">
                   <img src="./img/logo.png" alt="logo">
                   <a href="">Account</a>
                   <a href="#">Contact With Us</a>
-                  <a href="#">Cart</a>
                   <a href="index.html">Home</a>
               </div>
             </div>
-            <div id="drawer__shop">
-              <button class="drawer__shop--btn">
-              <img src="img/shopping-cart-black.png" alt="">
-              </button>
-              <div class="drawer__shop--content">
-              </div>
-            </div>
-
             <div class = "container">
               <!-- navbar -->
               <nav class = "navbar">
-                <button type = "button" class = "navbar-toggler">
-                  <i class = "fas fa-bars"></i>
-                </button>
-                <!-- <div class = "navbar-collapse">
-                  <ul>
-                    <li><a href = "#">Home</a></li>
-                    <li><a href = "#">Gallery</a></li>
-                    <li><a href = "#">New Arrivals</a></li>
-                    <li><a href = "#">Blog</a></li>
-                    <li><a href = "#">contact</a></li>
-                  </ul>
-                </div> -->
 
                 <div class = "cart">
                   <button type = "button" id = "cart-btn">
@@ -64,21 +43,8 @@
                   <div class = "cart-container">
                     <div class = "cart-list">
                       <!-- single item -->
-                      <!-- <div class = "cart-item">
-                        <img src = "images/armchair.png" alt = "product image">
-                        <div class = "cart-item-info">
-                          <h3 class = "cart-item-name">Arm Chair</h3>
-                          <span class = "cart-item-category">Chair</span>
-                          <span class = "cart-item-price">$120.00</span>
-                        </div>
-
-                        <button type = "button" class = "cart-item-del-btn">
-                          <i class = "fas fa-times"></i>
-                        </button>
-                      </div> -->
                       <!-- end of single item  -->
                     </div>
-
                     <div class = "cart-total">
                       <h3>Total: $</h3>
                       <span id = "cart-total-value"></span>
@@ -87,69 +53,38 @@
                 </div>
               </nav>
               <!-- end of navbar -->
+            </div>
         </div>
-      </div>
+
       <!--Main-->
       <div class="navegation">
         <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
       </div>
       <!--Filter-->
-      <!-- <div class="form-filter">
-        <form id="myForm">
-            <input type="text" name="name" id="input" placeholder="Search product"/>
-        </form>
-      </div> -->
-      <!-- List of Decks -->
-      <!-- <ul id="decks-list" class="decks-list"> -->
-        <!-- Decks goes right here -->
-      <!-- </ul> -->
-      <!--Modal-->
-      <!-- <div  class="modal">
-        <div class="flex" id="flex">
-          <div class="contenido-modal">
-              <div class="modal-header flex">
-                  <h2>Deck Info</h2>
-                  <span class="close" id="close">&times;</span>
-              </div>
-              <div class="modal__text--decks">
-              </div>
-            </div>
-        </div>
-      </div> -->
-      <!--Aquí se muestran los productos-->
-
-
         <!-- products section  -->
         <section class = "products">
+          <div class="form-filter">
+            <form id="myForm">
+                <input type="text" name="name" id="input" placeholder="Search product"/>
+            </form>
+          </div>
           <div class = "container">
             <div class = "product-list">
               <!-- single item -->
-              <!-- <div class = "product-item">
-                <div class = "product-img">
-                  <img src = "images/bed.png" alt = "product image">
-                  <button type = "button" class = "add-to-cart-btn">
-                    <i class = "fas fa-shopping-cart"></i>Add To Cart
-                  </button>
-                </div>
-
-                <div class = "product-content">
-                  <h3 class = "product-name">Wooden Bed</h3>
-                  <span class = "product-category">Bed</span>
-                  <p class = "product-price">$120.00</p>
-                </div>
-              </div> -->
               <!-- end of single item -->
             </div>
           </div>
         </section>
         <!-- end of products section -->
       </div>
-
+    </div>
       <!-- Footer -->
       <div class="footer">
         <img src="img/logo-footer.png" alt="">
       </div>
-      <!-- <script src="js/script-modal.js"></script> -->
+      
+      <script src="js/script.js"></script>
       <script src="js/script-cart.js"></script>
+      
   </body>
 </html>
