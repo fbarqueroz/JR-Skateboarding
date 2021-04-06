@@ -968,6 +968,12 @@ input:checked ~ .dropdown__main-content {
   opacity: 0.6; }
 
 /* Media Queries for responsiveness */
+@media screen and (min-width: 480px) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem; } }
+
 @media screen and (min-width: 680px) {
   .product-list {
     display: grid;
