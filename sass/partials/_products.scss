@@ -73,11 +73,17 @@
 }
 
 .product__details--btn {
-  border: 1px solid $orange ;
-  border-radius: 8px ;
-  background: none ;
-  color: $orange ;
-  padding: 5px 8px 5px 8px ;
-  margin-top: 10px ;
-  text-align: center ;
+
+    border: 1px solid $orange ;
+    border-radius: 8px ;
+    background: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px 8px 5px 8px ;
+    margin-top: 20px ;
+    text-align: center ;
+}
+.product__details--btn:hover{
+  background-color: orange;
+  color: white;
 }

@@ -674,10 +674,15 @@ input:checked ~ .dropdown__main-content {
   border: 1px solid #EA9E44;
   border-radius: 8px;
   background: none;
-  color: #EA9E44;
+  cursor: pointer;
+  color: white;
   padding: 5px 8px 5px 8px;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center; }
+
+.product__details--btn:hover {
+  background-color: orange;
+  color: white; }
 
 :root {
   --ghost-white: #f8f9fd;
@@ -951,6 +956,7 @@ input:checked ~ .dropdown__main-content {
   letter-spacing: 2px; }
 
 .product-price {
+  margin-bottom: 15px;
   font-size: 1.15rem;
   font-weight: 500;
   opacity: 0.6; }
@@ -1099,7 +1105,7 @@ input:checked ~ .dropdown__main-content {
   .form-filter input {
     border: solid 1px #484848;
     border-radius: 8px;
-    margin-top: 30px;
+    margin-bottom: 50px;
     height: 24px;
     width: 400px;
     max-width: 100%; }
