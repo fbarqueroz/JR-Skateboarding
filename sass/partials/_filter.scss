@@ -1,6 +1,6 @@
 .form-filter {
   text-align: center ;
-
+  margin-top: -80px;
   input {
 
     border: solid 1px #484848 ;
@@ -16,6 +16,10 @@
     font-weight: lighter ;
 
 
+  }
+  h3{
+    font-weight: 400;
+    margin-bottom: 20px;
   }
 }
 

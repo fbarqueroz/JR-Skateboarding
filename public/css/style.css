@@ -1113,7 +1113,8 @@ input:checked ~ .dropdown__main-content {
   margin-right: 16px; }
 
 .form-filter {
-  text-align: center; }
+  text-align: center;
+  margin-top: -80px; }
   .form-filter input {
     border: solid 1px #484848;
     border-radius: 8px;
@@ -1125,6 +1126,9 @@ input:checked ~ .dropdown__main-content {
     color: gray;
     font-size: 14px;
     font-weight: lighter; }
+  .form-filter h3 {
+    font-weight: 400;
+    margin-bottom: 20px; }
 
 .decks-list {
   float: left; }
