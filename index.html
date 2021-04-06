@@ -21,11 +21,11 @@
             <!-- side bar -->
             <div id="sidebar">
               <button class="toggle-btn">
-                <span>&#9776</span>
+              <span>&#9776</span>
               </button>
               <div class="sidebar-links">
                   <img src="./img/logo.png" alt="logo">
-                  <a href="">Account</a>
+                  <a id="abrir" href="#">Account</a>
                   <a href="#">Contact With Us</a>
                   <a href="products.html">Products</a>
               </div>
@@ -53,6 +53,25 @@
                 </div>
               </nav>
               <!-- end of navbar -->
+            </div>
+            <div id="miModal" class="modal">
+              <div class="flex" id="flex">
+                <div class="contenido-modal">
+                  <div class="modal-header flex">
+                    <h2>Account</h2>
+                    <span class="close" id="close">&times;</span>
+                  </div>
+                  <div class="modal-body">
+                   		<form action="">
+                         <h3>Email</h3>
+                         <input type="email" placeholder="example@gmail.com" required>
+                         <h3>Password</h3>
+                         <input type="password" placeholder="Password" required>
+                         <button class="form__user--btn" type="submit">Connect</button>
+                       </form>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!-- Form -->
@@ -144,8 +163,8 @@
 
             <!--Learn More-->
             <div class="learn__more">
-              <div class="learn__more--info">
-                <h2>KNOW MORE ABOUT SKATEBOARDING</h2>
+              <div>
+                <h3>KNOW MORE ABOUT SKATEBOARDING</h3>
                 <p>
                   Click on that if you want to learn more about this beautiful community.
                 </p>
@@ -640,5 +659,6 @@
       </div>
       <script src="js/script.js"></script>
       <script src="js/script-cart.js"></script>
+      <script src="js/script-modal.js"></script>
   </body>
 </html>
