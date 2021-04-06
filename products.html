@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="public/css/style.css">
+      <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+      <title>Products</title>
+  </head>
+  <body>
+      <div class="wrapper clearfix">
+        <!-- Header-->
+        <div class="header__products">
+            <!-- side bar -->
+            <div id="sidebar">
+              <button class="toggle-btn">
+              <span>&#9776</span>
+              </button>
+              <div class="sidebar-links">
+                  <img src="./img/logo.png" alt="logo">
+                  <a href="">Account</a>
+                  <a href="#">Contact With Us</a>
+                  <a href="index.html">Home</a>
+              </div>
+            </div>
+            <div class = "container">
+              <!-- navbar -->
+              <nav class = "navbar">
+
+                <div class = "cart">
+                  <button type = "button" id = "cart-btn">
+                    <img class="fas fa-shopping-cart" src="./img/shopping-cart-black.png" alt="logo-cart">
+                    <span id = "cart-count-info"></span>
+                  </button>
+
+                  <div class = "cart-container">
+                    <div class = "cart-list">
+                      <!-- single item -->
+                      <!-- end of single item  -->
+                    </div>
+                    <div class = "cart-total">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- end of navbar -->
+            </div>
+        </div>
+
+      <!--Main-->
+      <div class="navegation">
+        <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
+      </div>
+      <!--Filter-->
+        <!-- products section  -->
+        <section class = "products">
+          <div class="form-filter">
+            <form id="myForm">
+                <input type="text" name="name" id="input" placeholder="Search product"/>
+            </form>
+          </div>
+          <div class = "container">
+            <div class = "product-list">
+              <!-- single item -->
+              <!-- end of single item -->
+            </div>
+          </div>
+        </section>
+        <!-- end of products section -->
+      </div>
+    </div>
+      <!-- Footer -->
+      <div class="footer">
+        <img src="img/logo-footer.png" alt="">
+      </div>
+      
+      <script src="js/script.js"></script>
+      <script src="js/script-cart.js"></script>
+      
+  </body>
+</html>

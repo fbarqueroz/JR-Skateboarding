@@ -1,0 +1,95 @@
+.header__products {
+  background: url(../../img/header-desktop.png) ;
+  background-position: center;
+  background-size: cover;
+  height: 350px ;
+  margin-bottom: 50px;
+}
+.navegation {
+	margin-left: 50px;
+	margin-top: -50px;
+}
+.ubicacion-pagina p{
+	font-family: $roboto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.ubicacion-pagina a{
+	color: black;
+	float:left;
+}
+  .ubicacion-pagina a {
+	color:#000;
+	margin-right: 5px;
+  }
+.know_more-product {
+  display: block ;
+    button {
+      background-color: $med-brown ;
+      border-radius: 5px ;
+      cursor: pointer;
+      border: none;
+      color:white ;
+      padding: 8px 10px 8px 15px ;
+      margin-top:  10px;
+      margin-left: 20px;
+    }
+}
+.best2020__container--info{
+  display: block;
+  text-align: center;
+  justify-content: right;
+  color: $det-gray ;
+  margin-bottom: 30px;
+
+  span {
+    color: $med-brown ;
+    font-size: 15px ;
+    text-transform: uppercase ;
+  }
+  h3{
+    color: $det-gray ;
+    font-size: 1rem ;
+  }
+
+  b {
+    color: $det-gray ;
+    font-size: 1.4rem ;
+  }
+
+  p {
+    font-size: 14px ;
+    font-weight: lighter ;
+  }
+}
+.best2020__container--content{
+  div{
+    margin-left: -20px;
+  }
+  img{
+    margin-left: -20px;
+  }
+}
+
+.product__details--btn {
+
+    border: 1px solid $orange ;
+    border-radius: 8px ;
+    background: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px 8px 5px 8px ;
+    margin-top: 20px ;
+    text-align: center ;
+}
+.product__details--btn:hover{
+  background-color: orange;
+  color: white;
+}
+.youtube_video{
+  padding: 50px;
+}
+.video{
+  margin-left: 14px;
+}

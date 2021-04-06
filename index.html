@@ -11,6 +11,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="public/css/style.css">
+      <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
       <title>Home</title>
   </head>
   <body>
@@ -24,19 +25,34 @@
               </button>
               <div class="sidebar-links">
                   <img src="./img/logo.png" alt="logo">
-                  <a href="#">Products</a>
+                  <a href="">Account</a>
                   <a href="#">Contact With Us</a>
-                  <a href="#">Cart</a>
-                  <a href="#">Account</a>
+                  <a href="products.html">Products</a>
               </div>
             </div>
-            <div id="drawer__shop">
-              <button class="drawer__shop--btn">
-                <img src="img/shopping-cart-black.png" alt="">
-              </button>
-              <div class="drawer__shop--content">
+            <div class = "container">
+              <!-- navbar -->
+              <nav class = "navbar">
 
-              </div>
+                <div class = "cart">
+                  <button type = "button" id = "cart-btn">
+                    <img class="fas fa-shopping-cart" src="./img/shopping-cart-black.png" alt="logo-cart">
+                    <span id = "cart-count-info"></span>
+                  </button>
+
+                  <div class = "cart-container">
+                    <div class = "cart-list">
+                      <!-- single item -->
+                      <!-- end of single item  -->
+                    </div>
+                    <div class = "cart-total">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- end of navbar -->
             </div>
 
             <!-- Form -->
@@ -54,9 +70,10 @@
         </div>
         <!--Main -->
         <div class="main">
+
             <!--Areas-->
             <div class="main__areas clearfix">
-              <h2>Areas</h2>
+              <h2 class="title_areas--mobile">Areas</h2>
               <div class="acc__areas">
                   <div class="street__area">
                     <img src="img/streetArea.png" alt="Street">
@@ -73,34 +90,34 @@
               </div>
             </div>
             <!--Area Tabs (Desktop)-->
-            
+
             <div class="area__tabs">
-              <h3 class="title-areas">Areas</h3>
+              <h2 class="title-areas">Areas</h2>
               <div class="tabs">
-                
+
                 <ul class="tabs-tablist">
                   <li>
                     <a href="#tab-1" class="tabs-tablist-item">
-                    <div id="street__area">
+                    <div class="category_areas">
                     <img src="img/streetArea.png" alt="Street">
                     <h3>Street</h3>
-                   </div> 
+                  </div>
                   </a>
               </li>
                   <li>
                     <a href="#tab-2" class="tabs-tablist-item">
-                        <div id="park__area">
+                        <div class="category_areas">
                         <img src="img/parkArea.png" alt="Park">
                         <h3>Park</h3>
-                      </div> 
-                   </a>
+                      </div>
+                  </a>
                 </li>
                   <li>
                       <a href="#tab-3" class="tabs-tablist-item">
-                      <div id="downhill__area"> 
+                      <div class="category_areas">
                       <img src="img/downhillArea.png" alt="Downhill">
                       <h3>Downhill</h3>
-                    </div> 
+                    </div>
                   </a>
                 </li>
                 </ul>
@@ -124,6 +141,7 @@
                 </div>
               </div>
             </div>
+
             <!--Learn More-->
             <div class="learn__more">
               <div>
@@ -132,8 +150,14 @@
                   Click on that if you want to learn more about this beautiful community.
                 </p>
               </div>
+
+
               <div class="learn__more--btn">
-                  <button>Learn more about it</button>
+                <div class="learn_more-info">
+                  <img src="img/logo.png" alt="">
+                  <p>Skate Shop</p>
+                </div>
+                  <a href="https://www.skatedeluxe.com/blog/en/wiki/skateboarding/history-of-skateboarding/" target="_blank"><button>Learn more about it</button></a>
               </div>
             </div>
             <!-- Slider -->
@@ -253,7 +277,108 @@
                   </div>
               </div>
             </div>
-            <!-- Slider Gabriela -->
+
+            <!--Best of 2020 (Desktop version)-->
+
+
+            <div class="best__info">
+              <h2>Best 2020 Models</h2>
+              <p>These are the best decks for you, cuz they’re not usual and it doesn’t matter if you have just started in
+                  this community you’ll be able to learn faster dude!
+              </p>
+            </div>
+            <div class="best2020__container">
+                  <div class="best2020__container--content">
+                    <img src="img/Image.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Fucking Awesome</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <br>
+                          <b>$64.00/Deck</b>
+                        </p>
+                        <p>
+                          without parts
+                        </p>
+                    </div>
+                  </div>
+                  <div class="best2020__container--content">
+                    <img src="img/Image-1.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Fucking Awesome</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <b>$64.00/Deck</b>
+                          <br>without parts
+                        </p>
+                    </div>
+                  </div>
+                  <div class="best2020__container--content">
+                    <img src="img/Image-2.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Baker</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <b>$64.00/Deck</b>
+                          <br>without parts
+                        </p>
+                    </div>
+                  </div>
+                  <div class="best2020__container--content">
+                    <img src="img/Image-3.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Baker</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <b>$64.00/Deck</b>
+                          <br>without parts
+                        </p>
+                    </div>
+                  </div>
+                  <div class="best2020__container--content">
+                    <img src="img/Image-4.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Supreme</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <b>$64.00/Deck</b>
+                          <br>without parts
+                        </p>
+                    </div>
+                  </div>
+                  <div class="best2020__container--content">
+                    <img src="img/Image-5.png" alt="">
+                    <div class="best2020__container--info">
+                        <br>
+                        <span>Supreme</span>
+                        <h3>MODEL OF THE BOARD <br>
+                          AND SIZE (8.50)
+                        </h3>
+                        <p>
+                          It starts at <b>$64.00/Deck</b>
+                          <br>without parts
+                        </p>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="slider__hide--desktop">
             <h2 class="title-soon">2021 BOARDS / SOON ON THIS PAGE</h2>
             <div class="slider">
               <div>
@@ -269,6 +394,11 @@
                   </div>
                   <div class="slider-soon fade">
                     <img src="img/soon3.png">
+                    <h3 class="title-dolar">Starts at $300</h3>
+                    <p class="text-dolar">BRAND(EXAMPLE)</p>
+                  </div>
+                  <div class="slider-soon fade">
+                    <img src="img/soon4.png">
                     <h3 class="title-dolar">Starts at $300</h3>
                     <p class="text-dolar">BRAND(EXAMPLE)</p>
                   </div>
@@ -298,9 +428,98 @@
                   <button id="avanzarSoon" >&#10095;</button>
               </div>
             </div>
+          </div>
+            <!-- 2021 boards -->
+            <div class="boars__hide--mobile">
+            <h2 class="title_boards">2021 BOARDS / SOON ON THIS PAGE</h2>
+            <div class="boards__2021">
+
+                <div class="boards__2021--box">
+                  <ul>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon1.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon2.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon3.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon4.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon1.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                </ul>
+              </div>
+
+                <div class="boards__2021--box2">
+                  <ul>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon5.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon6.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon7.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon8.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="boards__2021--info">
+                        <img src="img/soon6.png">
+                        <h3 class="title-dolar">Starts at $300</h3>
+                        <p class="text-dolar">BRAND(EXAMPLE)</p>
+                      </div>
+                    </li>
+                </ul>
+                </div>
+
+                </div>
+            </div>
             <!-- Dropdown -->
-            <div class="slider__info">
-              <h2>Our Community</h2>
+            <div class="dropdown__info">
+
+              <h2 class="title_dropdown">Our Community</h2>
               <p>These people helped us to grow up as a family, and show us the things we can do if we do our best (example).</p>
             </div>
             <div class="dropdown">
@@ -308,7 +527,8 @@
                   <input type="radio" id="rd1" name="rd">
                   <label class="dropdown__main-label" for="rd1">Alex D. Guzman</label>
                   <div class="dropdown__main-content">
-                    <img class="users-img" src="img/Alex-Guzmán.png" alt="">
+                    <img class="users-img" src="img/alexDaniel.png" alt="">
+                    <h3>Alex Daniel Guzman Ramirez</h3>
                     <p>I'm Web Developer</p>
                     <div class="info-redes">
                         <ul>
@@ -323,7 +543,8 @@
                   <input type="radio" id="rd2" name="rd">
                   <label class="dropdown__main-label" for="rd2">James Solis</label>
                   <div class="dropdown__main-content">
-                    <img  class="users-img" src="img/James Solís.png" alt="">
+                    <img  class="users-img" src="img/james.png" alt="">
+                    <h3>James Solis</h3>
                     <p>I'm Web Designer UI</p>
                     <div class="info-redes">
                         <ul>
@@ -338,7 +559,8 @@
                   <input type="radio" id="rd3" name="rd">
                   <label class="dropdown__main-label" for="rd3">Gabriela Vargas</label>
                   <div class="dropdown__main-content">
-                    <img class="users-img" src="img/Gabriela Vargas.png" alt="">
+                    <img class="users-img" src="img/Gabriela.png" alt="">
+                    <h3>Gabriela Vargas</h3>
                     <p>I'm Web Developer</p>
                     <div class="info-redes">
                         <ul>
@@ -353,7 +575,8 @@
                   <input type="radio" id="rd4" name="rd">
                   <label class="dropdown__main-label" for="rd4">Fabian Barquero</label>
                   <div class="dropdown__main-content">
-                    <img class="users-img"src="img/Fabián Barquero.png" alt="">
+                    <img class="users-img"src="img/fabian.png" alt="">
+                    <h3>Fabian Barquero</h3>
                     <p>I'm Web Developer</p>
                     <div class="info-redes">
                         <ul>
@@ -372,38 +595,50 @@
             <!-- End DropDown -->
 
             <div class="bamboo__boards">
-              <h3 class="tile-bamboo">HELPING WITH THE ENVIRONMENTS</h3>
-              <div>
-                <img src="img/bamboo1.png" class="img-bamboo bamboo1">
-                <h2>BAMBOO BOARDS</h2>
-                <p class="text-bamboo" id="text-bamboo">Always helping to keep the
+              <h3 class="title-bamboo">HELPING WITH THE ENVIRONMENTS</h3>
+                <div class="bamboo-content">
+                  <img src="img/bamboo1.png" class="img-bamboo b1">
+                  <h2>BAMBOO BOARDS</h2>
+                  <p class="text-bamboo">
+                    Always helping to keep the <br>
                     fun and the world safe
-                </p>
-              </div>
-              <div
-              >
-                <img src="img/bamboo2.png" class="img-bamboo bamboo1">
-                <h2>BAMBOO BOARDS</h2>
-                <p class="text-bamboo" id="text-bamboo">Always helping to keep the <br>
+                  </p>
+                  <div class="know-more">
+                    <button>Know More</button>
+                </div>
+                </div>
+                <div class="bamboo-content">
+                  <img src="img/bamboo2.png" class="img-bamboo ">
+                  <h2>BAMBOO BOARDS</h2>
+                  <p class="text-bamboo">
+                    Always helping to keep the <br>
                     fun and the world safe
-                </p>
-              </div>
-              <div>
-                <img src="img/bamboo3.png" class="img-bamboo bamboo1">
-              <h2>BAMBOO BOARDS</h2>
-              <p class="text-bamboo" id="text-bamboo">Always helping to keep the <br>
-                  fun and the world safe
-              </p>
-              </div>
+                  </p>
+                  <div class="know-more">
+                    <button>Know More</button>
+                </div>
+                </div>
+                <div class="bamboo-content">
+                  <img src="img/bamboo3.png" class="img-bamboo b3">
+                  <h2>BAMBOO BOARDS</h2>
+                  <p class="text-bamboo">
+                    Always helping to keep the <br>
+                    fun and the world safe
+                  </p>
+                  <div class="know-more">
+                    <button>Know More</button>
+                  </div>
+                </div>
             </div>
         <!-- End Main -->
       </div>
       <!-- End Wrapper -->
     </div>
-      <!--Footer Daniel-->
+      <!-- Footer -->
       <div class="footer">
         <img src="img/logo-footer.png" alt="">
       </div>
+      <script src="js/script.js"></script>
+      <script src="js/script-cart.js"></script>
   </body>
-  <script src="js/script.js"></script>
 </html>

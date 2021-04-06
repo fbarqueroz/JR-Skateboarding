@@ -2,24 +2,30 @@
 .main__areas {
     display: none ;
   }
-  
+
 .tabs {
     margin-top: 50px ;
+    margin-bottom: 50px;
+    max-width: 1350px;
   }
 
   .title-areas{
-    font-size: 1.8rem;
-    margin-top: 50px;
-    margin-left: 100px;
+    font-size: 1.8rem ;
+    margin-top: 50px ;
+    margin-left: 100px ;
+    color: $det-gray;
   }
-  
+
 .tabs-tablist {
     display: flex ;
     border-radius: 10px ;
     margin-bottom: 10px ;
   }
-  
-#street__area{
+.tabs-tablist-item{
+  display: block ;
+}
+
+.category_areas{
   box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
   border-radius: 10px ;
   margin-bottom: 20px ;
@@ -27,60 +33,46 @@
   cursor: pointer ;
 
   h3{
+    color: black;
     float: right;
     margin-top: 33px ;
     margin-left: 30px ;
-    margin-right: 50px ;
-  }
-}
-#park__area{
-  box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
-  border-radius: 10px ;
-  margin-bottom: 20px ;
-  height: 85px ;
-  cursor: pointer ;
+    margin-right: 80px ;
 
-  h3{
-    float: right;
-    margin-top: 33px ;
-    margin-left: 30px ;
-    margin-right: 50px ;
   }
-}
-#downhill__area{
-  box-shadow: 0px 1px 4px 0px rgb(0, 0, 0) ;
-  border-radius: 10px ;
-  margin-bottom: 20px ;
-  height: 85px ;
-  cursor: pointer ;
-
-  h3{
-    float: right;
-    margin-top: 33px ;
-    margin-left: 30px ;
-    margin-right: 50px ;
+  img{
+    filter: grayscale(100%);
   }
 }
 
-.tabs-content-item{
-  margin-top: 10px;
+.tabs-content-item {
+  margin-top: 10px ;
+
+  a {
+    text-decoration: none ;
+    font-weight: bolder ;
+    color: $orange ;
+  }
 }
 
 .tabs-content {
   text-align: center ;
-  width: 600px;
-  
+  width: 600px ;
+
   p{
-    margin-bottom: 20px;
-    font-size: 1.1rem;
+    margin-bottom: 20px ;
+    font-size: 1.1rem ;
   }
 }
 
 .js-active {
-    transition: 0.5s ;
-    transform: scale(1.1) ;
+    transition: 0.2s ;
+    transform: scale(1.2) ;
+    img{
+      filter: none ;
+    }
 }
-  
+
 .js-content-hidden {
     display: none ;
 }

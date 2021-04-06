@@ -1,0 +1,39 @@
+.form-filter {
+  text-align: center ;
+
+  input {
+
+    border: solid 1px #484848 ;
+    border-radius: 8px ;
+    margin-bottom: 50px;
+    height: 24px ;
+    width: 400px;
+    max-width: 100% ;
+  }
+  &::placeholder {
+    color: gray ;
+    font-size: 14px ;
+    font-weight: lighter ;
+
+
+  }
+}
+
+.decks-list {
+  float: left ;
+  li {
+
+    list-style: none ;
+  }
+}
+
+.back-home{
+
+  float: right ;
+  margin-right: 990px ;
+  margin-top: 300px ;
+}
+.hoverDeck:hover {
+  color: $orange ;
+}
+
