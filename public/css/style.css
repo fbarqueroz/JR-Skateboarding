@@ -675,7 +675,7 @@ input:checked ~ .dropdown__main-content {
   border-radius: 8px;
   background: none;
   cursor: pointer;
-  color: #EA9E44;
+  color: orange;
   padding: 5px 8px 5px 8px;
   margin-top: 20px;
   text-align: center; }
