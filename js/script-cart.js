@@ -68,7 +68,7 @@ function loadJSON() {
                   <h3 id = " " class = "product-name">${product.name}</h3>
                   <span class = "product-category">${product.description}</span>
                   <p class = "product-price">$${product.price}</p>            
-                  <a href="/product-detail.html" class= "product__details--btn">Details</a>  
+                  <a href="/product-detail.html" class= "product__details--btn" id="${product.id}">Details</a>  
               </div>
             </div>
           `;
