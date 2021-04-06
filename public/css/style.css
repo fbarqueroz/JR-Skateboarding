@@ -1209,6 +1209,8 @@ input:checked ~ .dropdown__main-content {
     font-family: "Roboto", sans-serif; }
   .modal-body button {
     margin-left: 205px; }
+  .modal-body h3 {
+    font-weight: 400; }
 
 .form__user--btn {
   background-color: #EA9E44;
