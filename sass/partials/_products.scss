@@ -9,34 +9,35 @@
 	margin-left: 50px;
 	margin-top: -50px;
 }
-.ubicacion-pagina p{
-	font-family: $roboto;
-	margin: 0 auto;
-	margin-top: 20px;
-}
 
-.ubicacion-pagina a{
+.ubicacion-pagina {
+  p {
+    font-family: $roboto;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  a{
 	color: black;
 	float:left;
-}
-  .ubicacion-pagina a {
-	color:#000;
-	margin-right: 5px;
+  margin-right: 5px;
   }
+}
+
 .know_more-product {
   display: block ;
-    button {
-      background-color: $med-brown ;
-      border-radius: 5px ;
-      cursor: pointer;
-      border: none;
-      color:white ;
-      padding: 8px 10px 8px 15px ;
-      margin-top:  10px;
-      margin-left: 20px;
-    }
+  button {
+    background-color: $med-brown ;
+    border-radius: 5px ;
+    cursor: pointer;
+    border: none;
+    color:white ;
+    padding: 8px 10px 8px 15px ;
+    margin-top:  10px;
+    margin-left: 20px;
+  }
 }
-.best2020__container--info{
+.best2020__container--info {
   display: block;
   text-align: center;
   justify-content: right;
@@ -48,6 +49,7 @@
     font-size: 15px ;
     text-transform: uppercase ;
   }
+
   h3{
     color: $det-gray ;
     font-size: 1rem ;
@@ -63,11 +65,12 @@
     font-weight: lighter ;
   }
 }
-.best2020__container--content{
-  div{
+.best2020__container--content {
+  div {
     margin-left: -20px;
   }
-  img{
+
+  img {
     margin-left: -20px;
   }
 }

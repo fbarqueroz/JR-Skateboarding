@@ -1,48 +1,52 @@
 .learn__more--btn {
-    background: url("../../img/learnM-home.png");
-    background-size: cover;
-    border-radius: 5px ;
-    height: 310px ;
-    margin-top: 25px;
-    margin-bottom: 50px;
+  background: url("../../img/learnM-home.png");
+  background-size: cover;
+  border-radius: 5px ;
+  height: 310px ;
+  margin-top: 25px;
+  margin-bottom: 50px;
 
-    button {
-      background-color: white ;
-      border: none ;
-      border-radius: 4px ;
-      margin-left: 800px ;
-      margin-top: 30px;
-      padding: 15px 62px 15px 62px ;
-    }
-    button:hover{
-        background-color: black;
-        color: white;
-    }
+  button {
+    background-color: white ;
+    border: none ;
+    border-radius: 4px ;
+    margin-left: 800px ;
+    margin-top: 30px;
+    padding: 15px 62px 15px 62px ;
   }
-  .learn_more-info{
-    img{
-        margin-left: 890px;
-        padding-top: 50px;
-    }
-    p{
-        margin-top: 10px;
-        margin-left: 890px;
-        text-transform: uppercase;
-        color: white;
-        font-weight: 100;
-    }
+  button:hover {
+    color: white;
+    background-color: black;
   }
-  .learn__more--info{
-    h2{
-    margin-top: 50px ;
-    margin-bottom: 5px;
+}
+.learn_more-info {
+
+  img {
+    margin-left: 890px;
+    padding-top: 50px;
+  }
+
+  p {
+    color: white;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 890px;
+    text-transform: uppercase;
+  }
+}
+
+.learn__more--info {
+  h2 {
+  color: $det-gray ;
+  margin-top: 50px ;
+  margin-bottom: 5px;
+  margin-left: 80px ;
+  font-size: 24px ;
+  font-weight: bold ;
+  }
+
+  p {
+    color: $det-gray;
     margin-left: 80px ;
-    font-size: 24px ;
-    font-weight: bold ;
-    color: $det-gray ;
-    }
-    p{
-      color: $det-gray;
-      margin-left: 80px ;
-    }
+  }
 }
