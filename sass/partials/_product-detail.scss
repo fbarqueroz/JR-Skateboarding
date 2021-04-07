@@ -1,28 +1,33 @@
+.main{
+  margin: 10px 0 40px 0;
+}
 #subimagen{
   padding: 10px ;
-  margin: auto;
-  margin-left: 360px;
-  margin-top: -280px;
-  position: relative;
+  margin-top: -350px;
+  margin-left: 100px;
+  vertical-align: top;
+}
+.img-small{
+  width: 180px;
+  height: 200px;
 }
 #subimagen img{
-  margin: auto;
-  width: 200px;
+  height: 200px;
   filter: grayscale(100%);
   transition: 0.2s;
 }
 #subimagen img:hover{
   filter: grayscale(0%);
 }
-#img-grande{
-  text-align: center;
-  margin-top: 50px;
-  margin-left: -20px;
-  width: 490px;
-  border-radius: 10px;
+#imagengrande{
+  width: 100px;
+  height: 100px;
 }
 #img-grande img{
   width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 500px;
 }
 .youtube_video{
   padding: 50px;
@@ -30,7 +35,6 @@
 .video{
   margin-left: 14px;
 }
-
 .det-btn {
   button {
     cursor: pointer;

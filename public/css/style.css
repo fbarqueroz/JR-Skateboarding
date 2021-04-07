@@ -633,20 +633,20 @@ input:checked ~ .dropdown__main-content {
   display: block; }
   .know_more-product button {
     background-color: #743305;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    border: none;
     color: white;
-    padding: 8px 10px 8px 15px;
     margin-top: 10px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    padding: 8px 10px 8px 15px; }
 
 .best2020__container--info {
-  display: block;
-  text-align: center;
-  justify-content: right;
   color: #484848;
-  margin-bottom: 30px; }
+  display: block;
+  margin-bottom: 30px;
+  justify-content: right;
+  text-align: center; }
   .best2020__container--info span {
     color: #743305;
     font-size: 15px;
@@ -682,11 +682,11 @@ input:checked ~ .dropdown__main-content {
   color: white; }
 
 :root {
-  --ghost-white: #f8f9fd;
-  --fire-bush: #e99c2f;
-  --granite-gray: #626a6a;
-  --baltic-sea: #33383c;
-  --trans: all 0.5s ease-in-out; }
+  --ghost-white: #f8f9fd ;
+  --fire-bush: #e99c2f ;
+  --granite-gray: #626a6a ;
+  --baltic-sea: #33383c ;
+  --trans: all 0.5s ease-in-out ; }
 
 /* resets and resuable stylings */
 .filter {
@@ -1019,20 +1019,20 @@ input:checked ~ .dropdown__main-content {
   font-weight: normal; }
 
 .text-dolar {
+  color: #484848;
   margin-left: 150px;
-  top: -15px;
+  font-size: small;
   font-weight: lighter;
   position: relative;
-  font-size: small;
-  color: #484848; }
+  top: -15px; }
 
 .title_boards {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin-left: 80px;
+  color: #484848;
   font-size: 24px;
   font-weight: bold;
-  color: #484848; }
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 80px; }
 
 .slider {
   display: none; }
@@ -1120,31 +1120,36 @@ input:checked ~ .dropdown__main-content {
 .hoverDeck:hover {
   color: #EA9E44; }
 
+.main {
+  margin: 10px 0 40px 0; }
+
 #subimagen {
   padding: 10px;
-  margin: auto;
-  margin-left: 360px;
-  margin-top: -280px;
-  position: relative; }
+  margin-top: -350px;
+  margin-left: 100px;
+  vertical-align: top; }
+
+.img-small {
+  width: 180px;
+  height: 200px; }
 
 #subimagen img {
-  margin: auto;
-  width: 200px;
+  height: 200px;
   filter: grayscale(100%);
   transition: 0.2s; }
 
 #subimagen img:hover {
   filter: grayscale(0%); }
 
-#img-grande {
-  text-align: center;
-  margin-top: 50px;
-  margin-left: -20px;
-  width: 490px;
-  border-radius: 10px; }
+#imagengrande {
+  width: 100px;
+  height: 100px; }
 
 #img-grande img {
-  width: 350px; }
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 500px; }
 
 .youtube_video {
   padding: 50px; }
