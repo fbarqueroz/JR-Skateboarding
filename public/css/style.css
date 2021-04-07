@@ -679,6 +679,10 @@ input:checked ~ .dropdown__main-content {
   margin-top: 10px;
   text-align: center; }
 
+.product__details--btn:hover {
+  color: white;
+  background-color: #EA9E44; }
+
 :root {
   --ghost-white: #f8f9fd;
   --fire-bush: #e99c2f;
