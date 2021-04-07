@@ -1155,7 +1155,8 @@ input:checked ~ .dropdown__main-content {
   padding: 50px; }
 
 .video {
-  margin-left: 14px; }
+  margin-left: 14px;
+  border-radius: 10px; }
 
 .det-btn button {
   cursor: pointer;
@@ -1752,6 +1753,11 @@ input:checked ~ .dropdown__main-content {
     .know-more button:hover {
       color: black;
       background-color: white; }
+  .youtube_video {
+    margin-left: -21px; }
+  .video {
+    width: 300px;
+    border-radius: 10px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
