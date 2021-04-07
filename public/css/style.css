@@ -491,18 +491,18 @@ body {
   margin-left: 80px; }
 
 .dropdown {
+  border-radius: 8px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   margin-bottom: 50px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.3);
-  max-width: 1000px; }
+  max-width: 1000px;
+  overflow: hidden; }
   .dropdown input {
     position: absolute;
     opacity: 0; }
   .dropdown p {
-    text-align: center;
     font-weight: normal;
+    text-align: center;
     margin-bottom: 10px; }
   .dropdown h3 {
     text-align: center;
@@ -513,36 +513,35 @@ body {
   border-bottom: 1px solid #ff9100;
   color: white;
   overflow: hidden; }
-  .dropdown__main-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    background: #EA9E44;
-    font-weight: bold;
+  .dropdown__main-content {
+    color: black;
+    background: white;
+    max-height: 0;
+    transition: all .3s; }
+  .dropdown__main-close {
+    background: #ff9100;
     cursor: pointer;
-    /* Icon */ }
+    display: flex;
+    font-size: 0.75em;
+    justify-content: center;
+    padding: 1em; }
+    .dropdown__main-close:hover {
+      background: #EA9E44; }
+  .dropdown__main-label {
+    background: #EA9E44;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 1em; }
     .dropdown__main-label:hover {
       background: #ff9100; }
     .dropdown__main-label::after {
       content: "\276F";
-      width: 1em;
       height: 1em;
       text-align: center;
-      transition: all .35s; }
-  .dropdown__main-content {
-    max-height: 0;
-    color: black;
-    background: white;
-    transition: all .3s; }
-  .dropdown__main-close {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 0.75em;
-    background: #ff9100;
-    cursor: pointer; }
-    .dropdown__main-close:hover {
-      background: #EA9E44; }
+      transition: all .35s;
+      width: 1em; }
 
 input:checked + .dropdown__main-label {
   background: #EA9E44; }
@@ -554,9 +553,9 @@ input:checked ~ .dropdown__main-content {
   padding-top: 10px; }
 
 .info-redes {
-  text-align: center;
   margin-bottom: 15px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  text-align: center; }
   .info-redes ul {
     display: inline-flex;
     list-style: none; }
@@ -565,8 +564,8 @@ input:checked ~ .dropdown__main-content {
 
 .users-img {
   display: flex;
-  width: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 100px; }
 
 .learn__more--btn {
   background: url("../../img/learnM-home.png");
