@@ -1,5 +1,5 @@
 const bigImg = document.getElementById('img-grande');
-const subImg = document.querySelectorAll(' .img-small');
+const subImg = document.querySelectorAll('.img-small');
 
 for (let i = 0; i < subImg.length; i += 1) {
   subImg[i].addEventListener('click', (event) => {
