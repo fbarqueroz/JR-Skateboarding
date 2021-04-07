@@ -1,0 +1,127 @@
+.main{
+  margin: 10px 0 40px 0;
+}
+#subimagen{
+  padding: 10px ;
+  margin-top: -350px;
+  margin-left: 100px;
+  vertical-align: top;
+}
+.img-small{
+  width: 180px;
+  height: 200px;
+}
+#subimagen img{
+  height: 200px;
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+#subimagen img:hover{
+  filter: grayscale(0%);
+}
+#imagengrande{
+  width: 100px;
+  height: 100px;
+}
+#img-grande img{
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 500px;
+}
+.youtube_video{
+  padding: 50px;
+}
+.video{
+  margin-left: 14px;
+}
+.det-btn {
+  button {
+    cursor: pointer;
+    border: solid 1px $med-brown ;
+    border-radius: 12px ;
+    background: none ;
+    color: $med-brown ;
+    margin-left: 200px ;
+    padding: 10px 12px 10px 12px ;
+  }
+  button:hover{
+    color: white;
+    background-color: $med-brown;
+  }
+}
+#button1{
+  float: right;
+  margin-right: 575px;
+  margin-top: -350px;
+}
+#button2{
+  float: right;
+  margin-right: 510px;
+  margin-top: -350px;
+}
+#button3{
+  float: right;
+  margin-right: 435px;
+  margin-top: -350px;
+}
+#button_add{
+  float: right;
+  margin-right: 530px;
+  margin-top: -160px;
+}
+#button_add--1{
+  float: right;
+  margin-right: 465px;
+  margin-top: -160px;
+  text-transform: uppercase;
+}
+#title_skate{
+  text-transform: uppercase;
+}
+#info{
+  float: right;
+  margin-right: 545px;
+  margin-top: -380px;
+  font-size: large;
+  color:#767676;
+}
+.info_brand{
+  margin-right: 400px;
+  margin-top: -465px;
+  float: right;
+  position: relative;
+}
+#stars{
+  float: right;
+  font-size: large;
+  margin-right: 40px;
+  margin-top: 10px;
+  color:#767676;
+}
+#star{
+  height: 25px;
+  margin-top: 5px;
+}
+#price{
+  float: right;
+  margin-right: 580px;
+  margin-top: -280px;
+  font-size: large;
+  text-transform: uppercase;
+  color:#767676;
+}
+#money{
+  float: right;
+  margin-right: 460px;
+  margin-top: -280px;
+  font-size: large;
+  font-weight: bold;
+}
+#info_work{
+  float: right;
+  margin-right: 185px;
+  margin-top: -230px;
+  font-size: large;
+}
+

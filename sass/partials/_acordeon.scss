@@ -1,109 +1,122 @@
 // acordeon
 .title_dropdown{
-  margin-top: 50px ;
-  margin-bottom: 20px;
+  color: $det-gray;
   font-size: 24px ;
   font-weight: bold ;
-  color: $det-gray;
+  margin-top: 50px ;
+  margin-bottom: 20px;
 }
 .dropdown__info{
-  margin-left: 80px ;
   color: $det-gray;
+  margin-left: 80px ;
 }
 .dropdown {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.3);
-    max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  overflow: hidden;
 
-    input {
-      position: absolute;
-      opacity: 0;
-    }
-    p{
-      text-align: center;
-      font-weight: normal;
-      margin-bottom: 10px;
-    }
-    h3{
-      text-align: center;
-      font-weight: lighter;
-      margin-bottom: 10px;
-    }
-  }
-  .dropdown__main {
-    border-bottom:1px solid $orangeHover ;
-    color: white;
-    overflow: hidden;
-
-    &-label {
-      display: flex;
-      justify-content: space-between;
-      padding: 1em;
-      background: $orange;
-      font-weight: bold;
-      cursor: pointer;
-      /* Icon */
-      &:hover {
-        background: $orangeHover;
-      }
-      &::after {
-        content: "\276F";
-        width: 1em;
-        height: 1em;
-        text-align: center;
-        transition: all .35s;
-      }
-    }
-    &-content {
-      max-height: 0;
-      color: black;
-      background: white;
-      transition: all .3s;
-    }
-    &-close {
-      display: flex;
-      justify-content: center;
-      padding: 1em;
-      font-size: 0.75em;
-      background: $orangeHover;
-      cursor: pointer;
-      &:hover {
-        background: $orange;
-      }
-    }
+  input {
+    position: absolute;
+    opacity: 0;
   }
 
-  // :checked
-  input:checked {
-    + .dropdown__main-label {
-      background: $orange;
-      &::after {
-        transform: rotate(90deg);
-      }
-    }
-    ~ .dropdown__main-content {
-      max-height: 250px;
-      padding-top: 10px;
-    }
-  }
-  .info-redes{
+  p{
+    font-weight: normal;
     text-align: center;
-    margin-bottom: 15px;
-    margin-right: 20px;
-    ul{
-        display: inline-flex;
-        list-style: none;
+    margin-bottom: 10px;
+  }
 
-    }
-    li{
-        margin-right:  20px;
+  h3{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+}
+.dropdown__main {
+  border-bottom:1px solid $orangeHover ;
+  color: white;
+  overflow: hidden;
+
+  &-content {
+    color: black ;
+    background: white ;
+    max-height: 0 ;
+    transition: all .3s ;
+  }
+
+  &-close {
+    background: $orangeHover ;
+    cursor: pointer ;
+    display: flex ;
+    font-size: 0.75em ;
+    justify-content: center ;
+    padding: 1em ;
+
+    &:hover {
+      background: $orange ;
     }
   }
-  .users-img{
-    display: flex;
-    width: 100px;
-    margin-bottom: 20px;
+
+  &-label {
+    background: $orange ;
+    cursor: pointer ;
+    display: flex ;
+    font-weight: bold ;
+    justify-content: space-between ;
+    padding: 1em ;
+
+    &:hover {
+      background: $orangeHover ;
+    }
+
+    &::after {
+      content: "\276F" ;
+      height: 1em ;
+      text-align: center ;
+      transition: all .35s ;
+      width: 1em ;
+    }
   }
+}
+
+// :checked
+
+input:checked {
+  + .dropdown__main-label {
+    background: $orange ;
+
+    &::after {
+      transform: rotate(90deg) ;
+    }
+  }
+
+  ~ .dropdown__main-content {
+    max-height: 250px ;
+    padding-top: 10px ;
+  }
+}
+
+.info-redes{
+  margin-bottom: 15px ;
+  margin-right: 20px ;
+  text-align: center ;
+
+  ul{
+      display: inline-flex ;
+      list-style: none ;
+
+  }
+
+  li{
+      margin-right:  20px ;
+  }
+}
+
+.users-img{
+  display: flex ;
+  margin-bottom: 20px ;
+  width: 100px ;
+}

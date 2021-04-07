@@ -7,20 +7,20 @@
     display: none;
 }
 .best2020__info{
- 
     h2{
+    color: $det-gray ;
+    font-size: 24px ;
+    font-weight: bold ;
     margin-top: 50px ;
     margin-bottom: 5px;
     margin-left: 80px ;
-    font-size: 24px ;
-    font-weight: bold ;
-    color: $det-gray ;
     }
+
     p{
       color: $det-gray;
       margin-left: 80px ;
- 
- }
+
+  }
 }
 
 .slider__info {
@@ -29,7 +29,7 @@
 
 .best2020__container--content {
   display: inline-table ;
-  margin-left: 105px ;
+  margin-left: 125px ;
   margin-top: 15px ;
   margin-bottom: 15px ;
 

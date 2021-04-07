@@ -66,9 +66,9 @@ function loadJSON() {
               </div>
               <div class = "product-content">
                   <h3 id = " " class = "product-name">${product.name}</h3>
-                 <span class = "product-category">${product.description}</span>
+                  <span class = "product-category">${product.description}</span>
                   <p class = "product-price">$${product.price}</p>
-                  <button class= "product__details--btn">Details</button>
+                  <a href="product-detail.html" class= "product__details--btn" id="${product.id}">Details</a>
               </div>
             </div>
             
