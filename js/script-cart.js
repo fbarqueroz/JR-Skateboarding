@@ -71,6 +71,7 @@ function loadJSON() {
                   <a href="product-detail.html" class= "product__details--btn" id="${product.id}">Details</a>
               </div>
             </div>
+            
           `;
       });
       productList.innerHTML = html;

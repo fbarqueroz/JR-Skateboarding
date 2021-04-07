@@ -681,6 +681,10 @@ input:checked ~ .dropdown__main-content {
   background-color: orange;
   color: white; }
 
+.product__details--btn:hover {
+  color: white;
+  background-color: #EA9E44; }
+
 :root {
   --ghost-white: #f8f9fd ;
   --fire-bush: #e99c2f ;
@@ -981,7 +985,7 @@ input:checked ~ .dropdown__main-content {
 .bamboo-content {
   float: left;
   margin-right: 30px;
-  margin-bottom: 60px; }
+  margin-bottom: 40px; }
   .bamboo-content h2 {
     color: #743305;
     font-size: 24px;
@@ -1216,8 +1220,8 @@ input:checked ~ .dropdown__main-content {
 #stars {
   float: right;
   font-size: large;
-  margin-right: 40px;
-  margin-top: 10px;
+  margin-right: 60px;
+  margin-top: 3px;
   color: #767676; }
 
 #star {
@@ -1243,7 +1247,8 @@ input:checked ~ .dropdown__main-content {
   float: right;
   margin-right: 185px;
   margin-top: -230px;
-  font-size: large; }
+  font-size: large;
+  font-weight: lighter; }
 
 .flex {
   align-items: center;
@@ -1723,8 +1728,6 @@ input:checked ~ .dropdown__main-content {
     width: 355px;
     position: relative;
     top: -170px; }
-  .hola {
-    display: none; }
   .bamboo__boards {
     margin-top: 40px;
     margin-left: -1px; }

@@ -1,14 +1,15 @@
 const bigImg = document.getElementById('img-grande');
-const subImg = document.querySelectorAll(' .img-small');
+const subImg = document.querySelectorAll('.img-small');
 
-for (let i = 0; i < subImg.length; i++) {
+for (let i = 0; i < subImg.length; i += 1) {
   subImg[i].addEventListener('click', (event) => {
-    let src = event.currentTarget.getAttribute('src');
-    bigImg.innerHTML = "<img src=" + src + ">";
+    const src = event.currentTarget.getAttribute('src');
+    bigImg.innerHTML = `<img src=${src}>`;
 
-    for (let i = 0; i < subImg.length; i++) {
+    // eslint-disable-next-line no-shadow
+    for (let i = 0; i < subImg.length; i += 1) {
       subImg[i].classList.remove('active');
-      if (subImg[i].getAttribute('src') == src) {
+      if (subImg[i].getAttribute('src') === src) {
         subImg[i].classList.add('active');
       }
     }
