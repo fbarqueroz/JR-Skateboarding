@@ -26,23 +26,25 @@
 
 .know_more-product {
   display: block ;
+
   button {
     background-color: $med-brown ;
+    border: none;
     border-radius: 5px ;
     cursor: pointer;
-    border: none;
     color:white ;
-    padding: 8px 10px 8px 15px ;
     margin-top:  10px;
     margin-left: 20px;
+    padding: 8px 10px 8px 15px ;
   }
 }
+
 .best2020__container--info {
-  display: block;
-  text-align: center;
-  justify-content: right;
   color: $det-gray ;
+  display: block;
   margin-bottom: 30px;
+  justify-content: right;
+  text-align: center;
 
   span {
     color: $med-brown ;
@@ -82,13 +84,13 @@
   background: none;
   cursor: pointer;
   color:orange;
-  padding: 5px 8px 5px 8px ;
   margin-top: 20px ;
+  padding: 5px 8px 5px 8px ;
   text-align: center ;
 
   &:hover {
-    background-color: orange;
-    color: white;
+    background-color: orange ;
+    color: white ;
   }
 }
 
