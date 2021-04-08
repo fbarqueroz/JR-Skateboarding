@@ -60,6 +60,15 @@
         <span class="ubicacion-pagina clearfix"><a href="/index.html"><p>Home &#62 </p></a><a href="/products.html"><p>Products</p></a></span>
       </div>
           
+      <!-- Filter Price -->
+      <div class="filter__price">
+        <span>Filtrar a Precio:</span>
+        <select id="filterPrice" onchange="filterPrice()">
+          <option value="none" class="filter__option">Normal</option>
+          <option value="bajo" class="filter__option">Precio Bajo</option>
+          <option value="alto" class="filter__option">Precio Alto</option>
+        </select>
+      </div>
       <!--Filter-->
         <!-- products section  -->
         <section class = "products">

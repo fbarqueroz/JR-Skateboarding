@@ -54,6 +54,14 @@ function loadJSON() {
             : product.classList.add('filter')));
         }
       });
+      const seleccion = document.getElementById('filterPrice');
+      if (seleccion.value === 'bajo') {
+        data.sort((a, b) => a.price - b.price);
+      } else if (seleccion.value === 'alto') {
+        data.sort((a, b) => b.price - a.price);
+      } else {
+        data.sort((a, b) => a.id - b.id);
+      }
       let html = '';
       data.forEach(product => {
         html += `
@@ -76,6 +84,10 @@ function loadJSON() {
       });
       productList.innerHTML = html;
     });
+}
+// Call the fuction filterPrice with the onChange in HTML  and return de loadjson
+function filterPrice() {
+  loadJSON();
 }
 // purchase product
 function purchaseProduct(e) {
