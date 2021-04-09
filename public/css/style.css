@@ -936,30 +936,6 @@ input:checked ~ .dropdown__main-content {
   margin-bottom: 15px;
   opacity: 0.6; }
 
-@media screen and (min-width: 480px) {
-  .product-list {
-    column-gap: 2rem;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
-
-@media screen and (min-width: 680px) {
-  .product-list {
-    column-gap: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media screen and (min-width: 992px) {
-  .cart-container {
-    right: 6rem; }
-  .product-list {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media screen and (min-width: 1200px) {
-  .cart-container {
-    right: 14rem; }
-  .product-list {
-    grid-template-columns: repeat(7, 1fr); } }
-
 .bamboo__boards {
   margin-left: 320px; }
 
@@ -1084,12 +1060,13 @@ input:checked ~ .dropdown__main-content {
   text-align: center;
   margin-top: -80px; }
   .form-filter input {
-    border: solid 1px #484848;
-    border-radius: 8px;
-    margin-bottom: 50px;
-    height: 24px;
-    max-width: 100%;
-    width: 400px; }
+    width: 500px;
+    max-width: 50%;
+    border: transparent;
+    border-radius: 5px;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none; }
   .form-filter::placeholder {
     color: gray;
     font-size: 14px;
@@ -1750,6 +1727,8 @@ input:checked ~ .dropdown__main-content {
     .know-more button:hover {
       color: black;
       background-color: white; }
+  .filter__price {
+    margin-bottom: 100px; }
   .youtube_video {
     margin-left: -21px; }
   .video {
@@ -1764,3 +1743,27 @@ input:checked ~ .dropdown__main-content {
       margin-left: 140px;
       margin-top: 9px;
       width: 30%; } }
+
+@media screen and (min-width: 480px) {
+  .product-list {
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (min-width: 680px) {
+  .product-list {
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (min-width: 992px) {
+  .cart-container {
+    right: 6rem; }
+  .product-list {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (min-width: 1200px) {
+  .cart-container {
+    right: 14rem; }
+  .product-list {
+    grid-template-columns: repeat(7, 1fr); } }

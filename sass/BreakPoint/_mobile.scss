@@ -565,7 +565,9 @@
         background-color: $white;
     }
   }
-
+  .filter__price{
+    margin-bottom: 100px;
+  }
   // Videos Patinetas Product Details
   .youtube_video{
     margin-left: -21px;
@@ -589,4 +591,40 @@
     }
   }
 };
+// Media Queries for responsive
+@media screen and (min-width: 480px) {
+
+  .product-list {
+    column-gap: 2rem ;
+    display: grid ;
+    grid-template-columns: repeat(1, 1fr) ;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .product-list {
+    column-gap: 2rem ;
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr) ;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .cart-container {
+    right: 6rem ;
+  }
+  .product-list {
+    grid-template-columns: repeat(3, 1fr) ;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cart-container {
+    right: 14rem ;
+  }
+  .product-list {
+    grid-template-columns: repeat(7, 1fr) ;
+  }
+}
 
