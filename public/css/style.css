@@ -1325,7 +1325,8 @@ input:checked ~ .dropdown__main-content {
   outline: 0;
   font-weight: normal; }
   .filter__price select {
-    border-radius: 5px; }
+    border-radius: 5px;
+    border: solid 1px #ccc; }
 
 @media (max-width: 736px) {
   /* sidebar info */
