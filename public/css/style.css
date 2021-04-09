@@ -1344,9 +1344,7 @@ input:checked ~ .dropdown__main-content {
     padding: 50px; } }
 
 .filter__price {
-  position: relative;
-  top: 110px;
-  left: 100px;
+  margin-left: 100px;
   outline: 0;
   font-weight: normal; }
   .filter__price select {
