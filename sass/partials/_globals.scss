@@ -1,0 +1,25 @@
+* {
+  margin: 0 auto ;
+  list-style: none ;
+}
+
+body {
+  background-color: $white ;
+  font-family: $roboto ;
+}
+
+.clearfix::after {
+  content: "" ;
+  clear: both ;
+  display: table ;
+}
+
+.main{
+  margin-left: 10px ;
+  margin-right: 10px ;
+}
+
+.wrapper{
+  margin: 0 auto ;
+}
+

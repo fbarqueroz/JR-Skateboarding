@@ -1,0 +1,56 @@
+
+.slider__hide--desktop {
+  display: none ;
+}
+.boards__2021--box  {
+  margin-left: 100px;
+
+  ul {
+    display: flex ;
+  }
+
+  img {
+    max-width: 300px ;
+  }
+
+  li{
+    margin: 10px;
+  }
+}
+
+.boards__2021--box2 {
+  margin-left: 100px;
+
+  ul {
+    display: flex ;
+  }
+
+  img {
+    max-width: 300px ;
+  }
+
+  li{
+    margin: 10px;
+  }
+}
+
+.title-dolar {
+  font-weight: normal ;
+}
+
+.text-dolar {
+  color: $det-gray;
+  margin-left: 150px ;
+  font-size: small ;
+  font-weight: lighter ;
+  position: relative ;
+  top: -15px ;
+}
+.title_boards{
+  color: #484848 ;
+  font-size: 24px ;
+  font-weight: bold ;
+  margin-top: 50px ;
+  margin-bottom: 20px;
+  margin-left: 80px ;
+}

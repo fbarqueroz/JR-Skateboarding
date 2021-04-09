@@ -1,0 +1,74 @@
+// Best of 2020 (Desktop)
+
+.slider {
+  display: none ;
+}
+.slider__info{
+    display: none;
+}
+.best2020__info{
+    h2{
+    color: $det-gray ;
+    font-size: 24px ;
+    font-weight: bold ;
+    margin-top: 50px ;
+    margin-bottom: 5px;
+    margin-left: 80px ;
+    }
+
+    p{
+      color: $det-gray;
+      margin-left: 80px ;
+
+  }
+}
+
+.slider__info {
+  display: none ;
+}
+
+.best2020__container--content {
+  display: inline-table ;
+  margin-left: 125px ;
+  margin-top: 15px ;
+  margin-bottom: 15px ;
+
+  span {
+    color: $med-brown ;
+    font-size: 12px ;
+    font-weight: bolder ;
+  }
+
+  h3 {
+    color: #484848 ;
+    font-size: 16px ;
+    font-weight: bold ;
+  }
+
+  p {
+    color: #484848 ;
+    font-size: 14px ;
+    font-weight: lighter ;
+  }
+}
+
+.best__info {
+  margin-left: 80px ;
+
+  h2 {
+    color: #484848;
+    font-size: 24px ;
+    font-weight: bold ;
+    margin-bottom: 10px ;
+  }
+  p {
+    color: #484848 ;
+    font-size: 16px ;
+    font-weight: lighter ;
+    margin-bottom: 27px ;
+  }
+}
+
+.best2020__container--info {
+  margin-right: 16px ;
+}
