@@ -89,6 +89,7 @@ function loadJSON() {
 function filterPrice() {
   loadJSON();
 }
+filterPrice();
 // purchase product
 function purchaseProduct(e) {
   if (e.target.classList.contains('add-to-cart-btn')) {
