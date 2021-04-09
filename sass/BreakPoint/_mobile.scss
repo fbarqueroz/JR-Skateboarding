@@ -576,6 +576,24 @@
     width: 300px;
     border-radius: 10px;
   }
+  .modal-body {
+  
+    input {
+      width: 200px;
+    }
+    button {
+      margin-left: 105px;
+    }
+    img {
+      display: flex;
+      margin-bottom: 10px;
+      margin-left: 50px;
+      width: 100px;
+    }
+  }
+  .close {
+    margin-left: 120px;
+  }
 
   // Footer
 

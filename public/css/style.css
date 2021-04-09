@@ -1735,6 +1735,17 @@ input:checked ~ .dropdown__main-content {
   .video {
     width: 300px;
     border-radius: 10px; }
+  .modal-body input {
+    width: 200px; }
+  .modal-body button {
+    margin-left: 105px; }
+  .modal-body img {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 100px; }
+  .close {
+    margin-left: 120px; }
   .footer {
     background-image: url("../../img/footer-img.png");
     background-size: cover;
