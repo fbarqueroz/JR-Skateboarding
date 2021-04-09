@@ -300,6 +300,7 @@
           font-weight: lighter;
       }
   }
+
   .direcciones {
     display: flex ;
     justify-content: space-between ;
@@ -326,6 +327,7 @@
   .fade {
     animation-name: fade ;
     animation-duration: 1s ;
+    text-align: center ;
   }
 
   @keyframes fade {
@@ -333,6 +335,23 @@
     to{opacity:1 ;}
   }
 
+
+  #img-grande {
+    img {
+      margin: 40px 0 0 0;
+    }
+  }
+
+  #subimagen {
+    margin: 0 0 0 0 ;
+    li {
+      display: inline-block ;
+    }
+  }
+
+  #infowork {
+    display: none;
+  }
 
   // Slider detail
 
@@ -401,10 +420,10 @@
     margin-left: -70px;
     font-weight: bold ;
     color: $det-gray;
-   p{
-     margin-left: -70px;
-     color: $det-gray;
-   }
+  p {
+    margin-left: -70px;
+    color: $det-gray;
+  }
 }
   .dropdown {
     margin-top: 20px;
@@ -577,7 +596,7 @@
     border-radius: 10px;
   }
   .modal-body {
-  
+
     input {
       width: 200px;
     }
