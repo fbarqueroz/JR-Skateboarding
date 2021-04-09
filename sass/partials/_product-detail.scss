@@ -1,41 +1,50 @@
-.main{
+.main__products--details {
   margin: 10px 0 40px 0;
 }
-#subimagen{
+
+#subimagen {
   padding: 10px ;
   margin-top: -350px;
   margin-left: 100px;
   vertical-align: top;
+
+  img {
+    height: 200px;
+    filter: grayscale(100%);
+    transition: 0.2s;
+
+    &:hover{
+      filter: grayscale(0%);
+    }
+  }
 }
-.img-small{
+
+.img-small {
   width: 180px;
   height: 200px;
 }
-#subimagen img{
-  height: 200px;
-  filter: grayscale(100%);
-  transition: 0.2s;
-}
-#subimagen img:hover{
-  filter: grayscale(0%);
-}
-#imagengrande{
+
+#imagengrande {
   width: 100px;
   height: 100px;
 }
-#img-grande img{
+
+#img-grande img {
   width: 350px;
   height: 350px;
   margin-top: 40px;
   margin-left: 500px;
 }
-.youtube_video{
+
+.youtube_video {
   padding: 50px;
 }
-.video{
+
+.video {
   margin-left: 14px;
   border-radius: 10px;
 }
+
 .det-btn {
   button {
     cursor: pointer;
@@ -45,66 +54,78 @@
     color: $med-brown ;
     margin-left: 200px ;
     padding: 10px 12px 10px 12px ;
-  }
-  button:hover{
-    color: white;
-    background-color: $med-brown;
+
+    &:hover{
+      color: white;
+      background-color: $med-brown;
+    }
   }
 }
-#button1{
+
+#button1 {
   float: right;
   margin-right: 575px;
   margin-top: -350px;
 }
-#button2{
+
+#button2 {
   float: right;
   margin-right: 510px;
   margin-top: -350px;
 }
-#button3{
+
+#button3 {
   float: right;
   margin-right: 435px;
   margin-top: -350px;
 }
-#button_add{
+
+#button_add {
   float: right;
   margin-right: 530px;
   margin-top: -160px;
 }
-#button_add--1{
+
+#button_add--1 {
   float: right;
   margin-right: 465px;
   margin-top: -160px;
   text-transform: uppercase;
 }
-#title_skate{
+
+#title_skate {
   text-transform: uppercase;
 }
-#info{
+
+#info {
   float: right;
   margin-right: 545px;
   margin-top: -380px;
   font-size: large;
   color:#767676;
 }
-.info_brand{
+
+.info_brand {
   margin-right: 400px;
   margin-top: -465px;
   float: right;
   position: relative;
 }
-#stars{
+
+#stars {
   float: right;
   font-size: large;
   margin-right: 60px;
   margin-top: 3px;
   color:#767676;
 }
-#star{
+
+#star {
   height: 25px;
   margin-top: 5px;
 }
-#price{
+
+#price {
   float: right;
   margin-right: 580px;
   margin-top: -280px;
@@ -112,14 +133,16 @@
   text-transform: uppercase;
   color:#767676;
 }
-#money{
+
+#money {
   float: right;
   margin-right: 460px;
   margin-top: -280px;
   font-size: large;
   font-weight: bold;
 }
-#info_work{
+
+#info_work {
   float: right;
   margin-right: 185px;
   margin-top: -230px;
