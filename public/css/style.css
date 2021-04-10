@@ -1690,7 +1690,7 @@ input:checked ~ .dropdown__main-content {
   .title-soon {
     color: #484848; }
   .title-dolar {
-    margin-left: 31px;
+    margin-left: -150px;
     padding-top: 12px;
     font-weight: normal;
     font-size: smaller; }
